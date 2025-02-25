@@ -1,0 +1,29 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "dissertation"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: Background
+        text: background.qmd
+      - href: aim1.qmd
+        text: "Aim 1"
+      - href: aim2.qmd
+        text: "Aim 2"
+      - href: aim3.qmd
+        text: "Aim 3"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+

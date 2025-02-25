@@ -1,0 +1,17 @@
+{
+  "background.qmd": {
+    "background.html": "7aceec83"
+  },
+  "index.qmd": {
+    "index.html": "13d09fc8"
+  },
+  "about.qmd": {
+    "about.html": "0ea4c0ed"
+  },
+  "aim3.qmd": {
+    "aim3.html": "81e8bce5"
+  },
+  "aim3/master-slides/index.qmd": {
+    "index.html": "c746efdd"
+  }
+}

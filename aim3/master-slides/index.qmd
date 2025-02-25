@@ -1,0 +1,281 @@
+---
+title: "VE~AgDist Background and Proposal"
+author: "Savannah L. Miller"
+format: 
+  revealjs:
+    scrollable: true
+    smaller: true
+    theme: serif 
+    slide-number: true
+    number-sections: true
+    number-depth: 1
+execute: 
+  echo: false
+  warning: false
+  message: false
+bibliography: ../../background/references/miller-ve-agdist.bib
+---
+
+```{r}
+tb1_shell <- readRDS(here::here("aim3/tb1_shell.rds"))
+library(flextable)
+```
+
+# Background
+
+## Flu Burden
+
+![@cdc25](flu-burden-2425.png)
+
+## Flu in the news 
+
+:::: {.columns}
+
+::: {.column width=50%}
+
+![](news1.png)
+
+![](news2.png)
+
+:::
+
+::: {.column width=50%}
+![](news3.png)
+![](news4.png)
+
+:::
+
+::::
+
+## Influenza virus 
+
+[![@cdc24b](cdc-influenza.png)](https://www.cdc.gov/flu/about/viruses-types.html)
+
+
+
+## Multiple strains in a flu vaccine 
+:::: {.columns}
+
+::: {.column width="50%"}
+
+- Types and Subtypes:
+
+  - **A/H1N1**
+  - **A/H3N2**
+  - A/H5N1
+  - **B/Victoria**
+  - ~~B/Yamagata~~
+  - C
+  - D
+  
+
+
+:::
+
+::: {.column width="50%"}
+
+- Strains [@who24]:
+
+  - A/Victoria/4897/2022 (H1N1)pdm09-like virus
+  - A/Thailand/8/2022 (H3N2)-like virus
+  - B/Austria/1359417/2021 (B/Victoria lineage)-like virus
+
+:::
+
+::::
+
+
+## Vaccine strains are chosen each year
+
+Based on [@cdc24a]:
+
+- Which influenza viruses are making people sick prior to the upcoming flu season,
+- The extent to which those viruses are spreading prior to the upcoming flu season,
+- How well the previous season's vaccines may protect against those influenza viruses, and
+- The ability of vaccine viruses to provide cross-protection against a range of related influenza viruses of the same type or subtype/lineage.
+
+## VE is variable and often low
+
+[![@cdc24c](cdc-ve.png)](https://www.cdc.gov/flu-vaccines-work/php/effectiveness-studies/index.html)
+
+## Why is VE so low?
+
+
+:::: {.columns}
+
+::: {.column width=40%}
+
+- Many different theories (probably a combination):
+  - Original antigenic sin/imprinting
+  - Low immunogenicity 
+  - Vaccine mismatch
+    - Match/Mismatch between vaccine strain and circulating strain
+    - Often dichotomized and defined differently from lab to lab and paper to paper
+  
+:::
+
+::: {.column}
+
+![Created with BioRender.com](vaccine-match-mismatch.png)
+
+:::
+
+::::
+
+
+:::{.notes}
+-   Cobey paper stated that it was not the "mismatch" of the vaccine that caused poor VE in 12/13 season, but an immunogenicity problem. 
+  -   Add more notes about this paper! 
+:::
+
+## Research Gap 
+
+-   There does not seem to be one clear answer about how much impact a vaccine's "mismatch" actually has on its effectiveness [@cobey2018]
+
+
+## Match/Mismatch Papers 
+
+:::: {.columns}
+
+::: {.column width=50%}
+
+![](article4.png)
+
+![](article2.png)
+:::
+
+::: {.column width=50%}
+
+![](article3.png)
+
+![](article1.png) 
+
+
+:::
+
+::::
+
+## VE ~ Match Papers
+
+:::: {.columns}
+
+::: {.column width="50%"}
+-   Kelly et al., 2013 (@sec-kelly13)
+
+-   Tricco et al., 2013 (@sec-tricco2013)
+
+-   Belongia et al., 2016 (@sec-belongia2016)
+
+-   Beran et al., 2021 (@sec-beran2021)
+
+-   Okoli et al., 2021 (@sec-okoli2021a)
+:::
+
+::: {.column width="50%"}
+
+-   
+
+:::
+
+::::
+
+
+
+
+## "Moderate influenza vaccine effectiveness with variable effectiveness by match between circulating and vaccine strains in Australian adults aged 20–64 years, 2007–2011" [@kelly13] {#sec-kelly13}
+
+:::{.notes}
+Match definition: "Circulating and vaccine strains were compared based on the degree of cross-reaction between strains and were conventionally assessed as being incompletely matched if there was ‡8-fold difference in haemagglutination inhibition titres between the vaccine antigen and ferret-derived antibodies to the circulating strain.1 We accepted a match as incomplete when the vaccine and predominant circulating strains differed."
+:::  
+  
+## "Comparing influenza vaccine efficacy against mismatched and matched strains: a systematic review and meta-analysis" [@tricco2013]  {#sec-tricco2013}
+
+:::{.notes}
+Match definition: "Influenza A strains from infected trial participants were matched with the strain in the vaccine if they belonged to the same A subtype (that is, H1N1 or H3N2) and were antigenically similar in the HI assay (that is, if they showed sufficient crossreaction in a HI chessboard table using ferret antisera; for example, with a HI typing quotient <fourfold titer). Influenza A viral strains were considered mismatched by antigenic drift if they were antigenically distinct from influenza A strains contained in the vaccine as per HI typing (for example, HI titer quotient ≥fourfold) or the characterization did not belong to a similar influenza A subtype contained in the vaccine (for example, H1N1 strains circulating but only H3N2 strains contained in the vaccine for bivalent vaccines with one H subtype). For influenza B, the epidemiological situation is more complex. In recent years, there have been two coexisting phylogenetic influenza B lineages: B/Victoria and B/ Yamagata [19,20]. Influenza B strains from infected trial participants were considered matched if the strain belonged to the same lineage and were antigenically similar to the vaccine strain as per HI typing (for example, HI typing quotient <fourfold titer). For influenza B mismatches, two different forms were considered. Mismatch by antigenic drift refers to strains of the same lineage that were antigenically distinct from influenza B strains contained in the vaccine as per HI typing (for example, HI quotient ≥fourfold titer), whereas mismatch by lineage refers to influenza B strains of different lineages. Whenever the influenza B lineage was not presented in the trial report, categorization was based on the influenza phylogenetic tree and verified by influenza experts on the team."
+:::
+
+## "Variable influenza vaccine effectiveness by subtype: a systematic review and meta-analysis of test-negative design studies" [@belongia2016] {#sec-belongia2016}
+
+::: {.notes}
+Match definition: "We therefore classified H3N2 viruses as predominately matched, predominately variant, or mixed on the basis of the authors’ interpretation."
+:::  
+  
+## "Prevention of influenza during mismatched seasons in older adults with an MF59-adjuvanted quadrivalent influenza vaccine: a randomised, controlled, multicentre, phase 3 efficacy study" [@beran2021] {#sec-beran2021}
+
+:::{.notes}
+Match definition: "Matched strains were those with 4-fold and lower difference in titre and unmatched strains were those with a more than 4-fold difference in titre compared with the reference standards."
+:::
+  
+## "Variable seasonal influenza vaccine effectiveness across geographical regions, age groups and levels of vaccine antigenic similarity with circulating virus strains: A systematic review and meta-analysis of the evidence from test-negative design studies after the 2009/10 influenza pandemic" [@okoli2021a] {#sec-okoli2021a}  
+
+:::{.notes}
+Match definition: "gathered match/mismatch variables from the included papers when available and, when not, used other reports for the same general time and region to deduce a general match status" - had match, partial match, and mismatch, it seems like based on different definitions 
+:::
+
+## Another (better) way
+
+:::: {.columns}
+
+::: {.column width=50%}
+
+- Antigenic distance
+  - A continuous measure of the difference between two strains
+  - Different ways to calculate
+  
+
+:::
+
+::: {.column width=50%}
+
+- The idea:
+  - Model VE as predicted by antigenic distance
+  - Gather data from a wide range of years, locations; look at different subtypes
+  - Get a big picture view of the effect of "mismatch"
+
+:::
+
+::::
+
+
+## Antigenic Distance Background
+
+## Antigenic Distance Methods 
+
+- P-epitope [@gupta2006a; @pan2016]
+
+
+## VE ~ Distance Papers 
+
+- "Quantifying influenza vaccine efficacy and antigenic distance" [@gupta2006a]
+
+- "Prediction of influenza B vaccine effectiveness from sequence data" [@pan2016]
+
+# Proposed Project 
+
+## Table 1
+
+```{r}
+tb1_shell |> 
+  flextable::autofit() 
+```
+## FIgure 1
+
+:::: {.columns}
+
+::: {.column width=40%}
+
+- Primary modeling result: what is the association between VE and antigenic distance? 
+
+:::
+
+::: {.column width=60%}
+
+
+![Created with BioRender.com](VE-AgDist-Options.png){fig-align="right"}
+
+:::
+
+::::
+
+
+# References 
