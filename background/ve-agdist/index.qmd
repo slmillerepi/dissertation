@@ -1,0 +1,30 @@
+---
+title: "VE~AgDist"
+author: "Savannah L. Miller"
+execute: 
+  echo: false
+  warning: false
+  message: false
+format: 
+  html:
+    toc: true
+    self-contained: true
+    lightbox: true
+    link-external-newwindow: true
+bibliography: ../../assets/references/proposal.bib
+---
+
+
+# General Evolution
+
+## "Viral Evolution from One Generation of Human Influenza Infection to the Next" [@riley13]
+
+## "The Heterogeneity of Influenza Seasonality by Subtype and Lineage in China" [@xu20]
+
+# Match/Mismatch VE
+
+## "Comparing influenza vaccine efficacy against mismatched and matched strains: a systematic review and meta-analysis" [@tricco13]
+
+## "Effect of Antigenic Drift on Influenza Vaccine Effectiveness in the United States—2019–2020" [@tenforde21]
+
+## "Vaccine Mismatches, Viral Circulation, and Clinical Severity Patterns of Influenza B Victoria and Yamagata Infections in Brazil over the Decade 2010–2020: A Statistical and Phylogeny–Trait Analyses" [@dacosta22]

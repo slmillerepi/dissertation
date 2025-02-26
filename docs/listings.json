@@ -7,6 +7,12 @@
   },
   {
     "listing": "/background.html",
-    "items": []
+    "items": [
+      "/background/cop-background/index.html",
+      "/background/flu-cops/index.html",
+      "/background/flu-ve/index.html",
+      "/background/misc/index.html",
+      "/background/ve-agdist/index.html"
+    ]
   }
 ]

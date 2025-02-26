@@ -1,0 +1,134 @@
+---
+title: "Flu VE"
+author: "Savannah L. Miller"
+format: 
+  html:
+    toc: true
+    self-contained: true
+    lightbox: true
+    link-external-newwindow: true
+bibliography: ../../assets/references/proposal.bib
+---
+
+# VE Studies 
+
+## "Protective Efficacy of Seasonal Influenza Vaccination against Seasonal and Pandemic Influenza Virus Infection during 2009 in Hong Kong" [@cowling10]
+
+## "Influenza vaccine effectiveness in the community and the household" [@ohmit13]
+
+## "Incidence of Influenza Virus Infections in Children in Hong Kong in a 3-Year Randomized Placebo-Controlled Vaccine Study, 2009–2012" [@cowling14]
+
+## "Efficacy of High-Dose versus Standard-Dose Influenza Vaccine in Older Adults" [@diazgranados14]
+
+## "Comparative effectiveness of high-dose versus standard-dose influenza vaccines in US residents aged 65 years and older from 2012 to 2013 using Medicare data: a retrospective cohort analysis" [@izurieta15]
+
+## "The Household Influenza Vaccine Effectiveness Study: Lack of Antibody Response and Protection Following Receipt of 2014-2015 Influenza Vaccine" [@petrie17]
+
+  *   In CoP section
+
+## "Immunosenescence: influenza vaccination and the elderly" [@haq14]
+
+## "Variable influenza vaccine effectiveness by subtype: a systematic review and meta-analysis of test-negative design studies" [@belongia16]
+
+## "Efficacy and safety of high-dose influenza vaccine in elderly adults: A systematic review and meta-analysis" [@wilkinson17]
+
+## "Assessing the effectiveness of high-dose influenza vaccine in preventing hospitalization among seniors, and observations on the limitations of effectiveness study design" [@robison18]
+
+## "Relative vaccine efficacy of high-dose versus standard-dose influenza vaccines in preventing probable influenza in a Medicare Fee-for-Service population" [@paudel20]
+
+## "Association between hemagglutination inhibition antibody titers and protection against reverse-transcription polymerase chain reaction–confirmed influenza illness in children 6–35 months of age: Statistical evaluation of a correlate of protection" [@danier21]
+
+## "The Causal Interpretation of "Overall Vaccine Effectiveness" in Test-Negative Studies" [@feng21]
+
+## "Efficacy and effectiveness of high-dose influenza vaccine in older adults by circulating strain and antigenic match: An updated systematic review and meta-analysis" [@lee21]
+
+## "Seasonal Flu Vaccine Effectiveness Studies" [@cdc22]
+
+## "Repeat Vaccination and Influenza Vaccine Effectiveness" [@cowling22]
+
+## "Estimation of Relative Vaccine Effectiveness in Influenza: A Systematic Review of Methodology" [@mcmenamin22]
+
+## "High-Dose Influenza Vaccine Is Associated With Reduced Mortality Among Older Adults With Breakthrough Influenza Even When There Is Poor Vaccine-Strain Match" [@chaves23]
+
+## "Assessment of humoral immune responses to repeated influenza vaccination in a multiyear cohort: a five-year follow-up" [@sung23]
+
+
+
+# Immunogenicity Studies 
+
+## "Multivariate Analysis of Factors Affecting the Immunogenicity of Trivalent Inactivated Influenza Vaccine in School-Age Children" [@freeman15]
+
+## "Quantifying Homologous and Heterologous Antibody Titre Rises after Influenza Virus Infection" [@freeman16]
+
+## "Preexisting subtype immunodominance shapes memory B cell recall response to influenza vaccination" [@abreu20]
+
+## "Comparative Immunogenicity of Several Enhanced Influenza Vaccine Options for Older Adults: A Randomized, Controlled Trial" [@cowling20]
+
+## "Cell-Mediated Immune Responses After Influenza Vaccination of Solid Organ Transplant Recipients: Secondary Outcomes Analyses of a Randomized Controlled Trial" [@lhuillier20]
+
+## "The Effect of Influenza Vaccination History on Changes in Hemagglutination Inhibition Titers After Receipt of the 2015-2016 Influenza Vaccine in Older Adults in Hong Kong" [@ng20]
+
+## "Influenza vaccination in immunocompromised populations: Strategies to improve immunogenicity" [@caldera21]
+
+## "Longitudinal Assessment of Immune Responses to Repeated Annual Influenza Vaccination in a Human Cohort of Adults and Teenagers" [@sung21]
+
+## "Evaluation of determinants of the serological response to the quadrivalent split‐inactivated influenza vaccine[@wu22]
+
+## "Imprinted Anti-Hemagglutinin and Anti-Neuraminidase Antibody Responses after Childhood Infections of A(H1N1) and A(H1N1)pdm09 Influenza Viruses" [@daulagala23]
+
+## "Immunogenicity of High-Dose Egg-Based, Recombinant, and Cell Culture–Based Influenza Vaccines Compared With Standard-Dose Egg-Based Influenza Vaccine Among Health Care Personnel Aged 18–65 Years in 2019–2020" [@naleway23]
+
+  * Comparing three different vaccines against conventional egg-based standard-dose quadrivalent inactivated influenza vaccine (SD-IIV4) - Fluzone Quadrivalent 
+    * Quadrivalent cell-culture-based influenza vaccine (ccIIV4) (randomized) - Flucelvax Quadrivalent
+    * Recombinant influenza vaccine (RIV4) (randomized) - Flublok Quadrivalent 
+    * High-dose egg-based trivalent inactivated influenza vaccine (HD-IIV3) (nonrandomized, added in second season) - Fluzone High-Dose
+  * Conducted among health care providers (HCP) at two sites (Baylor Scott & White Health (BSWH) and Kaiser Permanente Northwest (KPNW)) in 2018-2019 and 2019-2020 seasons 
+    * Season 1 - HCP participants enrolled in randomized, open-label influenza vaccine trial were re-consented and enrolled in season 2 
+    * Season 2 - eligible 18-64 (at start of first season) HCP (at both sites) who had received SD-IIV4 in season 1 were offered enrollment in randomized arms to receive SD-IIV4, RIV4, or ccIIV4
+      * At KPNW, HCP were also recruited to receive open- and off-label HD-IIV3 (not randomized)
+      * Q: Was this everybody of any age? If so, what was the age breakdown?
+        * A: Yes. Mean age of 46, SD of 10; similar to other groups (Table 1)
+  * Randomization:
+    * Study site-specific stratified block randomization with 18-44 and 45-65 age groups
+    * 1:1:1 randomization, receiving ccIIV4, RIV4, or SD-IIV4
+  * Serum collection at d0/enrollment/pre-vax and ~1 month (20-62 days acceptable range) post-vax
+  * Coprimary outcomes:
+    * Serologic HAI responses at ~1 month post-vax using the following measures:    
+      * Seroconversion rate (SCR)
+      * Geometric mean titers (GMTs)
+      * Mean-fold rise (MFR)
+      * GMT ratios comparing post-vax HAI titers by study arm vs reference group 
+  * Data analysis:
+    * Only included those who received SD-IIV4 in season 1
+    * **ANOVA** to compare GMT ratios, GMTs, and mean fold GMT rise 
+    * **Logistic regression** to compared rates of SCR and proportions of participatns with postvaccination HAI titers greater than 1:40, 1:80, and 1:160
+    * Models adjusted for study site, log pre-vax HAI titer
+      * Sex, chronic medical conditions, and immunosuppresive conditions also considered but not significant 
+    * Bonferroni correction led to statistical significance definition at $P=0.007$ and 99.3% CIs
+    * Sensitivity analysis - restricted comparisons to KPNW
+  * 390 HCP
+    * 103 RIV4
+    * 106 ccIIV4
+    * 109 SD-IIV4
+    * 79 HD-IIV3
+  * "After adjusting for study site and the log of prevaccination HI titers, there were no statistically significant differences in postvaccination SCR, GMT, or MFR against any of the vaccine reference viruses between HD-IIV3 and SD-IIV4 recipients"
+    * _Interesting that similar age groups don't seem to have a larger boost with HD vs SD_
+  * "Adjusted postvaccination SCR, GMT, and MFR were significantly higher among ccIIV4 recipients compared with SD-IIV4 recipients against the A/ H1N1pdm09 reference virus only."
+  * "CRs, GMTs, and MFRs were significantly higher among RIV4 recipients compared with SD-IIV4 recipients against all vaccine reference viruses."
+  * "...higher proportions of RIV4 recipients had titers greater than 1:80 and 1:160 against the A(H1N1) pdm09, B/Yamagata, and B/Victoria reference viruses and >1:160 against A(H3N2) [compared to reference group]" 
+  * "There were no differences in the proportions of ccIIV4 compared with SD-IIV4 recipients with titers greater than 1:40, 1:80, or 1:160 for any vaccine reference virus, with the exception of HI titers >1:80 against A/ (H1N1)pdm09."
+  * "There were no differences in the proportions of HD-IIV3 and SD-IIV4 recipients with titers greater than 1:40, 1:80, or 1:160 for any vaccine reference virus."
+  * Seems like higher response to RIV4 might be driven by recombinant HA antigen rather than higher antigen dose 
+    * Higher egg-based antigen dose alonse is not enough to increase responses in highly vaccinated adults 18-65
+    
+```{r}
+#| echo: false
+knitr::include_graphics(here::here("assets/ref-figs/naleway-tbl2.png"))
+```
+
+```{r}
+#| echo: false
+knitr::include_graphics(here::here("assets/ref-figs/naleway-fig2.png"))
+```
+    
+  

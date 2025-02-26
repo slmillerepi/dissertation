@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "aim3.html",
-    "href": "aim3.html",
-    "title": "dissertation",
-    "section": "",
-    "text": "VE~AgDist Background and Proposal\n\n\n\n\n\n\n\n\n\n\n\nSavannah L. Miller\n\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "dissertation",
@@ -14,18 +7,137 @@
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
   },
   {
-    "objectID": "background.html",
-    "href": "background.html",
-    "title": "dissertation",
-    "section": "",
-    "text": "No matching items"
+    "objectID": "background/ve-agdist/index.html#comparing-influenza-vaccine-efficacy-against-mismatched-and-matched-strains-a-systematic-review-and-meta-analysis-tricco13",
+    "href": "background/ve-agdist/index.html#comparing-influenza-vaccine-efficacy-against-mismatched-and-matched-strains-a-systematic-review-and-meta-analysis-tricco13",
+    "title": "VE~AgDist",
+    "section": "“Comparing influenza vaccine efficacy against mismatched and matched strains: a systematic review and meta-analysis” (Tricco et al. 2013)",
+    "text": "“Comparing influenza vaccine efficacy against mismatched and matched strains: a systematic review and meta-analysis” (Tricco et al. 2013)"
   },
   {
-    "objectID": "aim3/master-slides/index.html#general-background",
-    "href": "aim3/master-slides/index.html#general-background",
-    "title": "VE~AgDist Background and Proposal",
-    "section": "General Background",
-    "text": "General Background"
+    "objectID": "background/ve-agdist/index.html#effect-of-antigenic-drift-on-influenza-vaccine-effectiveness-in-the-united-states20192020-tenforde21",
+    "href": "background/ve-agdist/index.html#effect-of-antigenic-drift-on-influenza-vaccine-effectiveness-in-the-united-states20192020-tenforde21",
+    "title": "VE~AgDist",
+    "section": "“Effect of Antigenic Drift on Influenza Vaccine Effectiveness in the United States—2019–2020” (Tenforde et al. 2021)",
+    "text": "“Effect of Antigenic Drift on Influenza Vaccine Effectiveness in the United States—2019–2020” (Tenforde et al. 2021)"
+  },
+  {
+    "objectID": "background/flu-ve/index.html",
+    "href": "background/flu-ve/index.html",
+    "title": "Flu VE",
+    "section": "",
+    "text": "In CoP section"
+  },
+  {
+    "objectID": "background/flu-ve/index.html#the-household-influenza-vaccine-effectiveness-study-lack-of-antibody-response-and-protection-following-receipt-of-2014-2015-influenza-vaccine-petrie17",
+    "href": "background/flu-ve/index.html#the-household-influenza-vaccine-effectiveness-study-lack-of-antibody-response-and-protection-following-receipt-of-2014-2015-influenza-vaccine-petrie17",
+    "title": "Flu VE",
+    "section": "",
+    "text": "In CoP section"
+  },
+  {
+    "objectID": "background/flu-ve/index.html#multivariate-analysis-of-factors-affecting-the-immunogenicity-of-trivalent-inactivated-influenza-vaccine-in-school-age-children-freeman15",
+    "href": "background/flu-ve/index.html#multivariate-analysis-of-factors-affecting-the-immunogenicity-of-trivalent-inactivated-influenza-vaccine-in-school-age-children-freeman15",
+    "title": "Flu VE",
+    "section": "“Multivariate Analysis of Factors Affecting the Immunogenicity of Trivalent Inactivated Influenza Vaccine in School-Age Children” (Freeman et al. 2015)",
+    "text": "“Multivariate Analysis of Factors Affecting the Immunogenicity of Trivalent Inactivated Influenza Vaccine in School-Age Children” (Freeman et al. 2015)"
+  },
+  {
+    "objectID": "background/flu-ve/index.html#quantifying-homologous-and-heterologous-antibody-titre-rises-after-influenza-virus-infection-freeman16",
+    "href": "background/flu-ve/index.html#quantifying-homologous-and-heterologous-antibody-titre-rises-after-influenza-virus-infection-freeman16",
+    "title": "Flu VE",
+    "section": "“Quantifying Homologous and Heterologous Antibody Titre Rises after Influenza Virus Infection” (Freeman et al. 2016)",
+    "text": "“Quantifying Homologous and Heterologous Antibody Titre Rises after Influenza Virus Infection” (Freeman et al. 2016)"
+  },
+  {
+    "objectID": "background/flu-ve/index.html#preexisting-subtype-immunodominance-shapes-memory-b-cell-recall-response-to-influenza-vaccination-abreu20",
+    "href": "background/flu-ve/index.html#preexisting-subtype-immunodominance-shapes-memory-b-cell-recall-response-to-influenza-vaccination-abreu20",
+    "title": "Flu VE",
+    "section": "“Preexisting subtype immunodominance shapes memory B cell recall response to influenza vaccination” (Abreu et al. 2020)",
+    "text": "“Preexisting subtype immunodominance shapes memory B cell recall response to influenza vaccination” (Abreu et al. 2020)"
+  },
+  {
+    "objectID": "background/flu-ve/index.html#comparative-immunogenicity-of-several-enhanced-influenza-vaccine-options-for-older-adults-a-randomized-controlled-trial-cowling20",
+    "href": "background/flu-ve/index.html#comparative-immunogenicity-of-several-enhanced-influenza-vaccine-options-for-older-adults-a-randomized-controlled-trial-cowling20",
+    "title": "Flu VE",
+    "section": "“Comparative Immunogenicity of Several Enhanced Influenza Vaccine Options for Older Adults: A Randomized, Controlled Trial” (Cowling et al. 2020)",
+    "text": "“Comparative Immunogenicity of Several Enhanced Influenza Vaccine Options for Older Adults: A Randomized, Controlled Trial” (Cowling et al. 2020)"
+  },
+  {
+    "objectID": "background/flu-ve/index.html#cell-mediated-immune-responses-after-influenza-vaccination-of-solid-organ-transplant-recipients-secondary-outcomes-analyses-of-a-randomized-controlled-trial-lhuillier20",
+    "href": "background/flu-ve/index.html#cell-mediated-immune-responses-after-influenza-vaccination-of-solid-organ-transplant-recipients-secondary-outcomes-analyses-of-a-randomized-controlled-trial-lhuillier20",
+    "title": "Flu VE",
+    "section": "“Cell-Mediated Immune Responses After Influenza Vaccination of Solid Organ Transplant Recipients: Secondary Outcomes Analyses of a Randomized Controlled Trial” (L’huillier et al. 2020)",
+    "text": "“Cell-Mediated Immune Responses After Influenza Vaccination of Solid Organ Transplant Recipients: Secondary Outcomes Analyses of a Randomized Controlled Trial” (L’huillier et al. 2020)"
+  },
+  {
+    "objectID": "background/flu-ve/index.html#the-effect-of-influenza-vaccination-history-on-changes-in-hemagglutination-inhibition-titers-after-receipt-of-the-2015-2016-influenza-vaccine-in-older-adults-in-hong-kong-ng20",
+    "href": "background/flu-ve/index.html#the-effect-of-influenza-vaccination-history-on-changes-in-hemagglutination-inhibition-titers-after-receipt-of-the-2015-2016-influenza-vaccine-in-older-adults-in-hong-kong-ng20",
+    "title": "Flu VE",
+    "section": "“The Effect of Influenza Vaccination History on Changes in Hemagglutination Inhibition Titers After Receipt of the 2015-2016 Influenza Vaccine in Older Adults in Hong Kong” (Ng et al. 2020)",
+    "text": "“The Effect of Influenza Vaccination History on Changes in Hemagglutination Inhibition Titers After Receipt of the 2015-2016 Influenza Vaccine in Older Adults in Hong Kong” (Ng et al. 2020)"
+  },
+  {
+    "objectID": "background/flu-ve/index.html#influenza-vaccination-in-immunocompromised-populations-strategies-to-improve-immunogenicity-caldera21",
+    "href": "background/flu-ve/index.html#influenza-vaccination-in-immunocompromised-populations-strategies-to-improve-immunogenicity-caldera21",
+    "title": "Flu VE",
+    "section": "“Influenza vaccination in immunocompromised populations: Strategies to improve immunogenicity” (Caldera et al. 2021)",
+    "text": "“Influenza vaccination in immunocompromised populations: Strategies to improve immunogenicity” (Caldera et al. 2021)"
+  },
+  {
+    "objectID": "background/flu-ve/index.html#longitudinal-assessment-of-immune-responses-to-repeated-annual-influenza-vaccination-in-a-human-cohort-of-adults-and-teenagers-sung21",
+    "href": "background/flu-ve/index.html#longitudinal-assessment-of-immune-responses-to-repeated-annual-influenza-vaccination-in-a-human-cohort-of-adults-and-teenagers-sung21",
+    "title": "Flu VE",
+    "section": "“Longitudinal Assessment of Immune Responses to Repeated Annual Influenza Vaccination in a Human Cohort of Adults and Teenagers” (Sung et al. 2021)",
+    "text": "“Longitudinal Assessment of Immune Responses to Repeated Annual Influenza Vaccination in a Human Cohort of Adults and Teenagers” (Sung et al. 2021)"
+  },
+  {
+    "objectID": "background/flu-ve/index.html#evaluation-of-determinants-of-the-serological-response-to-the-quadrivalent-splitinactivated-influenza-vaccinewu22",
+    "href": "background/flu-ve/index.html#evaluation-of-determinants-of-the-serological-response-to-the-quadrivalent-splitinactivated-influenza-vaccinewu22",
+    "title": "Flu VE",
+    "section": "“Evaluation of determinants of the serological response to the quadrivalent split‐inactivated influenza vaccine(Wu et al. 2022)",
+    "text": "“Evaluation of determinants of the serological response to the quadrivalent split‐inactivated influenza vaccine(Wu et al. 2022)"
+  },
+  {
+    "objectID": "background/flu-ve/index.html#imprinted-anti-hemagglutinin-and-anti-neuraminidase-antibody-responses-after-childhood-infections-of-ah1n1-and-ah1n1pdm09-influenza-viruses-daulagala23",
+    "href": "background/flu-ve/index.html#imprinted-anti-hemagglutinin-and-anti-neuraminidase-antibody-responses-after-childhood-infections-of-ah1n1-and-ah1n1pdm09-influenza-viruses-daulagala23",
+    "title": "Flu VE",
+    "section": "“Imprinted Anti-Hemagglutinin and Anti-Neuraminidase Antibody Responses after Childhood Infections of A(H1N1) and A(H1N1)pdm09 Influenza Viruses” (Daulagala et al. 2023)",
+    "text": "“Imprinted Anti-Hemagglutinin and Anti-Neuraminidase Antibody Responses after Childhood Infections of A(H1N1) and A(H1N1)pdm09 Influenza Viruses” (Daulagala et al. 2023)"
+  },
+  {
+    "objectID": "background/flu-ve/index.html#immunogenicity-of-high-dose-egg-based-recombinant-and-cell-culturebased-influenza-vaccines-compared-with-standard-dose-egg-based-influenza-vaccine-among-health-care-personnel-aged-1865-years-in-20192020-naleway23",
+    "href": "background/flu-ve/index.html#immunogenicity-of-high-dose-egg-based-recombinant-and-cell-culturebased-influenza-vaccines-compared-with-standard-dose-egg-based-influenza-vaccine-among-health-care-personnel-aged-1865-years-in-20192020-naleway23",
+    "title": "Flu VE",
+    "section": "“Immunogenicity of High-Dose Egg-Based, Recombinant, and Cell Culture–Based Influenza Vaccines Compared With Standard-Dose Egg-Based Influenza Vaccine Among Health Care Personnel Aged 18–65 Years in 2019–2020” (Naleway et al. 2023)",
+    "text": "“Immunogenicity of High-Dose Egg-Based, Recombinant, and Cell Culture–Based Influenza Vaccines Compared With Standard-Dose Egg-Based Influenza Vaccine Among Health Care Personnel Aged 18–65 Years in 2019–2020” (Naleway et al. 2023)\n\nComparing three different vaccines against conventional egg-based standard-dose quadrivalent inactivated influenza vaccine (SD-IIV4) - Fluzone Quadrivalent\n\nQuadrivalent cell-culture-based influenza vaccine (ccIIV4) (randomized) - Flucelvax Quadrivalent\nRecombinant influenza vaccine (RIV4) (randomized) - Flublok Quadrivalent\nHigh-dose egg-based trivalent inactivated influenza vaccine (HD-IIV3) (nonrandomized, added in second season) - Fluzone High-Dose\n\nConducted among health care providers (HCP) at two sites (Baylor Scott & White Health (BSWH) and Kaiser Permanente Northwest (KPNW)) in 2018-2019 and 2019-2020 seasons\n\nSeason 1 - HCP participants enrolled in randomized, open-label influenza vaccine trial were re-consented and enrolled in season 2\nSeason 2 - eligible 18-64 (at start of first season) HCP (at both sites) who had received SD-IIV4 in season 1 were offered enrollment in randomized arms to receive SD-IIV4, RIV4, or ccIIV4\n\nAt KPNW, HCP were also recruited to receive open- and off-label HD-IIV3 (not randomized)\nQ: Was this everybody of any age? If so, what was the age breakdown?\n\nA: Yes. Mean age of 46, SD of 10; similar to other groups (Table 1)\n\n\n\nRandomization:\n\nStudy site-specific stratified block randomization with 18-44 and 45-65 age groups\n1:1:1 randomization, receiving ccIIV4, RIV4, or SD-IIV4\n\nSerum collection at d0/enrollment/pre-vax and ~1 month (20-62 days acceptable range) post-vax\nCoprimary outcomes:\n\nSerologic HAI responses at ~1 month post-vax using the following measures:\n\nSeroconversion rate (SCR)\nGeometric mean titers (GMTs)\nMean-fold rise (MFR)\nGMT ratios comparing post-vax HAI titers by study arm vs reference group\n\n\nData analysis:\n\nOnly included those who received SD-IIV4 in season 1\nANOVA to compare GMT ratios, GMTs, and mean fold GMT rise\nLogistic regression to compared rates of SCR and proportions of participatns with postvaccination HAI titers greater than 1:40, 1:80, and 1:160\nModels adjusted for study site, log pre-vax HAI titer\n\nSex, chronic medical conditions, and immunosuppresive conditions also considered but not significant\n\nBonferroni correction led to statistical significance definition at \\(P=0.007\\) and 99.3% CIs\nSensitivity analysis - restricted comparisons to KPNW\n\n390 HCP\n\n103 RIV4\n106 ccIIV4\n109 SD-IIV4\n79 HD-IIV3\n\n“After adjusting for study site and the log of prevaccination HI titers, there were no statistically significant differences in postvaccination SCR, GMT, or MFR against any of the vaccine reference viruses between HD-IIV3 and SD-IIV4 recipients”\n\nInteresting that similar age groups don’t seem to have a larger boost with HD vs SD\n\n“Adjusted postvaccination SCR, GMT, and MFR were significantly higher among ccIIV4 recipients compared with SD-IIV4 recipients against the A/ H1N1pdm09 reference virus only.”\n“CRs, GMTs, and MFRs were significantly higher among RIV4 recipients compared with SD-IIV4 recipients against all vaccine reference viruses.”\n“…higher proportions of RIV4 recipients had titers greater than 1:80 and 1:160 against the A(H1N1) pdm09, B/Yamagata, and B/Victoria reference viruses and &gt;1:160 against A(H3N2) [compared to reference group]”\n“There were no differences in the proportions of ccIIV4 compared with SD-IIV4 recipients with titers greater than 1:40, 1:80, or 1:160 for any vaccine reference virus, with the exception of HI titers &gt;1:80 against A/ (H1N1)pdm09.”\n“There were no differences in the proportions of HD-IIV3 and SD-IIV4 recipients with titers greater than 1:40, 1:80, or 1:160 for any vaccine reference virus.”\nSeems like higher response to RIV4 might be driven by recombinant HA antigen rather than higher antigen dose\n\nHigher egg-based antigen dose alonse is not enough to increase responses in highly vaccinated adults 18-65"
+  },
+  {
+    "objectID": "background/cop-background/index.html#a-model-for-immunological-correlates-of-protection-dunning06",
+    "href": "background/cop-background/index.html#a-model-for-immunological-correlates-of-protection-dunning06",
+    "title": "CoP Background",
+    "section": "“A model for immunological correlates of protection” (Dunning 2006)",
+    "text": "“A model for immunological correlates of protection” (Dunning 2006)"
+  },
+  {
+    "objectID": "background/cop-background/index.html#evaluating-a-surrogate-endpoint-at-three-levels-with-application-to-vaccine-development-gilbert08a",
+    "href": "background/cop-background/index.html#evaluating-a-surrogate-endpoint-at-three-levels-with-application-to-vaccine-development-gilbert08a",
+    "title": "CoP Background",
+    "section": "“Evaluating a surrogate endpoint at three levels, with application to vaccine development” (gilbert08a?)",
+    "text": "“Evaluating a surrogate endpoint at three levels, with application to vaccine development” (gilbert08a?)"
+  },
+  {
+    "objectID": "background/cop-background/index.html#updates-on-immunologic-correlates-of-vaccine-induced-protection-plotkin20",
+    "href": "background/cop-background/index.html#updates-on-immunologic-correlates-of-vaccine-induced-protection-plotkin20",
+    "title": "CoP Background",
+    "section": "“Updates on immunologic correlates of vaccine-induced protection” (Stanley A. Plotkin 2020)",
+    "text": "“Updates on immunologic correlates of vaccine-induced protection” (Stanley A. Plotkin 2020)"
+  },
+  {
+    "objectID": "background/cop-background/index.html#correlates-of-vaccine-induced-protection-against-sars-cov-2-koch21",
+    "href": "background/cop-background/index.html#correlates-of-vaccine-induced-protection-against-sars-cov-2-koch21",
+    "title": "CoP Background",
+    "section": "“Correlates of Vaccine-Induced Protection against SARS-CoV-2” (Koch et al. 2021)",
+    "text": "“Correlates of Vaccine-Induced Protection against SARS-CoV-2” (Koch et al. 2021)"
   },
   {
     "objectID": "aim3/master-slides/index.html#flu-burden",
@@ -82,13 +194,6 @@
     "title": "VE~AgDist Background and Proposal",
     "section": "Research Gap",
     "text": "Research Gap\n\nThere does not seem to be one clear answer about how much impact a vaccine’s “mismatch” actually has on its effectiveness (Cobey et al. 2018)"
-  },
-  {
-    "objectID": "aim3/master-slides/index.html#vaccine-matchmismatch",
-    "href": "aim3/master-slides/index.html#vaccine-matchmismatch",
-    "title": "VE~AgDist Background and Proposal",
-    "section": "Vaccine Match/Mismatch",
-    "text": "Vaccine Match/Mismatch"
   },
   {
     "objectID": "aim3/master-slides/index.html#matchmismatch-papers",
@@ -187,5 +292,278 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "aim3.html",
+    "href": "aim3.html",
+    "title": "Dissertation Notes and Writing",
+    "section": "",
+    "text": "VE~AgDist Background and Proposal\n\n\n\n\n\n\n\n\n\n\n\nSavannah L. Miller\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "background/flu-cops/index.html",
+    "href": "background/flu-cops/index.html",
+    "title": "Flu CoPs",
+    "section": "",
+    "text": "1032 adults - serum HAI taken right before live virus challenge\nParticipants came from two different trials, but in both case, challenges were administered 2-3 weeks after completed vaccination (whatever vaccination they may have received)\nSerum samples taken both before and (two weeks) after challenge, and nasal swabs for virus isolation were taken 48 hours after challenge\n50% Protective Dose (PD50) - the titer at which the infection rate is reduced to half the maximum observed rate\n\nInfluenza B: Approximately 1/18 (Infection rate was not much higher in those with no detectable titer than in those with lowest detectable titer - 1/6)\nInfluenza A: 1/18-1/36 (multiple A studies)\n\nDiscussion - specify that this cannot be used to identify a causal relationship, and that HI is often only part of a greater immune response\n\nHI appears to have stronger relationship than NI, but may specifically be less relevant in flu B - not enough data to tell in this study\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nReview\n“Most results indicate that, following immunization with inactivated virus vaccines, HI antibody titres of approximately 1:30-1:40 represent the 50% protective level of antibody (Hobson et al. 1972; Potter et al. 1977a), and similar results have been obtains following live virus infection (McDonald et al. 1962; Andrews et al. 1966).”\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n50% PT: 42 for H1N1, 44 for H3N2\n“50% protection against infection of man with H1N1 or H3N2 influenza virus strains”\n\n\n\n\n\nNotes later\n\n\n\n\n\nNotes later\n\n\n\n\n\nNotes later\n\n\n\n\n\nNotes later\n\n\n\n\n\nNotes later"
+  },
+  {
+    "objectID": "background/flu-cops/index.html#the-role-of-serum-haemagglutination-inhibiting-antibody-in-protection-against-challenge-infection-with-influenza-a2-and-b-viruses-hobson72",
+    "href": "background/flu-cops/index.html#the-role-of-serum-haemagglutination-inhibiting-antibody-in-protection-against-challenge-infection-with-influenza-a2-and-b-viruses-hobson72",
+    "title": "Flu CoPs",
+    "section": "",
+    "text": "1032 adults - serum HAI taken right before live virus challenge\nParticipants came from two different trials, but in both case, challenges were administered 2-3 weeks after completed vaccination (whatever vaccination they may have received)\nSerum samples taken both before and (two weeks) after challenge, and nasal swabs for virus isolation were taken 48 hours after challenge\n50% Protective Dose (PD50) - the titer at which the infection rate is reduced to half the maximum observed rate\n\nInfluenza B: Approximately 1/18 (Infection rate was not much higher in those with no detectable titer than in those with lowest detectable titer - 1/6)\nInfluenza A: 1/18-1/36 (multiple A studies)\n\nDiscussion - specify that this cannot be used to identify a causal relationship, and that HI is often only part of a greater immune response\n\nHI appears to have stronger relationship than NI, but may specifically be less relevant in flu B - not enough data to tell in this study"
+  },
+  {
+    "objectID": "background/flu-cops/index.html#determinants-of-immunity-to-influenza-infection-in-man-potter79",
+    "href": "background/flu-cops/index.html#determinants-of-immunity-to-influenza-infection-in-man-potter79",
+    "title": "Flu CoPs",
+    "section": "",
+    "text": "Review\n“Most results indicate that, following immunization with inactivated virus vaccines, HI antibody titres of approximately 1:30-1:40 represent the 50% protective level of antibody (Hobson et al. 1972; Potter et al. 1977a), and similar results have been obtains following live virus infection (McDonald et al. 1962; Andrews et al. 1966).”"
+  },
+  {
+    "objectID": "background/flu-cops/index.html#interpretation-of-responses-and-protective-levels-of-antibody-against-attenuated-influenza-a-viruses-using-single-radial-haemolysis-al-khayatt84",
+    "href": "background/flu-cops/index.html#interpretation-of-responses-and-protective-levels-of-antibody-against-attenuated-influenza-a-viruses-using-single-radial-haemolysis-al-khayatt84",
+    "title": "Flu CoPs",
+    "section": "",
+    "text": "50% PT: 42 for H1N1, 44 for H3N2\n“50% protection against infection of man with H1N1 or H3N2 influenza virus strains”"
+  },
+  {
+    "objectID": "background/flu-cops/index.html#correlates-of-protection-to-influenza-virus-where-do-we-go-from-here-cox13",
+    "href": "background/flu-cops/index.html#correlates-of-protection-to-influenza-virus-where-do-we-go-from-here-cox13",
+    "title": "Flu CoPs",
+    "section": "",
+    "text": "Notes later"
+  },
+  {
+    "objectID": "background/flu-cops/index.html#immunological-assessment-of-influenza-vaccines-and-immune-correlates-of-protection-reber13",
+    "href": "background/flu-cops/index.html#immunological-assessment-of-influenza-vaccines-and-immune-correlates-of-protection-reber13",
+    "title": "Flu CoPs",
+    "section": "",
+    "text": "Notes later"
+  },
+  {
+    "objectID": "background/flu-cops/index.html#the-establishment-of-surrogates-and-correlates-of-protection-useful-tools-for-the-licensure-of-effective-influenza-vaccines-ward18",
+    "href": "background/flu-cops/index.html#the-establishment-of-surrogates-and-correlates-of-protection-useful-tools-for-the-licensure-of-effective-influenza-vaccines-ward18",
+    "title": "Flu CoPs",
+    "section": "",
+    "text": "Notes later"
+  },
+  {
+    "objectID": "background/flu-cops/index.html#call-for-a-paradigm-shift-in-the-design-of-universal-influenza-vaccines-by-harnessing-multiple-correlates-of-protection-jang20",
+    "href": "background/flu-cops/index.html#call-for-a-paradigm-shift-in-the-design-of-universal-influenza-vaccines-by-harnessing-multiple-correlates-of-protection-jang20",
+    "title": "Flu CoPs",
+    "section": "",
+    "text": "Notes later"
+  },
+  {
+    "objectID": "background/flu-cops/index.html#meeting-report-and-review-immunological-assays-and-correlates-of-protection-for-next-generation-influenza-vaccines-krammer20",
+    "href": "background/flu-cops/index.html#meeting-report-and-review-immunological-assays-and-correlates-of-protection-for-next-generation-influenza-vaccines-krammer20",
+    "title": "Flu CoPs",
+    "section": "",
+    "text": "Notes later"
+  },
+  {
+    "objectID": "background/flu-cops/index.html#on-the-relationship-between-mean-antibody-level-seroprotection-and-clinical-protection-from-influenza-nauta2009a",
+    "href": "background/flu-cops/index.html#on-the-relationship-between-mean-antibody-level-seroprotection-and-clinical-protection-from-influenza-nauta2009a",
+    "title": "Flu CoPs",
+    "section": "“On the relationship between mean antibody level, seroprotection and clinical protection from influenza” (nauta2009a?)",
+    "text": "“On the relationship between mean antibody level, seroprotection and clinical protection from influenza” (nauta2009a?)\n\nModeling/simulations - no real results\nMore notes later"
+  },
+  {
+    "objectID": "background/flu-cops/index.html#relationship-between-haemagglutinationinhibiting-antibody-titres-and-clinical-protection-against-influenza-development-and-application-of-a-bayesian-random-effects-model-coudeville10",
+    "href": "background/flu-cops/index.html#relationship-between-haemagglutinationinhibiting-antibody-titres-and-clinical-protection-against-influenza-development-and-application-of-a-bayesian-random-effects-model-coudeville10",
+    "title": "Flu CoPs",
+    "section": "“Relationship between haemagglutinationinhibiting antibody titres and clinical protection against influenza: development and application of a bayesian random-effects model” (Coudeville, Bailleux, et al. 2010)",
+    "text": "“Relationship between haemagglutinationinhibiting antibody titres and clinical protection against influenza: development and application of a bayesian random-effects model” (Coudeville, Bailleux, et al. 2010)\n\nUsed 15 papers from 1945-2006; 6 challenge studies, 5 clinical trials, and 4 cohort studies\nModels tried:\n\nSimple model for one study, no censorship and no covariates\nA random-effects model with uncensored data with covariates\nA random-effects model with interval-censored data with covariates\n\nUsed MCMC methods for parameter estimation\nDetermined simplest model (using only HAI titer) was sufficient for predicting protection\n\n\n\n\n\n\n\n\nModel Term\nMeaning\n\n\n\n\n\\(\\lambda\\)\nbaseline risk that an individual develops influenza in the absence of any HI-related protection\n\n\n\\(T_j\\)\nHI titer\n\n\n\\(\\theta\\)\nassociated vector of parameters\n\n\n\\(P(y_j = 1)\\)\nthe risk that an individual develops influenza\n\n\n\\(\\pi (T_j, \\theta)\\)\nHI-protection curve\n\n\n50% PT\n50% protection titer\n\n\n\\(X_i\\)\nvector of binary variables\n\n\n\\((\\alpha_c, \\beta_c)\\)\nrandom effects associated with \\(X_i\\)\n\n\n\\(\\lambda_i\\)\nbaseline risks unrelated to HI protection curve\n\n\n\nEstimation of the risk that an individual develops influenza in the presence HI antibodies:\n\\[ P(Y_j = 1 | T_j, \\theta, \\lambda) = \\lambda(1 - \\pi(T_j, \\theta)) \\]\nSimple model for one study, no censorship, and no covariates:\n\\[ \\pi(T_j, \\theta) = \\frac{e^{\\beta(\\log(T_j) - \\alpha)}}{1 + e^{\\beta(\\log(T_j) - \\alpha)}} \\]\n\\[ = 1 - \\frac{1}{1 + e^{\\beta(\\log(T_j) - \\alpha)}} \\]\n\n\\(\\alpha\\) is closely linked to the 50% protection titer and can be interpreted as a location parameter for the HI protection curve\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n“A new approach to estimate vaccine efficacy based on immunogenicity data applied to influenza vaccines administered by the intradermal or intramuscular routes” (Coudeville, Andre, et al. 2010)\n\nPart two of (Coudeville, Bailleux, et al. 2010)\nComparing intradermal vaccine (INTANZA/IDFlu) to standard TIV IM vaccine\n\n\n\n\n\n\n\n\nModel Term\nMeaning\n\n\n\n\n\\(P_0\\)\na baseline risk that defines, for a given setting, the level of exposure to influenza risk\n\n\n\\(\\pi(T_i)\\)\nthe HI protection curve itself\n\n\n\\(T_i\\)\na given HI titer\n\n\n\\(T_j^{pre}\\)\nthe risk that an individual develops influenza\n\n\n\\(T_j^{post}\\)\nthe risk that an individual develops influenza\n\n\n\n\\[ P(\\text{influenza}) = P_0[1 - \\pi(T_i)] \\] \\[ VE_{HI} = 1 - \\frac{\\sum_{j=1}^N[1-\\pi(T_j^{post})]}{\\sum_{j=1}^N[1-\\pi(T_j^{pre})]} \\]\n\\[ AIVE_{ID/IM} = VE_{ID} - VE_{IM} \\] \\[ RIVE_{ID/IM} = (VE_{ID}-VE_{IM})/VE_{IM} \\]"
+  },
+  {
+    "objectID": "background/flu-cops/index.html#hemagglutination-inhibition-antibody-titers-as-a-correlate-of-protection-for-inactivated-influenza-vaccines-in-children-black11",
+    "href": "background/flu-cops/index.html#hemagglutination-inhibition-antibody-titers-as-a-correlate-of-protection-for-inactivated-influenza-vaccines-in-children-black11",
+    "title": "Flu CoPs",
+    "section": "“Hemagglutination inhibition antibody titers as a correlate of protection for inactivated influenza vaccines in children” (Black et al. 2011)",
+    "text": "“Hemagglutination inhibition antibody titers as a correlate of protection for inactivated influenza vaccines in children” (Black et al. 2011)\n\n2007-2008 and 2008-2009 seasons\n4707 influenza vaccine-naive children 6-72 months randomized 2:2:1 into:\n\nMF-59 –adjuvanted inactivated influenza vaccine (ATIV, Fluad)\nSubunit TIV (TIV control, Influsplit, GSK, Rixensart, Belgium)\nSaline placebo\n\nActive surveillance for ILI with RT-PCR confirmation\nSerum samples obtained for a subset of 777 children at:\n\nenrollment,\non day 29 when the second dose was administered,\nat day 50 (approximately 3 weeks after dose 2), and\nat day 180 after receipt of 2 doses of vaccine or placebo\n\nLinear logistic regression model fitted with vaccine group only included as predictor\nSecond logistic regression model was fit, which controlled for log2 day 50 antibody titer and vaccine group to determine the effect of antibody titer on the occurrence of influenza\nRelationship between the occurrence of influenza and H3N2 antibody titer level was modeled using the logistic regression model advocated by Dunning that accommodates both antibody titers and factors independent of antibody titers\n\nProbability that a subject develops influenza is the probability that the subject is susceptible multiplied by the probability that susceptible individuals develop disease. Susceptibility is characterized by the probability \\(\\lambda\\), and the probability that a subject with titer t is protected is represented by a 2-parameter logit function, with \\(\\alpha\\) and \\(\\beta\\) denoting the location and the scale parameters of interest, respectively\n\nEstimated CoP at time of “challenge” (time the diagnostic viral swab was obtained) using day 50 titer, estimated half life of 111 days and assuming logarithmic decay\nProtective titers (at fixed time 50 days):\n\n50%: 1:110\n70%: 1:215\n80%: 1:330\n90%: 1:629\nTraditional 1:40 was associated with 22% protection\n\nProtective titers (at time of “challenge”):\n\n50%: 1:85 (95% CI 35.6, 137.9)\n90%: 1:302 (95% CI 176.9, 439.2)"
+  },
+  {
+    "objectID": "background/flu-cops/index.html#influenza-hemagglutination-inhibition-antibody-titer-as-a-correlate-of-vaccine-induced-protection-ohmit11",
+    "href": "background/flu-cops/index.html#influenza-hemagglutination-inhibition-antibody-titer-as-a-correlate-of-vaccine-induced-protection-ohmit11",
+    "title": "Flu CoPs",
+    "section": "“Influenza hemagglutination-inhibition antibody titer as a correlate of vaccine-induced protection” (Ohmit et al. 2011)",
+    "text": "“Influenza hemagglutination-inhibition antibody titer as a correlate of vaccine-induced protection” (Ohmit et al. 2011)\n\nGMT, %(+) at titers, etc. - simpler methods, take notes later"
+  },
+  {
+    "objectID": "background/flu-cops/index.html#estimation-of-the-assocation-between-antibody-titers-and-protection-against-confirmed-influenza-virus-infection-in-children-ng13",
+    "href": "background/flu-cops/index.html#estimation-of-the-assocation-between-antibody-titers-and-protection-against-confirmed-influenza-virus-infection-in-children-ng13",
+    "title": "Flu CoPs",
+    "section": "“Estimation of the assocation between antibody titers and protection against confirmed influenza virus infection in children” (Ng et al. 2013)",
+    "text": "“Estimation of the assocation between antibody titers and protection against confirmed influenza virus infection in children” (Ng et al. 2013)"
+  },
+  {
+    "objectID": "background/flu-cops/index.html#estimation-of-the-assocation-between-antibody-titers-and-protection-against-confirmed-influenza-virus-infection-in-children-ng13-1",
+    "href": "background/flu-cops/index.html#estimation-of-the-assocation-between-antibody-titers-and-protection-against-confirmed-influenza-virus-infection-in-children-ng13-1",
+    "title": "Flu CoPs",
+    "section": "“Estimation of the assocation between antibody titers and protection against confirmed influenza virus infection in children” (Ng et al. 2013)",
+    "text": "“Estimation of the assocation between antibody titers and protection against confirmed influenza virus infection in children” (Ng et al. 2013)\n\nChildren aged 6-17 in Hong Kong given TIV or placebo and followed for 9-12 months (Kiddivax)\n\nThe TIV contained 15 μg of hemagglutinin for each of the A/Brisbane/59/2007(H1N1)–like, A/Brisbane/10/2007(H3N2)like, and B/Brisbane/60/2008–like (Victoria lineage) strains.\n\nSerum samples collected pre-vaccine, one month post-vaccine, at end of follow up/study\n\n25% of participants had additional samples taken midstudy\n\n465 TIV, 308 placebo\nExamined waning rates in absence of infection using log-linear regression models based on all postvaccination, midstudy, and end-of-study antibody titer data (separate for TIV vs placebo, excluding all possible infections)\n\nAllowed for different wanting rates in those 6-8 and 9-17 years old\n\nCox proportional hazards model estimating correlation of HAI titer over time with protection against PCR-confirmed infection, assessing if association different for TIV vs placebo group and allowing for time-varying incidence in the community\nProtective titers (accounting for waning and time-varying community risk of infection):\n\n1:40 against A(H1N1)pdm09: 48% (95% CI 30, 62)\n1:40 against B(Victoria): 55% (95% CI 32, 70)"
+  },
+  {
+    "objectID": "background/flu-cops/index.html#serological-responses-following-influenza-ah7n9-virus-infection-freeman14",
+    "href": "background/flu-cops/index.html#serological-responses-following-influenza-ah7n9-virus-infection-freeman14",
+    "title": "Flu CoPs",
+    "section": "“Serological responses following influenza A(H7N9) virus infection” (Freeman and Cowling 2014)",
+    "text": "“Serological responses following influenza A(H7N9) virus infection” (Freeman and Cowling 2014)\n\nLetter to the editor - notes later"
+  },
+  {
+    "objectID": "background/flu-cops/index.html#association-between-antibody-titers-and-protection-against-influenza-virus-infection-within-households-tsang14",
+    "href": "background/flu-cops/index.html#association-between-antibody-titers-and-protection-against-influenza-virus-infection-within-households-tsang14",
+    "title": "Flu CoPs",
+    "section": "“Association between antibody titers and protection against influenza virus infection within households” (Tsang et al. 2014)",
+    "text": "“Association between antibody titers and protection against influenza virus infection within households” (Tsang et al. 2014)\n\nRecruited those presenting at outpatient clinics with ARI within 48 hours of onset and who lived in a household with at least two others - those positive for flu A or B were followed up with along with their households\nSerum samples collected at initial visit from consenting subgroup of household contacts\nModeling: log-linear, logistic, nonparametric models fit for relationship between protection and antibody titer (log-linear was main model, others fit to assess whether results were robust with respect to model)\n\n\n\n\n\n\n\n\n\n\n\nTotally different 50%PT - “One possible explanation for this observation is that influenza virus infections in a household index case result in more intense exposures among susceptible household contact”"
+  },
+  {
+    "objectID": "background/flu-cops/index.html#some-extension-in-continuous-models-for-immunological-correlates-of-protection-dunning15",
+    "href": "background/flu-cops/index.html#some-extension-in-continuous-models-for-immunological-correlates-of-protection-dunning15",
+    "title": "Flu CoPs",
+    "section": "“Some extension in continuous models for immunological correlates of protection” (Dunning et al. 2015)",
+    "text": "“Some extension in continuous models for immunological correlates of protection” (Dunning et al. 2015)\n\nMore stat heavy - notes later"
+  },
+  {
+    "objectID": "background/flu-cops/index.html#correlates-of-protection-against-influenza-in-the-elderly-results-from-an-influenza-vaccine-efficacy-trial-dunning16",
+    "href": "background/flu-cops/index.html#correlates-of-protection-against-influenza-in-the-elderly-results-from-an-influenza-vaccine-efficacy-trial-dunning16",
+    "title": "Flu CoPs",
+    "section": "“Correlates of protection against influenza in the elderly: Results from an influenza vaccine efficacy trial” (Dunning et al. 2016)",
+    "text": "“Correlates of protection against influenza in the elderly: Results from an influenza vaccine efficacy trial” (Dunning et al. 2016)"
+  },
+  {
+    "objectID": "background/flu-cops/index.html#extrapolating-theoretical-efficacy-of-inactivated-influenza-ah5n1-virus-vaccine-from-human-immunogenicity-studies-feldstein16",
+    "href": "background/flu-cops/index.html#extrapolating-theoretical-efficacy-of-inactivated-influenza-ah5n1-virus-vaccine-from-human-immunogenicity-studies-feldstein16",
+    "title": "Flu CoPs",
+    "section": "“Extrapolating theoretical efficacy of inactivated influenza A/H5N1 virus vaccine from human immunogenicity studies” (Feldstein et al. 2016)",
+    "text": "“Extrapolating theoretical efficacy of inactivated influenza A/H5N1 virus vaccine from human immunogenicity studies” (Feldstein et al. 2016)\n\nSame as my paper - notes later"
+  },
+  {
+    "objectID": "background/flu-cops/index.html#the-household-influenza-vaccine-effectiveness-study-lack-of-antibody-response-and-protection-following-receipt-of-2014-2015-influenza-vaccine-petrie17",
+    "href": "background/flu-cops/index.html#the-household-influenza-vaccine-effectiveness-study-lack-of-antibody-response-and-protection-following-receipt-of-2014-2015-influenza-vaccine-petrie17",
+    "title": "Flu CoPs",
+    "section": "“The Household Influenza Vaccine Effectiveness Study: Lack of Antibody Response and Protection Following Receipt of 2014-2015 Influenza Vaccine” (Petrie et al. 2017)",
+    "text": "“The Household Influenza Vaccine Effectiveness Study: Lack of Antibody Response and Protection Following Receipt of 2014-2015 Influenza Vaccine” (Petrie et al. 2017)\n\nHousehold study based out of University of Michigan\nHouseholds had \\(\\ge\\) 3 members, including \\(\\ge\\) 2 children under 18\nSerum collected at enrollment and surveillance conducted October 2014-May 2015, RT-PCR used to confirm flu cases\nCox proportional hazards models adjusted for age and high-risk health status\n\nRobust variances using sandwich estimators to account for household clustering\nNo curve or 50% PT reported"
+  },
+  {
+    "objectID": "background/flu-cops/index.html#age-specific-differences-in-the-dynamics-of-protective-immunity-to-influenza-ranjeva19",
+    "href": "background/flu-cops/index.html#age-specific-differences-in-the-dynamics-of-protective-immunity-to-influenza-ranjeva19",
+    "title": "Flu CoPs",
+    "section": "“Age-specific differences in the dynamics of protective immunity to influenza” (Ranjeva et al. 2019)",
+    "text": "“Age-specific differences in the dynamics of protective immunity to influenza” (Ranjeva et al. 2019)\n\nNotes later - maybe handelgroup paper?"
+  },
+  {
+    "objectID": "background/flu-cops/index.html#maternal-antibodies-against-influenza-in-cord-blood-and-protection-against-laboratory-confirmed-influenza-in-infants-cowling20",
+    "href": "background/flu-cops/index.html#maternal-antibodies-against-influenza-in-cord-blood-and-protection-against-laboratory-confirmed-influenza-in-infants-cowling20",
+    "title": "Flu CoPs",
+    "section": "“Maternal antibodies against influenza in cord blood and protection against laboratory-confirmed influenza in infants” (Benjamin J. Cowling et al. 2020)",
+    "text": "“Maternal antibodies against influenza in cord blood and protection against laboratory-confirmed influenza in infants” (Benjamin J. Cowling et al. 2020)\n\n“Previous studies have shown a mean half-life of 40–58 days in maternal antibodies after maternal influenza vaccination, which may confer the most protection in the first 4–6 months of life. A more recent study found that vaccine efficacy was highest among infants 8 weeks of age or younger and gradually decreased with increasing age.”\nMaternal cord blood HAI assays, followed children for first 6 months\nCox proportional hazards model for time from birth to infection, \\(\\log_2\\) titer and risk of PCR-confirmed infection\n\nAdjusted for variation over calendar time in risk of infection by type/subtype based on community surveillance data\n\nInfants protected from influenza B infection when cord blood HAI titer against B/Yamagata was 40 or greater\n\n83% (95% CI 44-95%) reduction in risk of infection compared to titer &lt;10\n\nNo association for H3N2, not enough H1N1 infections\nOnly 26 infections total"
+  },
+  {
+    "objectID": "background/flu-cops/index.html#distinguishing-causation-from-correlation-in-the-use-of-correlates-of-protection-to-evaluate-and-develop-influenza-vaccines-lim2020",
+    "href": "background/flu-cops/index.html#distinguishing-causation-from-correlation-in-the-use-of-correlates-of-protection-to-evaluate-and-develop-influenza-vaccines-lim2020",
+    "title": "Flu CoPs",
+    "section": "“Distinguishing causation from correlation in the use of correlates of protection to evaluate and develop influenza vaccines” (lim2020?)",
+    "text": "“Distinguishing causation from correlation in the use of correlates of protection to evaluate and develop influenza vaccines” (lim2020?)\n\nMechanistic vs nonmechanistic CoPs -&gt; “Mediators of protection” vs “correlates of protection”\nCausation vs correlation\nMore notes later"
+  },
+  {
+    "objectID": "background/flu-cops/index.html#a-method-to-estimate-probability-of-disease-and-vaccine-efficacy-from-clinical-trial-immunogenicity-data-dudasova2021",
+    "href": "background/flu-cops/index.html#a-method-to-estimate-probability-of-disease-and-vaccine-efficacy-from-clinical-trial-immunogenicity-data-dudasova2021",
+    "title": "Flu CoPs",
+    "section": "“A method to estimate probability of disease and vaccine efficacy from clinical trial immunogenicity data” (Dudášová et al. 2021)",
+    "text": "“A method to estimate probability of disease and vaccine efficacy from clinical trial immunogenicity data” (Dudášová et al. 2021)\n\nPoDBAY\nProbability of disease vs probability of protection\nR package\nNot a flu-specific paper, but does have a flu example\nHave discussed this at IDIG before\n\n\\[ PoD = p_{max} \\frac{(\\frac{et50}{titer})^\\lambda}{1 + (\\frac{et50}{titer})^\\lambda}, for \\space titers &gt; 0 \\]\n\\[ PoD = pmax, for \\space titers &lt;= 0 \\]\n\npmax = maximum PoD \\(\\approx \\lambda\\)?\net50 = titer values corresponding to pmax/2 value, PoD(et50) = pmax/2 \\(\\approx\\) 50%PT\n\\(\\lambda\\) = slope\n\n\n\n\n\n\n\n\n\n\n\nSimilar 50% to Black et al (same data, just new model)"
+  },
+  {
+    "objectID": "background/flu-cops/index.html#baseline-innate-and-t-cell-populations-are-correlates-of-protection-against-symptomatic-influenza-virus-infection-independent-of-serology-mettelman23",
+    "href": "background/flu-cops/index.html#baseline-innate-and-t-cell-populations-are-correlates-of-protection-against-symptomatic-influenza-virus-infection-independent-of-serology-mettelman23",
+    "title": "Flu CoPs",
+    "section": "“Baseline innate and T cell populations are correlates of protection against symptomatic influenza virus infection independent of serology” (Mettelman et al. 2023)",
+    "text": "“Baseline innate and T cell populations are correlates of protection against symptomatic influenza virus infection independent of serology” (Mettelman et al. 2023)\n\nBaseline serum and peripheral blood samples from 206 SHIVERS-II participants (2018)\n\nVaccine status, infection outcomes, demographics\nBaseline is preseason for non-vaccinated and 14 days after vaccination for vaccinated\nSymptomatic and cryptic infections\nUnivariate analyses and multivariate partition and regression models\n\nUnivariate - ROC curves\n\nPredictive (random forest) modeling\n\nBase model with demographic and serologic data\nLymphoid model with base model + cell populations from lymphoid/functional panel\nMyeloid model with base model + cell populations from myeloid panel\nCombined model with all variables\nMyeloid only model\nLymphoid + myeloid model\n\n\n\n\n\n\n\n\nRelative importance of each baseline covariate in the combined random forest model"
+  },
+  {
+    "objectID": "background/flu-cops/index.html#a-multicenter-controlled-human-infection-study-of-influenza-ah1n1pdm09-in-healthy-adults-ortiz23",
+    "href": "background/flu-cops/index.html#a-multicenter-controlled-human-infection-study-of-influenza-ah1n1pdm09-in-healthy-adults-ortiz23",
+    "title": "Flu CoPs",
+    "section": "“A Multicenter, Controlled Human Infection Study of Influenza A(H1N1)pdm09 in Healthy Adults” (Ortiz et al. 2023)",
+    "text": "“A Multicenter, Controlled Human Infection Study of Influenza A(H1N1)pdm09 in Healthy Adults” (Ortiz et al. 2023)\n\nGMTs, notes later"
+  },
+  {
+    "objectID": "background/flu-cops/index.html#hemagglutination-inhibition-antibody-titers-mediate-influenza-vaccine-efficacy-against-symptomatic-influenza-ah1n1-ah3n2-and-bvictoria-infections-lim24",
+    "href": "background/flu-cops/index.html#hemagglutination-inhibition-antibody-titers-mediate-influenza-vaccine-efficacy-against-symptomatic-influenza-ah1n1-ah3n2-and-bvictoria-infections-lim24",
+    "title": "Flu CoPs",
+    "section": "“Hemagglutination inhibition antibody titers mediate influenza vaccine efficacy against symptomatic influenza A(H1N1), A(H3N2), and B/Victoria infections” (Lim et al. 2024)",
+    "text": "“Hemagglutination inhibition antibody titers mediate influenza vaccine efficacy against symptomatic influenza A(H1N1), A(H3N2), and B/Victoria infections” (Lim et al. 2024)\n\nCausal mediation analyses\nChildren aged 3-8 in the Dominican Republic, Honduras, Panama, Bangladesh, Lebanon, the Philippines, Thailand, and Turkey given either one or two doses of QIV or active comparator (hep A)\n\nTwo doses of QIV 28 days apart if they were not considered “primed” by natural infection or previous vaccination, one dose if they were considered primed\n\nSerum samples collected 28 days after vaccination, passive surveillance for ILI with influenza PCR confirmation\nAnalysis:\n\n“Total effect” of vaccination against influenza virus comprised of “indirect effect” mediated by immune marker like HAI titer and “direct effect” mediated by other protective immune mechanisms\nTotal effect estimated with proportional hazards model with time between last dose of vaccination and infection as outcome\nDirect effect (hazard ratio for QIV) estimated in three steps:\n\nLogistic regression with vaccination status as outcome and log HAI titers, age, region, and priming status as predictors\nCoefficients from step 1 are used to predict odds ratio of vaccination for each participant and weights for vaccinated participants constructed as inverse of these odds ratios\nWeighted proportional hazards model fitted with outcome being time between vaccination and infection with covariates age, vaccine status, region, and priming status, and weights from step 2 used as regression weights\n\nIndirect effect calculated as ratio of total and direct effects"
+  },
+  {
+    "objectID": "background/flu-cops/index.html#anti-neuraminidase-immunity-in-the-combat-against-influenza-zhang24",
+    "href": "background/flu-cops/index.html#anti-neuraminidase-immunity-in-the-combat-against-influenza-zhang24",
+    "title": "Flu CoPs",
+    "section": "“Anti-neuraminidase immunity in the combat against influenza” (Zhang and Ross 2024)",
+    "text": "“Anti-neuraminidase immunity in the combat against influenza” (Zhang and Ross 2024)"
+  },
+  {
+    "objectID": "background/flu-cops/index.html#miscellaneous-flu-serology-papers",
+    "href": "background/flu-cops/index.html#miscellaneous-flu-serology-papers",
+    "title": "Flu CoPs",
+    "section": "Miscellaneous flu serology papers",
+    "text": "Miscellaneous flu serology papers"
+  },
+  {
+    "objectID": "background/flu-cops/index.html#inferring-influenza-infection-attack-rate-from-seroprevalence-data-wu14",
+    "href": "background/flu-cops/index.html#inferring-influenza-infection-attack-rate-from-seroprevalence-data-wu14",
+    "title": "Flu CoPs",
+    "section": "“Inferring influenza infection attack rate from seroprevalence data” (Wu et al. 2014)",
+    "text": "“Inferring influenza infection attack rate from seroprevalence data” (Wu et al. 2014)"
+  },
+  {
+    "objectID": "background/flu-cops/index.html#individual-correlates-of-infectivity-of-influenza-a-virus-infections-in-households-tsang16",
+    "href": "background/flu-cops/index.html#individual-correlates-of-infectivity-of-influenza-a-virus-infections-in-households-tsang16",
+    "title": "Flu CoPs",
+    "section": "“Individual correlates of infectivity of influenza A virus infections in households” (Tsang et al. 2016)",
+    "text": "“Individual correlates of infectivity of influenza A virus infections in households” (Tsang et al. 2016)"
+  },
+  {
+    "objectID": "background/flu-cops/index.html#influenza-hemagglutination-inhibition-antibody-titer-as-a-mediator-of-vaccine-induced-protection-for-influenza-b-cowling2019",
+    "href": "background/flu-cops/index.html#influenza-hemagglutination-inhibition-antibody-titer-as-a-mediator-of-vaccine-induced-protection-for-influenza-b-cowling2019",
+    "title": "Flu CoPs",
+    "section": "“Influenza hemagglutination-inhibition antibody titer as a mediator of vaccine-induced protection for influenza B” (Benjamin J. Cowling et al. 2019)",
+    "text": "“Influenza hemagglutination-inhibition antibody titer as a mediator of vaccine-induced protection for influenza B” (Benjamin J. Cowling et al. 2019)"
+  },
+  {
+    "objectID": "background/flu-cops/index.html#the-value-of-neuraminidase-inhibition-antibody-titers-in-influenza-seroepidemiology-cowling19",
+    "href": "background/flu-cops/index.html#the-value-of-neuraminidase-inhibition-antibody-titers-in-influenza-seroepidemiology-cowling19",
+    "title": "Flu CoPs",
+    "section": "“The value of neuraminidase inhibition antibody titers in influenza seroepidemiology” (Benjamin J. Cowling and Sullivan 2019)",
+    "text": "“The value of neuraminidase inhibition antibody titers in influenza seroepidemiology” (Benjamin J. Cowling and Sullivan 2019)"
+  },
+  {
+    "objectID": "background/flu-cops/index.html#risk-factors-and-attack-rates-of-seasonal-influenza-infection-results-of-the-southern-hemisphere-influenza-and-vaccine-effectiveness-research-and-surveillance-shivers-seroepidemiologic-cohort-study-huang19",
+    "href": "background/flu-cops/index.html#risk-factors-and-attack-rates-of-seasonal-influenza-infection-results-of-the-southern-hemisphere-influenza-and-vaccine-effectiveness-research-and-surveillance-shivers-seroepidemiologic-cohort-study-huang19",
+    "title": "Flu CoPs",
+    "section": "“Risk factors and attack rates of seasonal influenza infection: Results of the Southern Hemisphere Influenza and Vaccine Effectiveness Research and Surveillance (SHIVERS) seroepidemiologic cohort study” (Huang et al. 2019)",
+    "text": "“Risk factors and attack rates of seasonal influenza infection: Results of the Southern Hemisphere Influenza and Vaccine Effectiveness Research and Surveillance (SHIVERS) seroepidemiologic cohort study” (Huang et al. 2019)"
+  },
+  {
+    "objectID": "background/misc/index.html#comparing-influenza-vaccine-efficacy-against-mismatched-and-matched-strains-a-systematic-review-and-meta-analysis-tricco13",
+    "href": "background/misc/index.html#comparing-influenza-vaccine-efficacy-against-mismatched-and-matched-strains-a-systematic-review-and-meta-analysis-tricco13",
+    "title": "Misc",
+    "section": "“Comparing influenza vaccine efficacy against mismatched and matched strains: a systematic review and meta-analysis” (Tricco et al. 2013)",
+    "text": "“Comparing influenza vaccine efficacy against mismatched and matched strains: a systematic review and meta-analysis” (Tricco et al. 2013)"
+  },
+  {
+    "objectID": "background/misc/index.html#effect-of-antigenic-drift-on-influenza-vaccine-effectiveness-in-the-united-states20192020-tenforde21",
+    "href": "background/misc/index.html#effect-of-antigenic-drift-on-influenza-vaccine-effectiveness-in-the-united-states20192020-tenforde21",
+    "title": "Misc",
+    "section": "“Effect of Antigenic Drift on Influenza Vaccine Effectiveness in the United States—2019–2020” (Tenforde et al. 2021)",
+    "text": "“Effect of Antigenic Drift on Influenza Vaccine Effectiveness in the United States—2019–2020” (Tenforde et al. 2021)"
+  },
+  {
+    "objectID": "background.html",
+    "href": "background.html",
+    "title": "Dissertation Notes and Writing",
+    "section": "",
+    "text": "CoP Background\n\n\n\n\n\n\n\n\n\n\n\nSavannah L. Miller\n\n\n\n\n\n\n\n\n\n\n\n\nFlu CoPs\n\n\n\n\n\n\n\n\n\n\n\nSavannah L. Miller\n\n\n\n\n\n\n\n\n\n\n\n\nFlu VE\n\n\n\n\n\n\n\n\n\n\n\nSavannah L. Miller\n\n\n\n\n\n\n\n\n\n\n\n\nMisc\n\n\n\n\n\n\n\n\n\n\n\nSavannah L. Miller\n\n\n\n\n\n\n\n\n\n\n\n\nVE~AgDist\n\n\n\n\n\n\n\n\n\n\n\nSavannah L. Miller\n\n\n\n\n\n\nNo matching items"
   }
 ]

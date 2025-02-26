@@ -1,0 +1,427 @@
+---
+title: "Flu CoPs"
+author: "Savannah L. Miller"
+execute: 
+  echo: false
+  warning: false
+  message: false
+format: 
+  html:
+    toc: true
+    self-contained: true
+    lightbox: true
+    link-external-newwindow: true
+bibliography: ../../assets/references/proposal.bib
+---
+# History and General Background Papers 
+
+## "The role of serum haemagglutination-inhibiting antibody in protection against challenge infection with influenza A2 and B viruses" [@hobson72]
+
+  *   1032 adults - serum HAI taken right before live virus challenge
+  *   Participants came from two different trials, but in both case, challenges were administered 2-3 weeks _after_ completed vaccination (whatever vaccination they may have received)
+  * Serum samples taken both before and (two weeks) after challenge, and nasal swabs for virus isolation were taken 48 hours after challenge 
+  * **50% Protective Dose** (PD50) - the titer at which the infection rate is reduced to half the maximum observed rate 
+    *   Influenza B: Approximately 1/18 (Infection rate was not much higher in those with no detectable titer than in those with lowest detectable titer - 1/6)
+    * Influenza A: 1/18-1/36 (multiple A studies)
+  * Discussion - specify that this cannot be used to identify a causal relationship, and that HI is often only part of a greater immune response
+    * HI appears to have stronger relationship than NI, but may specifically be less relevant in flu B - not enough data to tell in this study
+    
+    
+```{r}
+#| echo: false
+knitr::include_graphics(here::here("assets/ref-figs/hobson-fig2.png"))
+```
+
+```{r}
+#| echo: false
+knitr::include_graphics(here::here("assets/ref-figs/hobson-fig3.png"))
+```
+
+```{r}
+#| echo: false
+knitr::include_graphics(here::here("assets/ref-figs/hobson-fig6.png"))
+```
+
+## Determinants of immunity to influenza infection in man [@potter79]
+
+  * Review 
+  * "Most results indicate that, following immunization with inactivated virus vaccines, HI antibody titres of approximately 1:30-1:40 represent the 50% protective level of antibody (Hobson et al. 1972; Potter et al. 1977a), and similar results have been obtains following live virus infection (McDonald et al. 1962; Andrews et al. 1966)."
+
+```{r}
+#| echo: false
+knitr::include_graphics(here::here("assets/ref-figs/potter-tbl2.png"))
+```
+
+## "Interpretation of responses and protective levels of antibody against attenuated influenza A viruses using single radial haemolysis" [@al-khayatt84]
+
+  * 50% PT: 42 for H1N1, 44 for H3N2
+  * "50% protection against infection of man with H1N1 or H3N2 influenza virus strains"
+
+
+## "Correlates of protection to influenza virus, where do we go from here?" [@cox13]
+
+  * Notes later 
+
+## "Immunological assessment of influenza vaccines and immune correlates of protection" [@reber13]
+
+  * Notes later 
+
+## "The establishment of surrogates and correlates of protection: Useful tools for the licensure of effective influenza vaccines?" [@ward18]
+
+  * Notes later 
+
+## "Call for a paradigm shift in the design of universal influenza vaccines by harnessing multiple correlates of protection" [@jang20]
+
+  * Notes later 
+
+## "Meeting report and review: Immunological assays and correlates of protection for next-generation influenza vaccines" [@krammer20]
+
+  * Notes later 
+
+
+
+
+
+
+
+
+# Models and Identified CoP Relationships
+
+## "On the relationship between mean antibody level, seroprotection and clinical protection from influenza" [@nauta2009a]
+
+  * Modeling/simulations - no real results 
+  * More notes later 
+
+## "Relationship between haemagglutinationinhibiting antibody titres and clinical protection against influenza: development and application of a bayesian random-effects model" [@coudeville10]
+
+  * Used 15 papers from 1945-2006; 6 challenge studies, 5 clinical trials, and 4 cohort studies 
+  * Models tried:
+    * Simple model for one study, no censorship and no covariates 
+    * A random-effects model with uncensored data with covariates
+    * A random-effects model with interval-censored data with covariates
+  * Used MCMC methods for parameter estimation 
+  * Determined simplest model (using only HAI titer) was sufficient for predicting protection 
+  
+
+
+| Model Term            | Meaning                                                                                         |
+|-----------------------|-------------------------------------------------------------------------------------------------|
+| $\lambda$             | baseline risk that an individual develops influenza in the absence of any HI-related protection |
+| $T_j$                 | HI titer                                                                                        |
+| $\theta$              | associated vector of parameters                                                                 |
+| $P(y_j = 1)$          | the risk that an individual develops influenza                                                  |
+| $\pi (T_j, \theta)$   | HI-protection curve                                                                             |
+| 50% PT                | 50% protection titer                                                                            |
+| $X_i$                 | vector of binary variables                                                                      |
+| $(\alpha_c, \beta_c)$ | random effects associated with $X_i$                                                            |
+| $\lambda_i$           | baseline risks unrelated to HI protection curve                                                 |
+
+
+Estimation of the risk that an individual develops influenza in the presence HI antibodies: 
+
+$$ P(Y_j = 1 | T_j, \theta, \lambda) = \lambda(1 - \pi(T_j, \theta)) $$ 
+
+Simple model for one study, no censorship, and no covariates: 
+
+$$ \pi(T_j, \theta) = \frac{e^{\beta(\log(T_j) - \alpha)}}{1 + e^{\beta(\log(T_j) - \alpha)}} $$
+
+$$ = 1 - \frac{1}{1 + e^{\beta(\log(T_j) - \alpha)}} $$ 
+
+  * $\alpha$ is closely linked to the 50% protection titer and can be interpreted as a location parameter for the HI protection curve
+
+  
+```{r}
+#| echo: false
+knitr::include_graphics(here::here("assets/ref-figs/coudeville-tbl2.png"))
+```
+
+```{r}
+#| echo: false
+knitr::include_graphics(here::here("assets/ref-figs/coudeville-curve.png"))
+```
+
+### "A new approach to estimate vaccine efficacy based on immunogenicity data applied to influenza vaccines administered by the intradermal or intramuscular routes" [@coudeville2010]
+
+  * Part two of [@coudeville10]
+  * Comparing intradermal vaccine (INTANZA/IDFlu) to standard TIV IM vaccine
+  
+| Model Term            | Meaning                                                                                         |
+|-----------------------|-------------------------------------------------------------------------------------------------|
+| $P_0$                 | a baseline risk that defines, for a given setting, the level of exposure to influenza risk       |
+| $\pi(T_i)$            |the HI protection curve itself                                                                   |
+| $T_i$                 | a given HI titer                                                                                |
+| $T_j^{pre}$          | the risk that an individual develops influenza                                                  |
+| $T_j^{post}$          | the risk that an individual develops influenza                                                  |
+
+$$ P(\text{influenza}) = P_0[1 - \pi(T_i)] $$ 
+$$ VE_{HI} = 1 - \frac{\sum_{j=1}^N[1-\pi(T_j^{post})]}{\sum_{j=1}^N[1-\pi(T_j^{pre})]} $$ 
+
+$$ AIVE_{ID/IM} = VE_{ID} - VE_{IM} $$
+$$ RIVE_{ID/IM} = (VE_{ID}-VE_{IM})/VE_{IM} $$ 
+
+
+## "Hemagglutination inhibition antibody titers as a correlate of protection for inactivated influenza vaccines in children" [@black11]
+
+  * 2007-2008 and 2008-2009 seasons
+  * 4707 influenza vaccine-naive children 6-72 months randomized 2:2:1 into:
+    * MF-59 –adjuvanted inactivated influenza vaccine (ATIV, Fluad)
+    * Subunit TIV (TIV control, Influsplit, GSK, Rixensart, Belgium) 
+    * Saline placebo 
+  * Active surveillance for ILI with RT-PCR confirmation
+  * Serum samples obtained for a subset of 777 children at:
+    * enrollment, 
+    * on day 29 when the second dose was administered, 
+    * at **day 50** (approximately 3 weeks after dose 2), and 
+    * at day 180 after receipt of 2 doses of vaccine or placebo
+  * Linear **logistic regression** model fitted with vaccine group only included as predictor 
+  * Second logistic regression model was fit, which controlled for log2 day 50 antibody titer and vaccine group to determine the effect of antibody titer on the occurrence of influenza 
+  * Relationship between the occurrence of influenza and H3N2 antibody titer level was modeled using the logistic regression model advocated by **Dunning** that accommodates both antibody titers and factors independent of antibody titers
+    * Probability that a subject develops influenza is the probability that the subject is susceptible multiplied by the probability that susceptible individuals develop disease. Susceptibility is characterized by the probability $\lambda$, and the probability that a subject with titer t is protected is represented by a 2-parameter logit function, with $\alpha$ and $\beta$ denoting the location and the scale parameters of interest, respectively
+  * Estimated CoP at time of "challenge" (time the diagnostic viral swab was obtained) using day 50 titer, estimated half life of 111 days and assuming logarithmic decay
+  * Protective titers (at fixed time 50 days):
+    * 50%: 1:110
+    * 70%: 1:215
+    * 80%: 1:330
+    * 90%: 1:629
+    * Traditional 1:40 was associated with 22% protection 
+  * Protective titers (at time of "challenge"):
+    * 50%: 1:85 (95% CI 35.6, 137.9)
+    * 90%: 1:302 (95% CI 176.9, 439.2)
+
+```{r}
+#| echo: false
+knitr::include_graphics(here::here("assets/ref-figs/black-tbl1.png"))
+```
+
+```{r}
+#| echo: false
+knitr::include_graphics(here::here("assets/ref-figs/black-tbl3.png"))
+```
+
+## "Influenza hemagglutination-inhibition antibody titer as a correlate of vaccine-induced protection" [@ohmit11]
+
+  * GMT, %(+) at titers, etc. - simpler methods, take notes later 
+
+## "Estimation of the assocation between antibody titers and protection against confirmed influenza virus infection in children" [@ng13]
+
+## "Estimation of the assocation between antibody titers and protection against confirmed influenza virus infection in children" [@ng13]
+
+  * Children aged 6-17 in Hong Kong given TIV or placebo and followed for 9-12 months (Kiddivax)
+    * The TIV contained 15 μg of hemagglutinin for each of the A/Brisbane/59/2007(H1N1)–like, A/Brisbane/10/2007(H3N2)like, and B/Brisbane/60/2008–like (Victoria lineage) strains. 
+  * Serum samples collected pre-vaccine, one month post-vaccine, at end of follow up/study
+    * 25% of participants had additional samples taken midstudy
+  * 465 TIV, 308 placebo
+  * Examined waning rates in absence of infection using log-linear regression models based on all postvaccination, midstudy, and end-of-study antibody titer data (separate for TIV vs placebo, excluding all possible infections)
+    * Allowed for different wanting rates in those 6-8 and 9-17 years old 
+  * **Cox proportional hazards model** estimating correlation of HAI titer over time with protection against PCR-confirmed infection, assessing if association different for TIV vs placebo group and allowing for time-varying incidence in the community 
+  * Protective titers (accounting for waning and time-varying community risk of infection):
+    * 1:40 against A(H1N1)pdm09: 48% (95% CI 30, 62)
+    * 1:40 against B(Victoria): 55% (95% CI 32, 70)
+  
+  
+```{r}
+#| echo: false
+knitr::include_graphics(here::here("assets/ref-figs/ng-fig1.png"))
+```
+
+## "Serological responses following influenza A(H7N9) virus infection" [@freeman14]
+
+  * Letter to the editor - notes later 
+
+## "Association between antibody titers and protection against influenza virus infection within households" [@tsang14]
+
+  * Recruited those presenting at outpatient clinics with ARI within 48 hours of onset and who lived in a household with at least two others - those positive for flu A or B were followed up with along with their households 
+  * Serum samples collected at initial visit from consenting subgroup of household contacts 
+  * Modeling: log-linear, logistic, nonparametric models fit for relationship between protection and antibody titer (log-linear was main model, others fit to assess whether results were robust with respect to model)
+  
+```{r}
+#| echo: false
+knitr::include_graphics(here::here("assets/ref-figs/tsang-fig3.png"))
+```
+
+  * Totally different 50%PT - "One possible explanation for this observation is that influenza virus infections in a household index case result in more intense exposures among susceptible household contact"
+
+## "Some extension in continuous models for immunological correlates of protection" [@dunning15] 
+
+  * More stat heavy - notes later 
+
+## "Correlates of protection against influenza in the elderly: Results from an influenza vaccine efficacy trial" [@dunning16]
+
+## "Extrapolating theoretical efficacy of inactivated influenza A/H5N1 virus vaccine from human immunogenicity studies" [@feldstein16]
+
+  * Same as my paper - notes later 
+
+
+
+## "The Household Influenza Vaccine Effectiveness Study: Lack of Antibody Response and Protection Following Receipt of 2014-2015 Influenza Vaccine" [@petrie17]
+
+  * Household study based out of University of Michigan
+  * Households had $\ge$ 3 members, including $\ge$ 2 children under 18
+  * Serum collected at enrollment and surveillance conducted October 2014-May 2015, RT-PCR used to confirm flu cases 
+  * **Cox proportional hazards models** adjusted for age and high-risk health status
+    * Robust variances using sandwich estimators to account for household clustering
+    * No curve or 50% PT reported 
+
+```{r}
+#| echo: false
+knitr::include_graphics(here::here("assets/ref-figs/petrie-fig1.png"))
+```
+
+## "Age-specific differences in the dynamics of protective immunity to influenza" [@ranjeva19]
+
+  * Notes later - maybe handelgroup paper?
+
+## "Maternal antibodies against influenza in cord blood and protection against laboratory-confirmed influenza in infants" [@cowling20]
+
+  * "Previous studies have shown a mean half-life of 40–58 days in maternal antibodies after maternal influenza vaccination, which may confer the most protection in the first 4–6 months of life. A more recent study found that vaccine efficacy was highest among infants 8 weeks of age or younger and gradually decreased with increasing age."
+  * Maternal cord blood HAI assays, followed children for first 6 months
+  * **Cox proportional hazards model** for time from birth to infection, $\log_2$ titer and risk of PCR-confirmed infection
+    * Adjusted for variation over calendar time in risk of infection by type/subtype based on community surveillance data 
+  * Infants protected from influenza B infection when cord blood HAI titer against B/Yamagata was 40 or greater 
+    * 83% (95% CI 44-95%) reduction in risk of infection compared to titer <10
+  * No association for H3N2, not enough H1N1 infections
+  * Only 26 infections total
+  
+```{r}
+#| echo: false
+knitr::include_graphics(here::here("assets/ref-figs/cowling20-fig4.png"))
+```
+
+## "Distinguishing causation from correlation in the use of correlates of protection to evaluate and develop influenza vaccines" [@lim2020]
+
+  * Mechanistic vs nonmechanistic CoPs -> "Mediators of protection" vs "correlates of protection" 
+  * Causation vs correlation 
+  * More notes later 
+  
+  
+```{r}
+#| echo: false
+knitr::include_graphics(here::here("assets/ref-figs/lim-fig1.png"))
+```  
+
+```{r}
+#| echo: false
+knitr::include_graphics(here::here("assets/ref-figs/lim-fig2.png"))
+```
+
+```{r}
+#| echo: false
+knitr::include_graphics(here::here("assets/ref-figs/lim-fig3.png"))
+```
+
+```{r}
+#| echo: false
+knitr::include_graphics(here::here("assets/ref-figs/lim-fig4.png"))
+```
+
+## "A method to estimate probability of disease and vaccine efficacy from clinical trial immunogenicity data" [@dudasova2021]
+
+  * PoDBAY
+  * Probability of disease vs probability of protection 
+  * R package
+  * Not a flu-specific paper, but does have a flu example 
+  * Have discussed this at IDIG before 
+
+
+$$ PoD = p_{max} \frac{(\frac{et50}{titer})^\lambda}{1 + (\frac{et50}{titer})^\lambda}, for \space titers > 0 $$
+
+$$ PoD = pmax, for \space titers <= 0 $$
+
+  * pmax = maximum PoD $\approx \lambda$?  
+
+  * et50 = titer values corresponding to pmax/2 value, PoD(et50) = pmax/2 $\approx$ 50%PT
+
+  * $\lambda$ = slope
+  
+```{r}
+#| echo: false
+knitr::include_graphics(here::here("assets/ref-figs/dudasova-fig4.png"))
+```  
+
+* Similar 50% to Black et al (same data, just new model)
+
+```{r}
+#| echo: false
+knitr::include_graphics(here::here("assets/ref-figs/dudasova-fig5.png"))
+```  
+
+## "Baseline innate and T cell populations are correlates of protection against symptomatic influenza virus infection independent of serology" [@mettelman23]
+
+
+  * Baseline serum and peripheral blood samples from 206 SHIVERS-II participants (2018)
+    * Vaccine status, infection outcomes, demographics 
+    * Baseline is preseason for non-vaccinated and 14 days after vaccination for vaccinated 
+    * Symptomatic and cryptic infections 
+    * **Univariate analyses and multivariate partition and regression models**
+      * Univariate - ROC curves 
+    * **Predictive (random forest) modeling**
+      * Base model with demographic and serologic data 
+      * Lymphoid model with base model + cell populations from  lymphoid/functional panel
+      * Myeloid model with base model + cell populations from myeloid panel
+      * Combined model with all variables 
+      * Myeloid only model 
+      * Lymphoid + myeloid model
+
+```{r}
+#| echo: false
+#| fig-cap: "Relative importance of each baseline covariate in the combined random forest model"
+knitr::include_graphics(here::here("assets/ref-figs/mettelman-fig6b.png"))
+``` 
+
+```{r}
+#| echo: false
+knitr::include_graphics(here::here("assets/ref-figs/mettelman-fig7.png"))
+``` 
+
+## "A Multicenter, Controlled Human Infection Study of Influenza A(H1N1)pdm09 in Healthy Adults" [@ortiz23]
+
+  * GMTs, notes later 
+
+## "Hemagglutination inhibition antibody titers mediate influenza vaccine efficacy against symptomatic influenza A(H1N1), A(H3N2), and B/Victoria infections" [@lim24]
+
+  * Causal mediation analyses 
+  * Children aged 3-8 in the Dominican Republic, Honduras, Panama, Bangladesh, Lebanon, the Philippines, Thailand, and Turkey given either one or two doses of QIV or active comparator (hep A)
+    * Two doses of QIV 28 days apart if they were not considered "primed" by natural infection or previous vaccination, one dose if they were considered primed 
+  * Serum samples collected 28 days after vaccination, passive surveillance for ILI with influenza PCR confirmation 
+  * Analysis:
+    * "Total effect" of vaccination against influenza virus comprised of "indirect effect" mediated by immune marker like HAI titer and "direct effect" mediated by other protective immune mechanisms 
+    * Total effect estimated with **proportional hazards model** with time between last dose of vaccination and infection as outcome 
+    * Direct effect (hazard ratio for QIV) estimated in three steps: 
+      1) **Logistic regression** with vaccination status as outcome and log HAI titers, age, region, and priming status as predictors 
+      2) Coefficients from step 1 are used to predict odds ratio of vaccination for each participant and weights for vaccinated participants constructed as inverse of these odds ratios 
+      3) **Weighted proportional hazards** model fitted with outcome being time between vaccination and infection with covariates age, vaccine status, region, and priming status, and weights from step 2 used as regression weights 
+    * Indirect effect calculated as ratio of total and direct effects
+
+
+```{r}
+#| echo: false
+knitr::include_graphics(here::here("assets/ref-figs/lim24-fig1.png"))
+```  
+
+```{r}
+#| echo: false
+knitr::include_graphics(here::here("assets/ref-figs/lim24-tbl2.png"))
+```  
+
+
+## "Anti-neuraminidase immunity in the combat against influenza" [@zhang24]
+
+
+
+
+
+
+
+## Miscellaneous flu serology papers 
+
+## "Inferring influenza infection attack rate from seroprevalence data" [@wu14]
+
+## "Individual correlates of infectivity of influenza A virus infections in households" [@tsang16]
+
+## "Influenza hemagglutination-inhibition antibody titer as a mediator of vaccine-induced protection for influenza B" [@cowling2019]
+
+## "The value of neuraminidase inhibition antibody titers in influenza seroepidemiology" [@cowling19]
+
+## "Risk factors and attack rates of seasonal influenza infection: Results of the Southern Hemisphere Influenza and Vaccine Effectiveness Research and Surveillance (SHIVERS) seroepidemiologic cohort study" [@huang19]
+
+## "Life course exposures continually shape antibody profiles and risk of seroconversion to influenza" [@yang20]

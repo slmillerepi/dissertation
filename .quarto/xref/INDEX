@@ -13,5 +13,20 @@
   },
   "aim3/master-slides/index.qmd": {
     "index.html": "c746efdd"
+  },
+  "background/cop-background/index.qmd": {
+    "index.html": "a180ad5e"
+  },
+  "background/flu-cops/index.qmd": {
+    "index.html": "3cb36e6f"
+  },
+  "background/flu-ve/index.qmd": {
+    "index.html": "8b3cbe37"
+  },
+  "background/ve-agdist/index.qmd": {
+    "index.html": "c191a540"
+  },
+  "background/misc/index.qmd": {
+    "index.html": "16f7750d"
   }
 }

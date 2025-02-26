@@ -13,7 +13,7 @@ execute:
   echo: false
   warning: false
   message: false
-bibliography: ../../background/references/miller-ve-agdist.bib
+bibliography: ../../assets/references/miller-ve-agdist.bib
 ---
 
 ```{r}

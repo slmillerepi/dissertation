@@ -3,15 +3,15 @@ project:
   output-dir: docs
 
 website:
-  title: "dissertation"
+  title: "Dissertation Notes and Writing"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - href: about.qmd
         text: About
-      - href: Background
-        text: background.qmd
+      - href: background.qmd
+        text: Background
       - href: aim1.qmd
         text: "Aim 1"
       - href: aim2.qmd
@@ -21,7 +21,7 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: solar
     css: styles.css
     toc: true
 
