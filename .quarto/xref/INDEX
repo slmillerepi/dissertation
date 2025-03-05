@@ -28,5 +28,14 @@
   },
   "background/misc/index.qmd": {
     "index.html": "16f7750d"
+  },
+  "aim1/animal-studies/index.qmd": {
+    "index.html": "2c091288"
+  },
+  "aim2.qmd": {
+    "aim2.html": "ad4cf04d"
+  },
+  "aim1.qmd": {
+    "aim1.html": "6e345bd6"
   }
 }

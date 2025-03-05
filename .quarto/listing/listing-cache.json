@@ -1,10 +1,16 @@
 {
   "listingMap": {
+    "background.qmd": [
+      "background"
+    ],
+    "aim2.qmd": [
+      "aim2"
+    ],
     "aim3.qmd": [
       "aim3"
     ],
-    "background.qmd": [
-      "background"
+    "aim1.qmd": [
+      "aim1"
     ]
   }
 }

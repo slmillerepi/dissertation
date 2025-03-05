@@ -1,0 +1,74 @@
+---
+title: "Potential Animal Study Data Source Summaries"
+author: "Savannah L. Miller"
+format: 
+  html:
+    toc: true
+    self-contained: true
+    lightbox: true
+    link-external-newwindow: true
+execute: 
+  echo: false
+  warning: false
+  message: false
+bibliography: ../../assets/references/potential-animal-data.bib
+---
+
+# Purpose 
+
+# Lit Review 
+
+## Potential data sources 
+
+### Intranasal administration of octavalent next-generation influenza vaccine elicits protective immune responses against seasonal and pre-pandemic viruses [@uno24] {#sec-uno24}
+
+-   First/Last Authors: Naoko Uno/Ted M. Ross
+-   Author we know: Ted M. Ross
+-   Animal Model: Ferrets
+-   Summary: 
+
+    - "Octavalent mixtures of COBRA hemagglutinin (HA) (H1, H2, H3, H5, H7, and influenza B virus) plus neuraminidase (NA) (N1 and N2) recombinant proteins mixed with c-di-AMP adjuvant were administered intranasally to naive or pre-immune ferrets in prime-boost fashion. Four weeks after final vaccination, collected sera were analyzed for breadth of antibody response, and the animals were challenged with seasonal or pre-pandemic strains. The octavalent COBRA vaccine elicited antibodies that recognized a broad panel of strains representing different subtypes, and these vaccinated animals were protected against influenza virus challenges. Overall, this study demonstrated that the mixture of eight COBRA HA/NA proteins mixed with an intranasal adjuvant is a promising candidate for a universal influenza vaccine."
+
+-   Notes: 
+
+    - "Ferrets were randomly divided into [four] vaccine groups, and each vaccine group had **three different infection groups (n = 4–6)**. The groups were pre-immune ferrets given octavalent COBRA vaccine, naive ferrets given octavalent COBRA vaccine, pre-immune ferrets given mock vaccine, and naive ferrets given mock vaccine."
+    - "For the pre-immune groups, ferrets that had been previously exposed to CA/09 prior to this study were infected with Pan/99 and B/HK/01 60 days prior to vaccination."
+    - "Ferrets were **boosted 28 days after initial vaccination**. Blood was harvested from all anesthetized ferrets via the anterior vena cava prior to vaccination and at days 28 and 56 post-initial vaccination."
+    - "On day 56 post-vaccination, ferrets were challenged i.n. with H1N1 Bris/18 (108 PFU), IBV B/WA/19 (107 PFU), or a lethal dose of H5N1 Vn/04 (105 PFU, BSL3 select agent) viruses in a volume of 1 mL (n = 5 per vaccine group per challenge)."
+    - "Ferrets were **monitored daily** for weight loss, disease signs, and death for 10 days after infection. Experimental endpoints were defined as >20% wt loss compared to initial body weight. Additionally, dyspnea, lethargy, response to external stimuli, and other respiratory distress were closely monitored for the determination of humane endpoint."
+
+```{r}
+knitr::include_graphics(here::here("aim1/animal-studies/uno24-schematic.png"))
+```
+
+
+
+
+### Multivalent next generation influenza virus vaccines protect against seasonal and pre-pandemic viruses [@uno24a] {#sec-uno24a}
+
+-   First/Last Authors: Naoko Uno/Ted M. Ross
+-   Author we know: Ted M. Ross 
+-   Animal Model: Mouse
+-   Summary: 
+
+    - "In this study, mice were vaccinated intramuscularly with multiple COBRA HA and NA immunogens in quadrivalent (H1, H3, N1, N2) or heptavalent (H1, H2, H3, H5, H7, N1, N2) regimens formulated with AddaVax™, an oil-in-water emulsion adjuvant. These vaccines elicited protective immune responses against a wide breadth of seasonal IAV strains. Heptavalent formulations elicited protective immune responses against a wide breadth of pre-pandemic strains as well. Multivalent COBRA HA and NA proteins are promising candidates for a universal, broadly-reactive influenza vaccine."
+-   Notes: 
+
+    -   "Mice were randomly divided into **four vaccine groups (n=44)** and each vaccine group had **four different infection groups (n=11)**. The vaccine groups were **quadrivalent COBRA formulation**, consisting of seasonal components H1 HA (Y2), H3 HA (NG2), N1 NA (N1I), and N2 NA (N2A); **heptavalent COBRA formulation**, consisting of seasonal Y2, NG2, N1I, N2A along with pandemic components H2 HA (Z1), H5 HA (IAN 8), and H7 HA (Q6); **adjuvant only**; or **negative control**. The vaccines were formulated with 3 μg of each recombinant protein or phosphatebuffered saline (PBS, Corning, Tewkbury, MA, USA) and adjuvanted with an emulsified squalene-based oil-inwater emulsion adjuvant, AddaVax™ (InvivoGen, San Diego, CA, USA) at 1:1 ratio."
+    - "Vaccines were administered intramuscularly (i.m.) into the hind leg of the animals on **day 0, 28, and 56** in a homologous prime-boost-boost regimen. Blood was collected from the facial vein **14 days following each vaccination**, on day 14, 42, and 70."
+    - "**Four weeks after final vaccination, mice were challenged** intranasally (i.n.) with 50 μL volume of live influenza virus: **lethal dose** of Bris/18 (3 × 106 PFU), KS/17 (6 × 106 PFU), MA-Switz/13 (1 × 105 PFU), Mal/MN/08 (1 × 104 PFU), lethal dose of H5N6 Sich/14 (106 PFU), or lethal dose of Anhui/13 (102 PFU, under biosafety level 3 (BSL3) conditions). Following infection, the **animals’ body weights were recorded daily**, and the animals were **monitored twice daily** for clinical signs (labored breathing, lethargy, hunched back, ruffled fur, failure to respond to stimuli, and severe respiratory distress) for **14 days**. Weight loss more than 25% was used as a primary measurement for determination of humane endpoint. On days 2 or 3 and 6 after infection, three animals from each group were sacrificed, and lungs were collected to assess viral load. Lungs were frozen on dry ice and stored at − 80 °C. Remaining mice (n = 5) were euthanized 14 days after challenge."
+
+## Confirmed data sources 
+
+## Denied/Rejected data sources 
+
+### Paper title [intextcit]
+
+-   First/Last Authors: 
+-   Author we know (loc):
+-   Animal Model:
+-   Summary: 
+-   Notes: 
+
+
+# References 

@@ -1,9 +1,13 @@
 [
   {
-    "listing": "/aim3.html",
+    "listing": "/aim1.html",
     "items": [
-      "/aim3/master-slides/index.html"
+      "/aim1/animal-studies/index.html"
     ]
+  },
+  {
+    "listing": "/aim2.html",
+    "items": []
   },
   {
     "listing": "/background.html",
@@ -13,6 +17,12 @@
       "/background/flu-ve/index.html",
       "/background/misc/index.html",
       "/background/ve-agdist/index.html"
+    ]
+  },
+  {
+    "listing": "/aim3.html",
+    "items": [
+      "/aim3/master-slides/index.html"
     ]
   }
 ]
