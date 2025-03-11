@@ -24,5 +24,11 @@
     "items": [
       "/aim3/master-slides/index.html"
     ]
+  },
+  {
+    "listing": "/presentations.html",
+    "items": [
+      "/presentations/proposal-idig/index.html"
+    ]
   }
 ]

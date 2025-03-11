@@ -12,12 +12,16 @@ website:
         text: About
       - href: background.qmd
         text: Background
+      - href: specificaims.qmd
+        text: "Specific Aims"
       - href: aim1.qmd
         text: "Aim 1"
       - href: aim2.qmd
         text: "Aim 2"
       - href: aim3.qmd
         text: "Aim 3"
+      - href: presentations.qmd
+        text: "Presentations"
 
 format:
   html:

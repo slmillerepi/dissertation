@@ -37,5 +37,15 @@
   },
   "aim1.qmd": {
     "aim1.html": "6e345bd6"
+  },
+  "specificaims.qmd": {
+    "specificaims.html": "06a0d793",
+    "specificaims.tex": "99bccdd9"
+  },
+  "presentations/proposal-idig/index.qmd": {
+    "index.html": "25373376"
+  },
+  "presentations.qmd": {
+    "presentations.html": "b830af5e"
   }
 }
