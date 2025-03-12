@@ -16,3 +16,55 @@ format:
     link-external-newwindow: true
 bibliography: ../../assets/references/proposal.bib
 ---
+
+# Acknowledgements {.smaller}
+
+Committee
+
+:::: {.columns}
+
+::: {.column width=15%}
+
+
+
+![Andreas Handel](ah.jpg){width=2in}
+
+![Zane Billings](zb.jpg)
+
+:::
+
+::: {.column width=15%}
+![Ye Shen](ys.jpg){width=2in}
+
+![Ted Ross](tr.jpg)
+:::
+
+::: {.column width=15%}
+![Amy Winter](aw.jpg){width=2in}
+
+![George Okoli](go.jpg){width=2in}
+:::
+
+::: {.column width=15%}
+![Ben Cowling](bc.jpg){width=2in}
+
+![Funding](civics.jpg){width=2in}
+
+:::
+
+
+::: {.column width=15%}
+
+![](cph.png)
+
+![](cider.png){width=2in}
+
+:::
+
+::: {.column width=15%}
+- Handelgroup
+- IDIG
+- 
+:::
+
+::::

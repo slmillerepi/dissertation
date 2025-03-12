@@ -9,6 +9,7 @@ format:
     slide-number: true
     number-sections: true
     number-depth: 1
+    
 execute: 
   echo: false
   warning: false
