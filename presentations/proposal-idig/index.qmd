@@ -9,13 +9,485 @@ execute:
   message: false
 format: 
   revealjs:
-    scrollable: true
-    toc: true
+    scrollable: false
+    slide-number: true
+    toc: false
     self-contained: true
     lightbox: true
     link-external-newwindow: true
+    theme: [default, custom.scss]
 bibliography: ../../assets/references/proposal.bib
 ---
+
+# Background
+
+## Influenza 
+
+![](flu-burden-2425.png){height=500 fig-align="center"}
+
+::: aside
+@cdc25
+:::
+
+## Influenza
+
+:::: {.columns}
+
+::: {.column width=50%}
+
+![](news1.png)
+
+![](news2.png)
+
+:::
+
+::: {.column width=50%}
+![](news3.png)
+
+![](news4.png)
+
+:::
+
+::::
+
+## Influenza
+
+:::: {.columns}
+
+::: {.column width=50%}
+
+![](cdc-influenza.png){height=400}
+
+
+
+:::
+
+::: {.column}
+-   Enveloped negative-sense single-strand RNA virus
+-   Segmented genome (8 segmenets)
+-   HA facilitates viral entry 
+-   NA facilitates viral release
+:::
+::::
+
+::: aside
+
+@cdc24b; @krammer18
+
+:::
+
+## Influenza Classification 
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+- Types and Subtypes:
+
+  - **A/H1N1**
+  - **A/H3N2**
+  - A/H5N1
+  - **B/Victoria**
+  - ~~B/Yamagata~~
+  - C
+  - D
+  
+
+
+:::
+
+::: {.column width="50%"}
+
+- Strains [@who24]:
+
+  - A/Victoria/4897/2022 (H1N1)pdm09-like virus
+  - A/Thailand/8/2022 (H3N2)-like virus
+  - B/Austria/1359417/2021 (B/Victoria lineage)-like virus
+
+:::
+
+::::
+
+## Influenza Vaccines 
+
+::: {style="font-size: 90%;"}
+
+Strains are chosen/recommended each year based on [@cdc24a]:
+
+- Which influenza viruses are making people sick prior to the upcoming flu season,
+- The extent to which those viruses are spreading prior to the upcoming flu season,
+- How well the previous season's vaccines may protect against those influenza viruses, and
+- The ability of vaccine viruses to provide cross-protection against a range of related influenza viruses of the same type or subtype/lineage.
+
+:::
+
+## Influenza Vaccines
+
+![](DAG1.png){height=525 fig-align="center"}
+
+::: aside
+Created with BioRender.com
+:::
+
+## Influenza Vaccines
+
+![](DAG2.png){height=525 fig-align="center"}
+
+::: aside
+Created with BioRender.com
+:::
+
+## Influenza Vaccines
+
+![](DAG3.png){height=525 fig-align="center"}
+
+::: aside
+Created with BioRender.com
+:::
+
+## Influenza Vaccines
+
+![](DAG4.png){height=525 fig-align="center"}
+
+::: aside
+Created with BioRender.com
+:::
+
+## Influenza Vaccines
+
+![](DAGFinal.png){height=525 fig-align="center"}
+
+::: aside
+Created with BioRender.com
+:::
+
+## Problem/Significance
+
+![](cdc-ve.png)
+
+::: aside
+VE is variable and often low; @cdc24c
+:::
+
+## Problem/Significance
+
+:::: {.columns}
+
+::: {.column width=40%}
+
+::: {style="font-size: 70%;"}
+
+- Why is VE so low? Many different theories (probably a combination):
+  - Original antigenic sin/imprinting
+  - Low immunogenicity 
+  - Match/Mismatch between vaccine strain and circulating strain
+  
+:::
+
+:::
+
+::: {.column}
+
+![](vaccine-match-mismatch.png)
+
+::: aside
+Created with BioRender.com
+:::
+
+:::
+
+::::
+
+
+## Specific Aims
+
+1. Identify and model correlates of protection against influenza in animal models.
+
+2. Evaluate benefit of high-dose influenza vaccination by estimating and comparing Fluzone vaccine efficacies in age- and dose-based groups.
+
+3. Quantify the impact of antigenic distance between vaccine and circulating influenza strains on vaccine effectiveness.
+
+# **Aim 1.** Identify and model correlates of protection against influenza in animal models.
+
+## Correlates of Protection
+
+-   Biomarker associated with protection against infection or disease 
+-   Related terms: surrogate, mechanistic/nonmechanistic correlate, mediator of protection
+-   Nomenclature often depends on the believed causality of the marker
+
+::: aside
+@lim20; 
+:::
+
+## CoPs in Humans 
+
+:::: {.columns}
+::: {.column width=50%}
+![](coudeville.png){height=200}
+:::
+
+::: {.column}
+![](dudasova.png){height=215}
+:::
+
+::::
+
+![](cowling18.png){height=250 fig-align="center"}
+
+
+::: aside
+From top left: @coudeville10; @dudasova2021; @cowling2019
+:::
+
+::: {.notes}
+-   Hobson 1972(date?) 1:40 50%PT
+:::
+
+## [Planned] Data Description
+
+![](mouse_timeline.png){height=550 fig-align="center"}
+
+::: aside
+Created with BioRender.com
+:::
+
+::: {.notes}
+-   We are still working on data requests with bench scientists at UGA (and potentially elsewhere) who perform animal studies that follow this basic timeline. 
+-   Essentially, we will request data sets that have mice or ferrets who are pre-immune and/or vaccinated at the beginning of the study, with pre-challenge HAI titers, reasonable inoculations (AKA not 10x the lethal dose), and follow up with infection and disease outcomes.
+:::
+
+## Proposed Study {.smaller}
+
+:::: {.columns}
+
+:::{.column width=40%}
+
+-   Analyze mouse and ferret (two most common influenza animal models) data separately 
+-   Bayesian mixed-effects models 
+
+
+![](haicopblank.png)
+
+
+:::
+
+:::{.column}
+
+
+-   Outcomes to assess:
+    - PCR confirmed infection
+    - Weight loss/anorexia
+    - Time to illness
+    - Viral load
+-   Account for:
+    - Immunity source
+    - Inoculum dose
+    - Study site 
+
+:::
+
+::::
+
+::: aside
+Created with BioRender.com
+:::
+
+## Proposed Study {.smaller}
+
+:::: {.columns}
+
+:::{.column width=40%}
+
+-   Analyze mouse and ferret (two most common influenza animal models) data separately 
+-   Bayesian mixed-effects models 
+
+
+![](haicop.png)
+
+
+:::
+
+:::{.column}
+
+
+-   Outcomes to assess:
+    - PCR confirmed infection
+    - Weight loss/anorexia
+    - Time to illness
+    - Viral load
+-   Account for:
+    - Immunity source
+    - Inoculum dose
+    - Study site 
+
+:::
+
+::::
+
+::: aside
+Created with BioRender.com
+:::
+
+# **Aim 2.** Evaluate benefit of high-dose influenza vaccination by estimating and comparing Fluzone vaccine efficacies in age- and dose-based groups.
+
+## Immunogenicity Studies 
+
+:::: {.columns}
+
+::: {.column width=50%}
+
+![](DAGFinal.png){height=350}
+
+:::
+
+::: {.column}
+
+-   Efficacy studies time and resource intensive 
+-   Immunogenicity studies typically more sustainable and done more regularly/for longer periods
+-   Still useful to bring results back to actual protection
+
+:::
+
+::::
+
+::: aside
+Created with BioRender.com
+:::
+
+
+::: {.notes}
+-   
+:::
+
+## Data Description
+
+## Study Methods
+
+![](coudeville.png){height=525}
+
+::: aside
+@coudeville10
+:::
+
+## Study
+
+![](combined_ve.png)
+
+
+::: aside
+@hammerton24
+:::
+
+## Study
+
+![](oasd_yasd.png){height=500 fig-align="center"}
+
+::: aside
+@hammerton24
+:::
+
+## Study
+
+![](oahd_oasd.png){height=500 fig-align="center"}
+
+::: aside
+@hammerton24
+:::
+
+## Study
+
+![](oahd_yasd.png){height=500 fig-align="center"}
+
+::: aside
+@hammerton24
+:::
+
+# **Aim 3.** Quantify the impact of antigenic distance between vaccine and circulating influenza strains on vaccine effectiveness.
+
+## Antigenic Match and Mismatch
+
+![](vaccine-match-mismatch.png){height=550}
+
+
+::: aside
+Created with BioRender.com
+:::
+
+## Previous Literature
+
+:::: {.columns}
+
+::: {.column width=50%}
+
+![](article4.png)
+
+![](article2.png)
+:::
+
+::: {.column width=50%}
+
+![](article3.png)
+
+![](article1.png) 
+
+
+:::
+
+::::
+
+## [Planned] Data Description
+
+
+
+## Proposed Study
+
+```{r}
+readRDS(
+  here::here("presentations/proposal-idig/tb1_shell.rds")) |> 
+  flextable::autofit() 
+```
+
+## Analysis Plan
+
+:::: {.columns}
+
+::: {.column width=40%}
+
+- Primary modeling result: what is the association between VE and antigenic distance? 
+
+:::
+
+::: {.column width=60%}
+
+![](VE-AgDist-Options.png)
+
+::: aside
+Created with BioRender.com
+:::
+
+:::
+
+::::
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Acknowledgements {.smaller}
 
@@ -68,3 +540,5 @@ Committee
 :::
 
 ::::
+
+# References

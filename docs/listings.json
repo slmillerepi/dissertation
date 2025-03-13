@@ -1,15 +1,5 @@
 [
   {
-    "listing": "/aim1.html",
-    "items": [
-      "/aim1/animal-studies/index.html"
-    ]
-  },
-  {
-    "listing": "/aim2.html",
-    "items": []
-  },
-  {
     "listing": "/background.html",
     "items": [
       "/background/cop-background/index.html",
@@ -23,6 +13,16 @@
     "listing": "/aim3.html",
     "items": [
       "/aim3/master-slides/index.html"
+    ]
+  },
+  {
+    "listing": "/aim2.html",
+    "items": []
+  },
+  {
+    "listing": "/aim1.html",
+    "items": [
+      "/aim1/animal-studies/index.html"
     ]
   },
   {
