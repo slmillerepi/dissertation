@@ -209,17 +209,18 @@ Created with BioRender.com
 
 # **Aim 1.** Identify and model correlates of protection against influenza in animal models.
 
-## Correlates of Protection
+## Correlates of Protection (CoPs)
 
 -   Biomarker associated with protection against infection or disease 
 -   Related terms: surrogate, mechanistic/nonmechanistic correlate, mediator of protection
 -   Nomenclature often depends on the believed causality of the marker
+-   Often used in vaccine design, development, and licensure
 
 ::: aside
 @lim20; 
 :::
 
-## CoPs in Humans 
+## Influenza CoPs in Humans 
 
 :::: {.columns}
 ::: {.column width=50%}
@@ -243,6 +244,13 @@ From top left: @coudeville10; @dudasova2021; @cowling2019
 -   Hobson 1972(date?) 1:40 50%PT
 :::
 
+## Problem/Significance 
+
+-   Lack of research in correlates of protection in animal models 
+-   Vaccine studies in animals base endpoints on human 50%PT
+-   Lack of evidence supporting that those 50%PTs are the same 
+-   Identifying true 50%PTs/CoP relationships in e.g. mouse, ferret studies can streamline vaccine development 
+
 ## [Planned] Data Description
 
 ![](mouse_timeline.png){height=550 fig-align="center"}
@@ -260,7 +268,7 @@ Created with BioRender.com
 
 :::: {.columns}
 
-:::{.column width=40%}
+:::{.column width=50%}
 
 -   Analyze mouse and ferret (two most common influenza animal models) data separately 
 -   Bayesian mixed-effects models 
@@ -296,7 +304,7 @@ Created with BioRender.com
 
 :::: {.columns}
 
-:::{.column width=40%}
+:::{.column width=50%}
 
 -   Analyze mouse and ferret (two most common influenza animal models) data separately 
 -   Bayesian mixed-effects models 
@@ -359,7 +367,16 @@ Created with BioRender.com
 -   
 :::
 
+## Problem/Significance 
+
+-   High-dose (HD) vaccines have evidence of reducing influenza morbidity and mortality in older adults 
+-   Because efficacy studies are so resource intensive, there has not been an extended view of how much the HD vaccine helps older adults in terms of actual protection
+-   We can use immunogenicity studies to estimate vaccine efficacy and compare protection in different groups
+
 ## Data Description
+
+-   UGAFluVac
+-   We've talked about this several times in this group, so let's move on 
 
 ## Study Methods
 
@@ -406,8 +423,22 @@ Created with BioRender.com
 
 ## Antigenic Match and Mismatch
 
-![](vaccine-match-mismatch.png){height=550}
+:::: {.columns}
 
+::: {.column width=30%}
+
+-   Is the chosen vaccine strain "the same" as the strain(s) infecting people?
+-   How much does this matter?
+
+:::
+
+::: {.column}
+
+![](vaccine-match-mismatch.png){height=550 fig-align="right"}
+:::
+
+
+::::
 
 ::: aside
 Created with BioRender.com
@@ -435,17 +466,63 @@ Created with BioRender.com
 
 ::::
 
-## [Planned] Data Description
+
+::: {.notes}
+Tricco match/mismatch:
+
+_Influenza A strains from infected trial participants were matched with the strain in the vaccine if they belonged to the same A subtype (that is, H1N1 or H3N2) and were antigenically similar in the HI assay (that is, if they showed sufficient crossreaction in a HI chessboard table using ferret antisera; for example, with a HI typing quotient <fourfold titer). Influenza A viral strains were considered mismatched by antigenic drift if they were antigenically distinct from influenza A strains contained in the vaccine as per HI typing (for example, HI titer quotient ≥fourfold) or the characterization did not belong to a similar influenza A subtype contained in the vaccine (for example, H1N1 strains circulating but only H3N2 strains contained in the vaccine for bivalent vaccines with one H subtype)._
+
+Tenforde paper:
+
+_Among B/Victoria viruses, 926 (98%) of 945 sequenced viruses belonged to clade V1A.3, which contains a 3-amino acid deletion (162–164) in the HA protein and differs antigenically from the vaccine component (V1A.1), which has a 2-amino acid deletion (162–163) in the HA protein._
 
 
+Skowronski paper:
 
-## Proposed Study
+_To understand low VE despite reports of vaccine match, we conducted further epidemiologic and laboratory investigations in end-of-season analyses. With additional participants and contributing viruses, we estimated VE against circulating strains belonging to both influenza A subtypes and B lineages accompanied by their in-depth genotypic and phenotypic characterization in relation to vaccine components. Specifically, vaccine-virus relatedness was assessed genotypically by determining the amino acid (AA) sequence of established haemagglutinin (HA) antigenic sites and phenotypically through the haemagglutination inhibition (HI) assay. For H3N2, virus characterization was in relation to the A/Victoria/361/2011 prototype strain recommended by the WHO [10], as well as the egg-adapted high growth reassortant strain as per that actually used by manufacturers in vaccine production (hereafter ‘‘IVR-165’’) [11]. We show that suboptimal VE for the H3N2 component during the 2012–13 season was related to mutations in the egg-adapted IVR-165 vaccine strain, rather than antigenic drift in circulating viruses._
+
+
+Belongia paper: 
+
+_A virus was considered antigenically different from the corresponding vaccine vaccine strain if there was a >= 4 fold difference between the homologous HAI titer of the vaccine strain._
+
+
+:::
+
+## Previous Literature 
+
+![](deem.png){height=500}
+
+::: aside
+@pan16
+:::
+
+## Problem/Significance 
+
+-   Match/mismatch has been dichotomous and arbitrarily defined in many papers 
+-   Some studies have used antigenic distance over one or two seasons, or one specific flu type/subtype 
+-   Understanding of the impact of antigenic distance on vaccine effectiveness is still weak
+
+
+## [Planned] Data Description {.smaller}
+
 
 ```{r}
 readRDS(
   here::here("presentations/proposal-idig/tb1_shell.rds")) |> 
   flextable::autofit() 
 ```
+
+
+-   Gather vaccine strain history from CDC and WHO recommendations 
+-   Find circulating strains from MMWRs, papers, reports, etc. for specific times and areas
+-   Calculate antigenic distance multiple ways, including p-epitope, temporal, and Grantham
+
+## Analysis Plan
+
+-   Meta-analysis of papers/reports on vaccine effectiveness (VE) over the past 2+ decades 
+-   Bayesian mixed-effects modeling predicting VE based on anitgenic distance
+-   Account for age group, region, "repeat vaccination effect" 
 
 ## Analysis Plan
 
@@ -536,7 +613,7 @@ Committee
 ::: {.column width=15%}
 - Handelgroup
 - IDIG
-- 
+- Everyone who's given me moral, emotional, and/or methodological support
 :::
 
 ::::
