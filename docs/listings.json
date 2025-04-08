@@ -1,17 +1,5 @@
 [
   {
-    "listing": "/aim1.html",
-    "items": [
-      "/aim1/animal-studies/index.html"
-    ]
-  },
-  {
-    "listing": "/presentations.html",
-    "items": [
-      "/presentations/proposal-idig/index.html"
-    ]
-  },
-  {
     "listing": "/background.html",
     "items": [
       "/background/cop-background/index.html",
@@ -22,13 +10,25 @@
     ]
   },
   {
+    "listing": "/aim3.html",
+    "items": [
+      "/aim3/master-slides/index.html"
+    ]
+  },
+  {
     "listing": "/aim2.html",
     "items": []
   },
   {
-    "listing": "/aim3.html",
+    "listing": "/aim1.html",
     "items": [
-      "/aim3/master-slides/index.html"
+      "/aim1/animal-studies/index.html"
+    ]
+  },
+  {
+    "listing": "/presentations.html",
+    "items": [
+      "/presentations/proposal-idig/index.html"
     ]
   }
 ]
