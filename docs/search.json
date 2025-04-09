@@ -865,6 +865,13 @@
     "href": "aim3.html",
     "title": "Dissertation Notes and Writing",
     "section": "",
-    "text": "VE~AgDist Background and Proposal\n\n\n\n\n\n\n\n\n\n\n\nSavannah L. Miller\n\n\n\n\n\n\nNo matching items"
+    "text": "VE ~ Antigenic Distance Model Building\n\n\n\n\n\n\n\n\n\n\n\nSavannah L. Miller\n\n\n\n\n\n\n\n\n\n\n\n\nVE~AgDist Background and Proposal\n\n\n\n\n\n\n\n\n\n\n\nSavannah L. Miller\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "aim3/model-building/index.html",
+    "href": "aim3/model-building/index.html",
+    "title": "VE ~ Antigenic Distance Model Building",
+    "section": "",
+    "text": "Model Setup\nHere is my basic planned setup of the model. I will fit linear mixed effects models predicting VE as a function of some combination of parameters associated with fixed and random effects.\nThe general model is defined as:\n\\[\n\\begin{aligned}\nY_{i,s,t,m} &= \\beta_0 + \\sum_{j=2}^p\\beta_jx_{j,i} + (\\beta_1 + b_m^{(x_1m)} + b_t^{(x_1t)})x_{1,i} + b_s^{(s)} +b_t^{(t)} + b_m^{(m)} + \\epsilon_{i,s,t,m}\\\\\n\\end{aligned}\n\\]\n\n\n\n\n\n\n\nTerm\nInterpretation\n\n\n\n\n\\(\\beta_0\\)\nFixed intercept\n\n\n\\(\\beta_j\\)\nFixed slopes for predictors \\(x_j, j \\ge2\\)\n\n\n\\(b_s^{(s)} \\sim \\mathcal{N}(0,\\sigma^2_s)\\)\nRandom intercept for influenza season \\(s\\)\n\n\n\\(b_t^{(t)} \\sim \\mathcal{N}(0, \\sigma^2_t)\\)\nRandom intercept for influenza type/subtype/lineage \\(t\\)\n\n\n\\(b_m^{(m)} \\sim \\mathcal{N}(0, \\sigma^2_m)\\)\nRandom intercept for antigenic distance method \\(m\\)\n\n\n\\(b_m^{(x_1m)} \\sim \\mathcal{N}(0, \\sigma^2_{x_1m})\\)\nRandom slope for antigenic distance predictor \\(x_1\\), varying by method \\(m\\)\n\n\n\\(b_t^{(x_1t)} \\sim \\mathcal{N}(0, \\sigma^2_{x_1t})\\)\nRandom slope for antigenic distance predictor \\(x_1\\), varying by subtype \\(t\\)\n\n\n\\(\\epsilon_{i,s,t,m} \\sim \\mathcal{N}(0, \\sigma^2_\\epsilon)\\)\nResidual\n\n\n\n\n\nFixed Effects\n\n\n\n\n\n\n\nPredictor\nInterpretation\n\n\n\n\n\\(d\\)\nAntigenic distance between vaccine and circulating strain\n\n\n\\(a\\)\nAge group\n\n\n\\(r\\)\nRegion (should this be a random effect?)\n\n\n\\(p\\)\nProportion of infections caused by subtype/lineage \\(t\\)\n\n\n\\(r\\)\nNumber of consecutive years relevant vaccine strain has been included in vaccine as of season \\(s\\)\n\n\n\\(c\\)\nAntigenic distance between this season’s (\\(s\\)) and last season’s relevant vaccine strain"
   }
 ]

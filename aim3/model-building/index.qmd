@@ -1,0 +1,53 @@
+---
+title: "VE ~ Antigenic Distance Model Building"
+author: "Savannah L. Miller"
+format: 
+  html:
+    toc: true
+    self-contained: true
+    lightbox: true
+    link-external-newwindow: true
+execute: 
+  echo: false
+  warning: false
+  message: false
+bibliography: ../../assets/references/proposal.bib
+image: thumbnail.png
+---
+
+# Model Setup
+
+Here is my basic planned setup of the model. I will fit linear mixed effects models predicting VE as a function of some combination of parameters associated with fixed and random effects.
+
+The general model is defined as: 
+
+
+
+$$
+\begin{aligned}
+Y_{i,s,t,m} &= \beta_0 + \sum_{j=2}^p\beta_jx_{j,i} + (\beta_1 + b_m^{(x_1m)} + b_t^{(x_1t)})x_{1,i} + b_s^{(s)} +b_t^{(t)} + b_m^{(m)} + \epsilon_{i,s,t,m}\\
+\end{aligned}
+$$ 
+
+
+Term | Interpretation
+-|---
+$\beta_0$|Fixed intercept
+$\beta_j$|Fixed slopes for predictors $x_j, j \ge2$
+$b_s^{(s)} \sim \mathcal{N}(0,\sigma^2_s)$|Random intercept for influenza season $s$
+$b_t^{(t)} \sim \mathcal{N}(0, \sigma^2_t)$|Random intercept for influenza type/subtype/lineage $t$
+$b_m^{(m)} \sim \mathcal{N}(0, \sigma^2_m)$|Random intercept for antigenic distance method $m$
+$b_m^{(x_1m)} \sim \mathcal{N}(0, \sigma^2_{x_1m})$|Random slope for antigenic distance predictor $x_1$, varying by method $m$
+$b_t^{(x_1t)} \sim \mathcal{N}(0, \sigma^2_{x_1t})$|Random slope for antigenic distance predictor $x_1$, varying by subtype $t$
+$\epsilon_{i,s,t,m} \sim \mathcal{N}(0, \sigma^2_\epsilon)$|Residual
+
+# Fixed Effects 
+
+Predictor | Interpretation
+-|---
+$d$|Antigenic distance between vaccine and circulating strain
+$a$|Age group
+$r$|Region (should this be a random effect?)
+$p$|Proportion of infections caused by subtype/lineage $t$ 
+$r$|Number of consecutive years relevant vaccine strain has been included in vaccine as of season $s$ 
+$c$|Antigenic distance between this season's ($s$) and last season's relevant vaccine strain
