@@ -1,0 +1,17 @@
+{
+  "hash": "e121cea09407f00435858aa4e26ed522",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"VE~AgDist\"\nauthor: \"Savannah L. Miller\"\nexecute: \n  echo: false\n  warning: false\n  message: false\nformat: \n  html:\n    toc: true\n    self-contained: true\n    lightbox: true\n    link-external-newwindow: true\nbibliography: ../../assets/references/proposal.bib\nimage: thumbnail.png\n---\n\n\n\n# General Evolution\n\n## \"Viral Evolution from One Generation of Human Influenza Infection to the Next\" [@riley13]\n\n## \"The Heterogeneity of Influenza Seasonality by Subtype and Lineage in China\" [@xu20]\n\n# Match/Mismatch VE\n\n## \"Comparing influenza vaccine efficacy against mismatched and matched strains: a systematic review and meta-analysis\" [@tricco13]\n\n## \"Effect of Antigenic Drift on Influenza Vaccine Effectiveness in the United States—2019–2020\" [@tenforde21]\n\n## \"Vaccine Mismatches, Viral Circulation, and Clinical Severity Patterns of Influenza B Victoria and Yamagata Infections in Brazil over the Decade 2010–2020: A Statistical and Phylogeny–Trait Analyses\" [@dacosta22]\n\n# Antigenic Distance Measurement Methods\n\n## \"Quantifying Influenza Vaccine Efficacy and Antigenic Distance\" [@gupta2006]\n\n-   $p_{epitope}$ original paper\n\n-   The aim of this paper was to \"... provide a quantitative definition of the difference between dominant epitope regions in the vaccine and circulating strain and show that this definition of antigenic distance correlates well with human influenza vaccine efficacy over the last 35 years\"\n\n-   Their model does not allow for immunosenescence - they focused only on 18-64 year olds\n\n-   Restricted their focus to the hemagglutinin protein, which has 5 epitope regions (@fig-gupta06)\n\n-   Use the NK model which states that the difference between the vaccine and circulating strains is the fraction of the amino acids that differ in the dominant epitope region\n\n    -   In this study, the dominant epitope was defined as the epitope with the largest fractional change in the amino acid sequence relative to the vaccine strain\n\n$$\n\\begin{aligned}\np_{epitope} &= \\frac{\\text{number of amino acid differences in dominant epitope}}{\\text{total number of amino acids in dominant epitope}}\\\\\n\\end{aligned}\n$$\n\n-   Modeling vaccine efficacy $E$\n\n$$\n\\begin{aligned}\nE &= \\alpha \\ln \\frac{K_{secondary}(p_{epitope})}{K_{primary}},\\\\\n&\\text{where:}&\\\\\n\\end{aligned}\n$$\n\n```         \n- constant 𝛼 is chosen so that a perfect match between the vaccine and circulating strains leads to a 45% VE (**Q.** do we still think this is what we should shoot for with this 𝛼?)\n- K_primary is the binding constant for the primary immune response\n- K_secondary is the binding constant for the secondary immune response following vaccination\n- This model is entirely predictive, with no fitted parameters except for 𝛼\n```\n\n-   Primary results shown in @fig-guptafig2\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](thumbnail.png){#fig-gupta06}\n:::\n:::\n\n::: {.cell}\n::: {.cell-output-display}\n![](guptafig2.png){#fig-guptafig2}\n:::\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -12,8 +12,8 @@ format:
     lightbox: true
     link-external-newwindow: true
 bibliography: ../../assets/references/proposal.bib
+image: thumbnail.png
 ---
-
 
 # General Evolution
 
@@ -28,3 +28,55 @@ bibliography: ../../assets/references/proposal.bib
 ## "Effect of Antigenic Drift on Influenza Vaccine Effectiveness in the United States—2019–2020" [@tenforde21]
 
 ## "Vaccine Mismatches, Viral Circulation, and Clinical Severity Patterns of Influenza B Victoria and Yamagata Infections in Brazil over the Decade 2010–2020: A Statistical and Phylogeny–Trait Analyses" [@dacosta22]
+
+# Antigenic Distance Measurement Methods
+
+## "Quantifying Influenza Vaccine Efficacy and Antigenic Distance" [@gupta2006]
+
+-   $p_{epitope}$ original paper
+
+-   The aim of this paper was to "... provide a quantitative definition of the difference between dominant epitope regions in the vaccine and circulating strain and show that this definition of antigenic distance correlates well with human influenza vaccine efficacy over the last 35 years"
+
+-   Their model does not allow for immunosenescence - they focused only on 18-64 year olds
+
+-   Restricted their focus to the hemagglutinin protein, which has 5 epitope regions (@fig-gupta06)
+
+-   Use the NK model which states that the difference between the vaccine and circulating strains is the fraction of the amino acids that differ in the dominant epitope region
+
+    -   In this study, the dominant epitope was defined as the epitope with the largest fractional change in the amino acid sequence relative to the vaccine strain
+
+$$
+\begin{aligned}
+p_{epitope} &= \frac{\text{number of amino acid differences in dominant epitope}}{\text{total number of amino acids in dominant epitope}}\\
+\end{aligned}
+$$
+
+-   Modeling vaccine efficacy $E$
+
+$$
+\begin{aligned}
+E &= \alpha \ln \frac{K_{secondary}(p_{epitope})}{K_{primary}},\\
+&\text{where:}&\\
+\end{aligned}
+$$
+
+```         
+- constant 𝛼 is chosen so that a perfect match between the vaccine and circulating strains leads to a 45% VE (**Q.** do we still think this is what we should shoot for with this 𝛼?)
+- K_primary is the binding constant for the primary immune response
+- K_secondary is the binding constant for the secondary immune response following vaccination
+- This model is entirely predictive, with no fitted parameters except for 𝛼
+```
+
+-   Primary results shown in @fig-guptafig2
+
+```{r}
+#| label: fig-gupta06 
+knitr::include_graphics(here::here("background/ve-agdist/thumbnail.png"))
+```
+
+```{r}
+#| label: fig-guptafig2 
+knitr::include_graphics(here::here("background/ve-agdist/guptafig2.png"))
+```
+
+  

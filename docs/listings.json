@@ -6,12 +6,6 @@
     ]
   },
   {
-    "listing": "/presentations.html",
-    "items": [
-      "/presentations/proposal-idig/index.html"
-    ]
-  },
-  {
     "listing": "/background.html",
     "items": [
       "/background/cop-background/index.html",
@@ -22,12 +16,15 @@
     ]
   },
   {
-    "listing": "/aim2.html",
-    "items": []
+    "listing": "/presentations.html",
+    "items": [
+      "/presentations/proposal-idig/index.html"
+    ]
   },
   {
     "listing": "/aim3.html",
     "items": [
+      "/aim3/analysis-plan/index.html",
       "/aim3/model-building/index.html",
       "/aim3/master-slides/index.html"
     ]

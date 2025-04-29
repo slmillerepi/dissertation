@@ -1,11 +1,18 @@
 ---
-title: "dissertation"
+title: "Home/About"
+author: Savannah L. Miller 
+date-modified: last-modified 
 ---
 
-This is a Quarto website.
+This repository/site houses my materials and resources use in developing my dissertation. I have information split into general background, each specific aim, and presentations. The background section contains lit review notes split up by topic. Each specific aim may also contain lit review notes specific to something for that aim as needed, and will also have general notes and planning. The presentations section contains any presentations created for the proposal defense and dissertation defense, and any other miscellaneous presentations as needed. Presentations that are specific to one aim will be housed in that aim's section. 
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+# Specific Aims
 
-```{r}
-1 + 1
-```
+Influenza is a major public health burden and contributes to substantial morbidity and mortality worldwide. The first influenza vaccine was licensed for public use in 1945, but vaccine effectiveness (VE) is stil variable and often low. This variability limits our ability to make confident public health decisions and reduce morbidity and mortality. The lack of a clear and consistent framework that links immunogenicity to clinical protection, particularly across species and age groups, and under conditions of viral mismatch, is a major challenge in developing and improving seasonal influenza vaccines. This dissertation aims to bridge immunologic correlates of protection and antigenic mismatch analyses to improve estimates of influenza vaccine effectiveness in both animal models and human populations, using statistical and meta-analytic modeling approaches.
+
+**Aim 1. Identify and model correlates of protection against influenza in animal models.** Animal models are frequently used  to evaluate influenza vaccine components and platforms prior to human use. A 1:40 hemagglutination inhibition (HAI) titer is often assumed to reduce infection risk by 50% (50%PT) across species, yet this threshold was derived from human data and may not translate directly to animal models. We will conduct correlates of protection (CoP) analyses in pre-immune murine and ferret challenge models to estimate species-specific CoP curves and 50%PT values. These results will clarify the relationship between HAI titers and protection across species and improve how preclinical studies inform human vaccine development.
+
+**Aim 2. Evaluate benefit of high-dose influenza vaccination by estimating and comparing Fluzone vaccine efficacies in age- and dose-based groups.** Older adults are at higher risk for severe influenza outcomes, and high-dose vaccines (e.g., Fluzone High-Dose) are recommended to combat immunosenescence and infection and disease vulnerabilities. However, the added benefit of these vaccines remains unclear and unquantified in terms of real-world protection. Using the UGAFluVac immunogenicity data,we will estimate VE by mapping pre- and post-vaccination HAI titers to protection probabilities across three groups: younger adults receiving standard-dose Fluzone vaccines, older adults receiving standard-dose Fluzone vaccines, and older adults receiving high-dose Fluzone vaccines. We will use contrasts to quantify the benefit of high-dose vaccination in older adults. 
+
+**Aim 3. Quantify the impact of antigenic distance between vaccine and circulating influenza strains on vaccine effectiveness.** The seaonal influenza vaccine is updated each year with antigens expected to prompt immune responses that are protective against that season's prevalent strains. Low vaccine effectiveness (VE) is often said to be caused, in some part, by a "mismatch" of the vaccine strain to the prevalent circulating strain. However, this mismatch is defined differently in many studies and is generally dichotmous (i.e. match or mismatch). We will use continuous measures of antigenic distance to assess the impact of the difference between vaccine and ciruclating strains in linear mixed effects meta-regression. 
+

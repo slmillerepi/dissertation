@@ -1,5 +1,18 @@
 ---
 Title: "Aim 2"
-listing:
-  contents: aim2
 ---
+
+My second aim, [Estimating Standard-Dose and High-Dose Fluzone Vaccine Efficacies for Influenza A Based on Hemagglutination Inhibition Titers](https://academic.oup.com/jid/advance-article-abstract/doi/10.1093/infdis/jiae615/7922923), has been completed and published. The abstract is copied below. 
+
+# Abstract
+## Background
+The high-dose (HD) Fluzone influenza vaccine is recommended for individuals aged ≥65 years due to its improved antibody responses and vaccine efficacy (VE) over the standard-dose (SD) formulation. Since influenza vaccines are frequently reformulated, monitoring VE changes is crucial. Traditional efficacy trials are costly and time-consuming, but immunogenicity studies using hemagglutination inhibition (HAI) titers—a reliable correlate of protection—can be used to estimate VE more efficiently.
+
+## Methods
+We analyzed data from a human vaccine cohort who received either the SD or HD Fluzone split-inactivated influenza vaccine during influenza seasons 2013–2014 to 2021–2022. We used a previously developed statistical model to map pre- and postvaccination HAI titers to protection probabilities, and computed differences in VE of the HD vaccine in older (≥65 years) populations compared to SD vaccines in the same age group and in younger (<65 years) adults.
+
+## Results
+We found that the HD vaccine generally improved the estimated VE in older adults. We also found that HD recipients often had a lower estimated VE than younger SD recipients.
+
+## Conclusions
+While HD vaccines lead to a small increase in estimated VE compared to SD in older adults, further increases in dose or other developments to improve VE should be considered.
