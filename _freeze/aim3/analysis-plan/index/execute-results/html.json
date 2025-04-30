@@ -1,8 +1,8 @@
 {
-  "hash": "caba3bf86867c1ac0ecf13135c678475",
+  "hash": "345856e190d795f735601738aaad5ca2",
   "result": {
     "engine": "knitr",
-    "markdown": "---\ntitle: \"Aim 3 Analysis Plan\"\nauthor: \"Savannah L. Miller\"\ndate-modified: last-modified\n---\n\n\n\n# Preliminary results \n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(dagitty)\n\ndag <- dagitty::dagitty(\"\ndag {\n  AD [exposure,pos=\\\"-0.905,0.228\\\"]\n  CS [exposure,pos=\\\"-1.850,1.661\\\"]\n  D [pos=\\\"0.014,0.323\\\"]\n  DM [pos=\\\"-1.188,-0.887\\\"]\n  OAS [exposure,pos=\\\"-0.260,1.145\\\"]\n  PVE [exposure,pos=\\\"1.059,-0.037\\\"]\n  VE [outcome,pos=\\\"1.400,1.621\\\"]\n  VS [exposure,pos=\\\"1.355,-1.214\\\"]\n  VU [exposure,pos=\\\"0.637,0.180\\\"]\n  AD -> VE\n  CS -> AD\n  CS -> VE\n  D -> VE\n  D -> VU\n  DM -> AD\n  OAS -> VE\n  PVE -> VE\n  VS -> AD\n  VS -> PVE\n  VS -> VE\n  VU -> VE\n}\")\n\n# Optional: Plot or print summary\nggdag::ggdag_adjustment_set(dag) + \n  ggplot2::theme_void() +\n  ggplot2::theme(legend.position = \"none\")\n```\n\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n\n\n\n\n# Proposed studies\n\n# Expected outcomes\n\n\n",
+    "markdown": "---\ntitle: \"Aim 3 Analysis Plan\"\nauthor: \"Savannah L. Miller\"\ndate-modified: last-modified\n---\n\n\n\n# Preliminary results \n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n\n\n\n\nTerm | Interpretation\n--|--\nAD| Antigenic distance between CS and VS \nCS|Prevalent circulating strain \nD|Demographic factors \nPT|Pre-season HAI titers \nPVS|Previous vaccine strain\nVE|Vaccine efficacy\nVS|Vaccine strain\n\n\n# Proposed studies\n\n# Expected outcomes\n\n\n",
     "supporting": [
       "index_files"
     ],

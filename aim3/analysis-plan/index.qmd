@@ -7,39 +7,64 @@ date-modified: last-modified
 # Preliminary results 
 
 ```{r}
+#| message: false
+#| echo: false
+
 library(dagitty)
+library(ggdag)
+library(NatParksPalettes)
 
 dag <- dagitty::dagitty("
 dag {
-  AD [exposure,pos=\"-0.905,0.228\"]
-  CS [exposure,pos=\"-1.850,1.661\"]
-  D [pos=\"0.014,0.323\"]
-  DM [pos=\"-1.188,-0.887\"]
-  OAS [exposure,pos=\"-0.260,1.145\"]
-  PVE [exposure,pos=\"1.059,-0.037\"]
-  VE [outcome,pos=\"1.400,1.621\"]
-  VS [exposure,pos=\"1.355,-1.214\"]
-  VU [exposure,pos=\"0.637,0.180\"]
-  AD -> VE
-  CS -> AD
-  CS -> VE
-  D -> VE
-  D -> VU
-  DM -> AD
-  OAS -> VE
-  PVE -> VE
-  VS -> AD
-  VS -> PVE
-  VS -> VE
-  VU -> VE
-}")
+AD [exposure,pos=\"-0.830,0.001\"]
+CS [exposure,pos=\"-1.742,0.507\"]
+D [pos=\"-0.777,-0.410\"]
+PT [exposure,pos=\"-1.519,-0.329\"]
+PVS [exposure,pos=\"0.063,-0.981\"]
+VE [outcome,pos=\"-1.742,-1.369\"]
+VS [exposure,pos=\"1.355,-1.369\"]
+VU [exposure,pos=\"-0.336,-0.722\"]
+AD -> VE
+CS -> AD
+CS -> VE
+D -> VE
+D -> VU
+PT -> VE
+PVS -> VE
+VS -> AD
+VS -> VE
+VU -> VE
+}
+")
+
+tidy_dag <- 
+  ggdag::tidy_dagitty(dag) |> 
+  dplyr::mutate(Status = dplyr::case_when(
+    name == "VE" ~ "Outcome",
+    name == "D" ~ "Covariate",
+    TRUE ~ "Exposure"
+  ))  
+  
 
 # Optional: Plot or print summary
-ggdag::ggdag_adjustment_set(dag) + 
-  ggplot2::theme_void() +
-  ggplot2::theme(legend.position = "none")
+ggdag::ggdag(tidy_dag) +
+  ggdag::geom_dag_point(ggplot2::aes(color = Status)) +
+  ggdag::geom_dag_text() +
+  ggdag::theme_dag() +
+  NatParksPalettes::scale_color_natparks_d("Cuyahoga")
 
 ```
+
+
+Term | Interpretation
+--|--
+AD| Antigenic distance between CS and VS 
+CS|Prevalent circulating strain 
+D|Demographic factors 
+PT|Pre-season HAI titers 
+PVS|Previous vaccine strain
+VE|Vaccine efficacy
+VS|Vaccine strain
 
 
 # Proposed studies

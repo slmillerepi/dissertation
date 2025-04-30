@@ -4947,7 +4947,7 @@ window.Quarto = {
 <p>The general model is defined as:</p>
 <p><span class="math display">\[
 \begin{aligned}
-Y_{i,s,t,m} &amp;= \beta_0 + \sum_{j=2}^p\beta_jx_{j,i} + (\beta_1 + b_m^{(x_1m)} + b_t^{(x_1t)})x_{1,i} + b_s^{(s)} +b_t^{(t)} + b_m^{(m)} + \epsilon_{i,s,t,m}\\
+Y_{i,s,t} &amp;= \beta_0 + \sum_{j=2}^p\beta_jx_{j,i} + (\beta_1 + b_t^{(x_1t)})x_{1,i} + b_s^{(s)} +b_t^{(t)} +  \epsilon_{i,s,t}\\
 \end{aligned}
 \]</span></p>
 <table class="caption-top table">
@@ -4979,19 +4979,11 @@ Y_{i,s,t,m} &amp;= \beta_0 + \sum_{j=2}^p\beta_jx_{j,i} + (\beta_1 + b_m^{(x_1m)
 <td>Random intercept for influenza type/subtype/lineage <span class="math inline">\(t\)</span></td>
 </tr>
 <tr class="odd">
-<td><span class="math inline">\(b_m^{(m)} \sim \mathcal{N}(0, \sigma^2_m)\)</span></td>
-<td>Random intercept for antigenic distance method <span class="math inline">\(m\)</span></td>
-</tr>
-<tr class="even">
-<td><span class="math inline">\(b_m^{(x_1m)} \sim \mathcal{N}(0, \sigma^2_{x_1m})\)</span></td>
-<td>Random slope for antigenic distance predictor <span class="math inline">\(x_1\)</span>, varying by method <span class="math inline">\(m\)</span></td>
-</tr>
-<tr class="odd">
 <td><span class="math inline">\(b_t^{(x_1t)} \sim \mathcal{N}(0, \sigma^2_{x_1t})\)</span></td>
 <td>Random slope for antigenic distance predictor <span class="math inline">\(x_1\)</span>, varying by subtype <span class="math inline">\(t\)</span></td>
 </tr>
 <tr class="even">
-<td><span class="math inline">\(\epsilon_{i,s,t,m} \sim \mathcal{N}(0, \sigma^2_\epsilon)\)</span></td>
+<td><span class="math inline">\(\epsilon_{i,s,t} \sim \mathcal{N}(0, \sigma^2_\epsilon)\)</span></td>
 <td>Residual</td>
 </tr>
 </tbody>

@@ -1,5 +1,5 @@
 ---
-title: "Flu CoPs"
+title: "Flu Correlates of Protection"
 author: "Savannah L. Miller"
 execute: 
   echo: false
@@ -13,7 +13,34 @@ format:
     link-external-newwindow: true
 bibliography: ../../assets/references/proposal.bib
 ---
-# History and General Background Papers 
+
+# General/Background
+
+## "Immunologic correlates of protection induced by vaccination" [@plotkin01]
+
+## "Correlates of vaccine-induced immunity" [@plotkin08]
+
+## "Correlates of protection induced by vaccination" [@plotkin10]
+
+## "Nomenclature for immune correlates of protection after vaccination" [@plotkin12]
+
+## "COVID-19 vaccine update: vaccine effectiveness, SARS-CoV-2 variants, boosters, adverse effects, and immune correlates of protection" [@chi22]
+
+## "Recent updates on correlates of vaccine-induced protection" [@plotkin22]
+
+## "Immune correlates of protection for SARS-CoV-2, Ebola and Nipah virus infection" [@escudero-perez23]
+
+# Models 
+
+## "A model for immunological correlates of protection" [@dunning06]
+
+## "Evaluating a surrogate endpoint at three levels, with application to vaccine development" [@gilbert08a]
+
+## "Updates on immunologic correlates of vaccine-induced protection" [@plotkin20]
+
+## "Correlates of Vaccine-Induced Protection against SARS-CoV-2" [@koch21]
+
+## "Correlates of protection against SARS‐CoV‐2 infection and COVID‐19 disease" [@goldblatt22]
 
 ## "The role of serum haemagglutination-inhibiting antibody in protection against challenge infection with influenza A2 and B viruses" [@hobson72]
 
