@@ -65,7 +65,7 @@ ggdag::ggdag(tidy_dag) +
 
 # Proposed studies
 
-We will calculate VE using multiple methods, including _p_epitope_ [@gupta2006; @pan16], 
+We will calculate VE using multiple methods, including _p_epitope_ [@gupta2006; @pan16], Grantham, 
 
 
 We will use Bayesian mixed-effects meta-regression to examine the effect of our predictors on the VE outcome. 
