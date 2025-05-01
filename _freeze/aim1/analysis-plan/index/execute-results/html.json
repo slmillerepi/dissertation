@@ -1,0 +1,15 @@
+{
+  "hash": "cfebc2e31eb4155a293908a3547b7b6c",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Aim 1 Analysis Plan\"\nauthor: \"Savannah L. Miller\"\ndate-modified: last-modified\nbibliography: ../../assets/references/proposal.bib\n---\n\n\n\n# Preliminary Results \n\nStudies from which we have received data include [@allen24; @zhang2025].\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![General timeline for all animal model challenge study data. Animals were made optionally made pre-immune through some vaccination or challenge, were vaccinated, and challenged. Pre-challenge titers must have been quantified. After challenge, animals were monitored for clinical outcomes such as viral lung titers, weights, severe illness, etc. Created with BioRender.com.](thumbnail.png){#fig-timeline}\n:::\n:::\n\n\n\n# Proposed Study \n\n# Expected Outcomes \n\n\n\n# References ",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

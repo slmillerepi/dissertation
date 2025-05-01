@@ -4,7 +4,7 @@
     "href": "aim1.html",
     "title": "Dissertation Notes and Writing",
     "section": "",
-    "text": "Potential Animal Study Data Source Summaries\n\n\n\n\n\n\n\n\n\n\n\nSavannah L. Miller\n\n\n\n\n\n\nNo matching items"
+    "text": "Aim 1 Analysis Plan\n\n\n\n\n\n\n\n\n\n\n\nSavannah L. Miller\n\n\n\n\n\n\n\n\n\n\n\n\nPotential Animal Study Data Source Summaries\n\n\n\n\n\n\n\n\n\n\n\nSavannah L. Miller\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "aim2.html",
@@ -42,193 +42,403 @@
     "text": "Conclusions\nWhile HD vaccines lead to a small increase in estimated VE compared to SD in older adults, further increases in dose or other developments to improve VE should be considered."
   },
   {
-    "objectID": "aim1/animal-studies/index.html",
-    "href": "aim1/animal-studies/index.html",
-    "title": "Potential Animal Study Data Source Summaries",
+    "objectID": "aim1/analysis-plan/index.html",
+    "href": "aim1/analysis-plan/index.html",
+    "title": "Aim 1 Analysis Plan",
     "section": "",
-    "text": "This page contains a general literature review in which I am looking for potential data sources for a project that will assess correlates of protection against influenza outcomes in animal models. Figure 1 shows the basic layout of data we need - titers in pre-immune animals prior to live virus challenge (prefereably non-lethal) with follow up to assess clinical outcomes such as infection, weight loss, fatality, etc. We are primarily looking for data from mouse/murine and ferret studies, but are open to other models as well if enough data present themselves.\nThis page is generally organized by interest/availability of data. It has a section of “potential data sources” (P, Section 2.1) that appear to have the data we need, but have not been confirmed to have all that data or to be available to us. It then has “confirmed” (C, Section 2.2) and “rejected” (R, Section 2.3) sections.\n\n\nTompkins papers reviewed:\n\nSection 2.1.1 - Page et al. (2025); P\nSection 2.1.3 - Hoxie et al. (2024); P\nSection 2.1.6 - Bimler et al. (2021); P\nSection 2.1.7 - Mooney et al. (2017); P\nSection 2.1.8 - Smith et al. (2012); P\nCurran et al. (2024); R\nChopra et al. (2024); R\nLieber et al. (2023); R\nLuczo et al. (2023); R\nPliasas et al. (2023); R\nDriskell et al. (2010); R\n\n\nRoss papers reviewed:\n\nSection 2.1.4 - Uno et al. (2024); P\nSection 2.1.5 - Uno and Ross (2024); P\nSection 2.1.2 - Allen and Ross (2024); C\n\n\n\n\n\n\n\n\n\n\n\nFigure 1"
+    "text": "Preliminary Results\nStudies from which we have received data include (Allen and Ross 2024; Zhang, Shi, and Ross 2025).\n\n\n\n\n\n\n\n\nFigure 1: General timeline for all animal model challenge study data. Animals were made optionally made pre-immune through some vaccination or challenge, were vaccinated, and challenged. Pre-challenge titers must have been quantified. After challenge, animals were monitored for clinical outcomes such as viral lung titers, weights, severe illness, etc. Created with BioRender.com.\n\n\n\n\n\n\n\nProposed Study\n\n\nExpected Outcomes\n\n\n\n\n\n\n\n\nReferences\n\nAllen, James D., and Ted M. Ross. 2024. “mRNA Vaccines Encoding Computationally Optimized Hemagglutinin Elicit Protective Antibodies Against Future Antigenically Drifted H1N1 and H3N2 Influenza Viruses Isolated Between 2018-2020.” Front Immunol 15 (March): 1334670. https://doi.org/10.3389/fimmu.2024.1334670.\n\n\nZhang, Xiaojian, Hua Shi, and Ted M. Ross. 2025. “Multivalent H3 COBRA-based Influenza Vaccine Elicits Enhanced Immune Response in a Pre-Immune Elderly Ferret Model.” Vaccine 56 (May): 127156. https://doi.org/10.1016/j.vaccine.2025.127156."
   },
   {
-    "objectID": "aim1/animal-studies/index.html#sec-potential",
-    "href": "aim1/animal-studies/index.html#sec-potential",
-    "title": "Potential Animal Study Data Source Summaries",
-    "section": "Potential data sources",
-    "text": "Potential data sources\n\nNeuraminidase-specific antibodies drive differential cross-protection between contemporary FLUBV lineages (Page et al. 2025)\n\nFirst/Last Authors: Caroline K. Page/Mark Tompkins\nAuthor we know (loc): Caroline PAge (first), Mark Tompkins (last)\nAnimal Model: Mouse/Murine\nSummary: “Here, we establish two animal models to replicate preliminary human observations and demonstrate that NA-specific antibodies are key mediators of cross-protection from contemporary Victoria to Yamagata viruses. These findings offer important insights into the asymmetric immunity between FLUBV lineages and how viral evolution influences immune responses.”\nNotes:\n\nTl;dr - has the basic data needed, but only assesses cross-lineage protection (i.e. Yamagata antibodies protecting against Victoria and vice versa); not sure if we’re focusing on homologous or including heterologous antibodies yet.\n“… FLUAV preimmune ferrets, previously exposed to A/California/07/2009 (H1N1), along with naïve ferrets were intranasally inoculated with either B/Washington/02/2019 (Victoria) or B/Oklahoma/10/2018 (Yamagata) at a dose of \\(10^6\\) plaque-forming units (PFU). No clinical signs, such as weight loss or temperature changes, were observed in any group (fig. S1, A to D), and FLUBV replication was comparable in the upper respiratory tract of H1N1-preimmune and naïve ferrets for both lineages.”\n“To assess differences in duration of cross-protection following initial FLUBV infection, the ferrets were rested for either 2 or 6 months prior to being challenged with the opposing influenza B lineage virus”\n“Mice were intranasally infected with a sublethal dose of 103 PFU of either a contemporary or noncontemporary Victoria or Yamagata virus…Thirty-five days postinfection, after clearance of the acute infection and the establishment of immune memory, the animals were reinfected with a contemporary or noncontemporary cross-lineage challenge virus, and lungs were collected to assess viral replication.”\n“Mice were passively transferred serum conferred from either a contemporary Victoria or Yamagata infection and subsequently challenged intranasally with 103 PFU of a cross-lineage contemporary virus”\n\n\n\n\nmRNA vaccines encoding computationally optimized hemagglutinin elicit protective antibodies against future antigenically drifted H1N1 and H3N2 influenza viruses isolated between 2018-2020 (Allen and Ross 2024)\n\nFirst/Last Authors: James D. Allen/Ted M. Ross\nAuthor we know (loc): Ted M. Ross\nAnimal Model: Mouse/Murine\nSummary: “Overall, this was the first time that mRNA encoding COBRA HA antigens were synthesized and used to vaccinate immunologically naïve mice to determine their effectiveness at eliciting broadly protective antibody responses against diverse panels of H1N1 and H3N2 vaccine strains from the last decade. These responses were superior to those elicited by wild-type mRNA expressing HA antigens at inhibiting viral binding to host cell surface receptors and preventing viral infection. Thus, demonstrating the potential benefits of using in-silico designed influenza mRNA vaccine antigens to elicit more broadly protective immune responses over traditional wild-type vaccine antigens.”\nNotes:\n\n“At the beginning of the study the mice were randomly divided into 10 groups (n=11 mice/group), and vaccinated intramuscularly with 50mL of a solution containing 1mg of mRNA vaccines encoding the HA proteins of either the H1 COBRA Y2, H1 A/California/07/2009, H3 COBRA NG2 or H3 A/Kansas/14/2017 in phosphate buffered saline (PBS), or 50mL of PBS alone as a placebo control vaccine (24, 30, 50). The vaccines were administered as either a monovalent (1mg) or bivalent (H1 + H3) (1mg each) formulation intramuscularly into the hamstring of the hind leg of the mice on the first day of the study and again on day 28. Blood samples were obtained from the facial vein of the animals on day 14 and day 42 post initial vaccination.”\n“On day 56 post initial vaccination, 55 of the mice (n= [11] mice/group) were infected with 50 mL of a human A/California/07/2009 H1N1 influenza isolate that has been passaged in eggs (EP4) at a dose of 5x104 PFU/50mL. Also on day 56 post initial vaccination, another set of 55 mice (n=11 mice/group) were challenged with 50mL of a human A/Kansas/14/2017 H3N2 influenza isolate that has been passaged in eggs (EP1) at a dose of 1.55x107 PFU/50mL. Mice were observed for 14 consecutive days after infection for weight loss and clinical signs of infection. A humane 25% weight loss cut off was observed for all mice, post infection, as previously established by the IACUC committee. On the third day of the viral challenge, 3 mice from each group were humanely euthanized, and their lungs were removed, snap frozen, and stored at -80°C. Following day 14 of the influenza virus challenge, all mice were humanely euthanized using IACUC approved methods.”\nWe already have this data from Yao\n\n\n\n\n\n\n\n\n\n\n\n\n\nA recombinant N2 neuraminidase-based CpG 1018® adjuvanted vaccine provides protection against challenge with heterologous influenza viruses in mice and hamsters (Hoxie et al. 2024)\n\nFirst/Last Authors: Irene Hoxie/Florian Krammer\nAuthor we know (loc): Mark Tompkins (middle), Florian Krammer (last)\nAnimal Model: Mouse/Murine, Hamster\nSummary: “Here, we evaluated the immunogenicity and cross-protective potential of a recombinant influenza virus N2 neuraminidase vaccine construct, adjuvanted with a toll-like receptor 9 (TLR9) agonist (CpG 1018® adjuvant), and alum. The combination of CpG 1018 adjuvant and alum induced a balanced and robust humoral and T-cellular immune response against the NA, which provided protection and reduced morbidity against homologous and heterologous viral challenges in mouse and hamster models. This study supports Syrian hamsters as a useful complementary animal model to mice for pre-clinical evaluation of influenza virus vaccines.”\nNotes:\n\nMouse study at Mt. Sinai, hamster study at University of Wisconsin-Madison\n“For mouse studies, naive 6–8-week-old BALB/c or DBA/2J mice were initially primed intramuscularly . . . A second vaccination with the same vaccine formulations was administered on day 21 following the initial dose. Blood samples were collected by submandibular bleed on day 21 after the prime and on day 28 after the booster vaccination and used for subsequent serology assays.\n“To assess the protective efficacy of the tested vaccine formulations in an H3N2 challenge model, DBA/2J mice were anesthetized with 100ul of ketamine-xylazine cocktail (87.5 mg/kg, 12.5 mg/kg) and intranasally infected with either 5 or 25 times the 50 % lethal dose (LD50) in 50ul of the heterologous mouse-adapted A/Switzerland/9715293/2013 (H3N2) influenza virus strain which is antigenically closer to the vaccine antigen. DBA/2J mice were used here since they are more susceptible to recent human H3N2 strains. Vaccinated BALB/c mice were infected with 5xLD50 doses of A/Philippines/2/1982 (H3N2, X-79), A/Hong Kong/2/68 (H3N2, X-31), or A/swine/Germany/Bak50/2017 (H1N2, A/PR/8/34 6:2 reassortant). Survival and body weight change in mice were monitored for 14 days following the challenge.”\n“Syrian hamsters (4–6-week-old males; Charles River) were confirmed to be seronegative for recent circulating H3N2 influenza viruses before being immunized. Three groups of 4 Syrian hamsters were intramuscularly immunized . . . Three weeks later, the hamsters were boosted with the same antigen. Serum samples were collected three weeks after the first immunization and three weeks after the boost immunization to measure antibody responses elicited by the immunization. Under isoflurane anesthesia, the hamsters were intranasally inoculated with 106 plaque forming units (pfu) of homologous (A/Kansas/14/2017, H3N2) or heterologous (A/Aichi/2/1968, H3N2) viruses three weeks after the boost. . . On days 3 and 5 post-challenge, hamsters were humanely euthanized, and lungs, tracheas, and nasal turbinates were collected for virus titration via plaque assay.”\n“For the mice, animals were vaccinated (Fig. 1), and challenged with a **sublethal challenge dose of 0.1 LD50 of A/Switzerland/9715293/2013. Lungs were harvested 3 and 6 days post-infection, and homogenized.” (Not sure if this was at Mt. Sinai or UWisconsin-Madison - this is stated in the same section as the study referencing Wisconsin ethics)\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntranasal administration of octavalent next-generation influenza vaccine elicits protective immune responses against seasonal and pre-pandemic viruses (Uno et al. 2024)\n\nFirst/Last Authors: Naoko Uno/Ted M. Ross\nAuthor we know: Ted M. Ross (last)\nAnimal Model: Ferret\nSummary: “Octavalent mixtures of COBRA hemagglutinin (HA) (H1, H2, H3, H5, H7, and influenza B virus) plus neuraminidase (NA) (N1 and N2) recombinant proteins mixed with c-di-AMP adjuvant were administered intranasally to naive or pre-immune ferrets in prime-boost fashion. Four weeks after final vaccination, collected sera were analyzed for breadth of antibody response, and the animals were challenged with seasonal or pre-pandemic strains. The octavalent COBRA vaccine elicited antibodies that recognized a broad panel of strains representing different subtypes, and these vaccinated animals were protected against influenza virus challenges. Overall, this study demonstrated that the mixture of eight COBRA HA/NA proteins mixed with an intranasal adjuvant is a promising candidate for a universal influenza vaccine.”\nNotes:\n\n“Ferrets were randomly divided into [four] vaccine groups, and each vaccine group had three different infection groups (n = 4–6). The groups were pre-immune ferrets given octavalent COBRA vaccine, naive ferrets given octavalent COBRA vaccine, pre-immune ferrets given mock vaccine, and naive ferrets given mock vaccine.”\n“For the pre-immune groups, ferrets that had been previously exposed to CA/09 prior to this study were infected with Pan/99 and B/HK/01 60 days prior to vaccination.”\n“Ferrets were boosted 28 days after initial vaccination. Blood was harvested from all anesthetized ferrets via the anterior vena cava prior to vaccination and at days 28 and 56 post-initial vaccination.”\n“On day 56 post-vaccination, ferrets were challenged i.n. with H1N1 Bris/18 (108 PFU), IBV B/WA/19 (107 PFU), or a lethal dose of H5N1 Vn/04 (105 PFU, BSL3 select agent) viruses in a volume of 1 mL (n = 5 per vaccine group per challenge).”\n“Ferrets were monitored daily for weight loss, disease signs, and death for 10 days after infection. Experimental endpoints were defined as &gt;20% wt loss compared to initial body weight. Additionally, dyspnea, lethargy, response to external stimuli, and other respiratory distress were closely monitored for the determination of humane endpoint.”\n\n\n\n\n\n\n\n\n\n\n\n\n\nMultivalent next generation influenza virus vaccines protect against seasonal and pre-pandemic viruses (Uno and Ross 2024)\n\nFirst/Last Authors: Naoko Uno/Ted M. Ross\nAuthor we know (loc): Ted M. Ross (last)\nAnimal Model: Mouse/Murine\nSummary: “In this study, mice were vaccinated intramuscularly with multiple COBRA HA and NA immunogens in quadrivalent (H1, H3, N1, N2) or heptavalent (H1, H2, H3, H5, H7, N1, N2) regimens formulated with AddaVax™, an oil-in-water emulsion adjuvant. These vaccines elicited protective immune responses against a wide breadth of seasonal IAV strains. Heptavalent formulations elicited protective immune responses against a wide breadth of pre-pandemic strains as well. Multivalent COBRA HA and NA proteins are promising candidates for a universal, broadly-reactive influenza vaccine.”\nNotes:\n\n“Mice were randomly divided into four vaccine groups (n=44) and each vaccine group had four different infection groups (n=11). The vaccine groups were quadrivalent COBRA formulation, consisting of seasonal components H1 HA (Y2), H3 HA (NG2), N1 NA (N1I), and N2 NA (N2A); heptavalent COBRA formulation, consisting of seasonal Y2, NG2, N1I, N2A along with pandemic components H2 HA (Z1), H5 HA (IAN 8), and H7 HA (Q6); adjuvant only; or negative control. The vaccines were formulated with 3 μg of each recombinant protein or phosphatebuffered saline (PBS, Corning, Tewkbury, MA, USA) and adjuvanted with an emulsified squalene-based oil-inwater emulsion adjuvant, AddaVax™ (InvivoGen, San Diego, CA, USA) at 1:1 ratio.”\n“Vaccines were administered intramuscularly (i.m.) into the hind leg of the animals on day 0, 28, and 56 in a homologous prime-boost-boost regimen. Blood was collected from the facial vein 14 days following each vaccination, on day 14, 42, and 70.”\n“Four weeks after final vaccination, mice were challenged intranasally (i.n.) with 50 μL volume of live influenza virus: lethal dose of Bris/18 (3 × 106 PFU), KS/17 (6 × 106 PFU), MA-Switz/13 (1 × 105 PFU), Mal/MN/08 (1 × 104 PFU), lethal dose of H5N6 Sich/14 (106 PFU), or lethal dose of Anhui/13 (102 PFU, under biosafety level 3 (BSL3) conditions). Following infection, the animals’ body weights were recorded daily, and the animals were monitored twice daily for clinical signs (labored breathing, lethargy, hunched back, ruffled fur, failure to respond to stimuli, and severe respiratory distress) for 14 days. Weight loss more than 25% was used as a primary measurement for determination of humane endpoint. On days 2 or 3 and 6 after infection, three animals from each group were sacrificed, and lungs were collected to assess viral load. Lungs were frozen on dry ice and stored at − 80 °C. Remaining mice (n = 5) were euthanized 14 days after challenge.”\n\n\n\n\nMatrix Protein 2 Extracellular Domain-Specific Monoclonal Antibodies Are an Effective and Potentially Universal Treatment for Influenza A (Bimler et al. 2021)\n\nFirst/Last Authors: Lynn Bimler/Silke Paust\nAuthor we know (loc): Mark Tompkins (second to last)\nAnimal Model: Mouse/Murine\nSummary: “We generated seven murine M2e-MAbs and utilized in vitro and in vivo assays to validate the specificity of our novel M2eMAbs and to explore the universality of their protective potential. Our data show our M2e-MAbs bind to the M2e peptide, HEK cells expressing the M2 channel, as well as influenza virions, and MDCK-ATL cells infected with influenza viruses of multiple serotypes. Our antibodies significantly protect BALB/c mice that are highly susceptible to influenza A virus from lethal challenge with H1N1 A/PR/8/34, pH1N1 A/CA/07/2009, H5N1 A/Vietnam/1203/2004, and H7N9 A/Anhui/1/2013 by improving survival rates and weight loss. Based on these results, at least four of our seven M2e-MAbs show strong potential as universal influenza A treatments.”\nNotes:\n\nConducted at Baylor College of Medicine and UGA\n“We vaccinated 3 times 21 days apart prior to boosting, as this protocol has been demonstrated to produce consistently high antibody titers in all IgG subclasses (significantly higher than 2 vaccinations) and to produce memory B cells that can be activated to produce an increased antibody titer even to geriatric age in mice, 16 months postvaccination.”\n“Mice were given an intraperitoneal (i.p.) injection of the specified MAb at a specified dose 24 hours before virus challenge with 10x the 50% lethal dose (LD50) of the specified virus. H1N1 challenge virus was administered in 20ml of PBS intranasally to mice anesthetized with isoflurane. The pH1N1 and H5N1 challenge viruses were administered in 30ml of PBS intranasally to mice anesthetized with ketamine/xylazine. The H7N9 virus was administered intranasally to mice anesthetized with 2,2,2-tribromoethanol in tert-amyl alcohol (avertin; Aldrich Chemical Co.). The viral inoculum titer of each challenge with pH1N1, H7N9, and H5N1 was determined on MDCK-ATL cells to confirm dose. If specified, a subset of mice were humanely euthanized, and tissues collected to determine virus titer 3 days postinfection (dpi). All animals were monitored for body weight and humane endpoints for euthanization. Survival and weight loss were monitored for up to 21 dpi or until all animals recovered to at least 90% starting body weight.”\n\n\n\n\nVaccination with Recombinant Parainfluenza Virus 5 Expressing Neuraminidase Protects against Homologous and Heterologous Influenza Virus Challenge (Mooney et al. 2017)\n\nFirst/Last Authors: Alaina J. Mooney/S. Mark Tompkins\nAuthor we know (loc): Mark Tompkins (last)\nAnimal Model: Mouse/Murine\nSummary: “Here we show that vaccination with parainfluenza virus 5 (PIV5), a promising live viral vector expressing NA from avian (H5N1) or pandemic (H1N1) influenza virus, elicited NA-specific antibody and T cell responses, which conferred protection against homologous and heterologous influenza virus challenges. Vaccination with PIV5-N1 NA provided cross-protection against challenge with a heterosubtypic (H3N2) virus. Experiments using antibody transfer indicate that antibodies to NA have an important role in protection. These findings indicate that PIV5 expressing NA may be effective as a broadly protective vaccine against seasonal influenza and emerging pandemic threats.”\nNotes:\n\nTl;dr - basic data structure that we want, but only IgG and NA/NAI assays - if we also want to look at IgG/NAI as CoP, these data seem like they would work\n“To determine if vaccination with rPIV5-N1 induces an NA-specific antibody response, BALB/c mice were vaccinated and boosted by i.n. inoculation with PIV5, rPIV5-N1(VN), or rPIV5-N1(CA). Positive-control mice were i.m. immunized with the rgA/VN-PR8 or A/CA/04/09 influenza virus. Mice were bled on day 21 postprime and on day 7 postboost (day 35 postpriming). Pooled serum from each vaccination group was assessed for levels of A/VN/1203/04- and A/CA/04/09specific IgG by an enzyme-linked immunosorbent assay (ELISA).”\n“To determine whether the NA-specific antibodies could block specific neuraminidase activity, serum was analyzed in a 20-(4-methylumbelliferyl)-\u0002-D-Nacetylneuraminic acid (MUNANA)-based NA inhibition (NAI) assay.”\n“. . . immunized mice were challenged with HPAI H5N1 (A/Vietnam/1203/04), pandemic H1N1 (A/California/04/09), or heterosubtypic H3N2 (A/Philippines/2/82 X79) virus. BALB/c mice were immunized, challenged at 7 days postboost with 10 50% lethal doses (LD50) of influenza virus, and monitored for morbidity and mortality.”\n“Ferrets were immunized i.n. with 107 PFU of PIV5, rPIV5-N1(CA), or rPIV5-N1(VN) or 105 PFU of A/CA/04/09. Twenty-one days after immunization, ferrets were challenged with \\(10^6\\) PFU of A/CA/04/09 and monitored for clinical signs, and nasal wash samples were collected on days 2, 4, 6, and 8 postchallenge.”\n\n\n\n\nNebulized Live-Attenuated Influenza Vaccine Provides Protection in Ferrets at a Reduced Dose (Smith et al. 2012)\n\nFirst/Last Authors: Jennifer Humberd Smith/Ralph A. Tripp\nAuthor we know (loc): Mark Tompkins (2nd to last)\nAnimal Model: Ferret\nSummary: “We investigated LAIV vaccination in ferrets using a high efficiency nebulizer designed for nasal delivery. LAIV nasal aerosol elicited high levels of serum neutralizing antibodies and protected ferrets from homologous virus challenge at conventional (107 TCID50) and significantly reduced (103 TCID50) doses. Aerosol LAIV also provided a significant level of subtype-specific cross protection. These results demonstrate the dose-sparing potential of nebulizer-based nasal aerosol LAIV delivery.”\nNotes:\n\n“Ferrets were anesthetized . . . and inoculated intranasally with 0.2 ml (0.1 ml/nostril) or by aerosol (0.2 ml estimated dose) using a AeroVax™ nebulizer, with either \\(10^3\\) or \\(10^7\\) TCID50 of SD-LAIV for the homologous virus challenge study and \\(10^5\\) TCID50 of SD-LAIV or CA09 for the heterotypic challenge study.\n“Ferrets were challenged 21 days post vaccination . . . Daily weights and temperatures were recorded for seven days after vaccination and/or challenge.”\n“Sera samples were collected from each ferret prior to inoculation, 14 days post exposure, and 14 or 17 days post challenge. All sera were . . . tested in a hemagglutination inhibition (HAI) assay . . .”\n\n\n\n\nTemplate - Paper title [intextcit]\n\nFirst/Last Authors:\nAuthor we know (loc):\nAnimal Model:\nSummary:\nNotes:"
+    "objectID": "presentations/proposal-idig/index.html#influenza",
+    "href": "presentations/proposal-idig/index.html#influenza",
+    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
+    "section": "Influenza",
+    "text": "Influenza\n\n\n\n\n\n\n\nCDC (2025)"
   },
   {
-    "objectID": "aim1/animal-studies/index.html#sec-confirmed",
-    "href": "aim1/animal-studies/index.html#sec-confirmed",
-    "title": "Potential Animal Study Data Source Summaries",
-    "section": "Confirmed data sources",
-    "text": "Confirmed data sources\n\nAcquired data\n\nAllen and Ross (2024) - Section 2.1.2"
+    "objectID": "presentations/proposal-idig/index.html#influenza-1",
+    "href": "presentations/proposal-idig/index.html#influenza-1",
+    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
+    "section": "Influenza",
+    "text": "Influenza"
   },
   {
-    "objectID": "aim1/animal-studies/index.html#sec-rejected",
-    "href": "aim1/animal-studies/index.html#sec-rejected",
-    "title": "Potential Animal Study Data Source Summaries",
-    "section": "Denied/Rejected data sources",
-    "text": "Denied/Rejected data sources\n\nAbstract rejection\n\nChopra et al. (2024)\n\nNo actual animal models - just receptor specificity\n\n\n\nCurran et al. (2024)\n\nNo pre-infection immunization\n\n\n\nLieber et al. (2023)\n\nNo pre-infection immunization\n\n\n\nLuczo et al. (2023)\n\nNo pre-infection immunization\n\n\n\nPliasas et al. (2023)\n\nGeneral methods match, but this is all swine, and I’m not sure we plan to look at swine (but if we do, this could move to potential)\n\n\n\nNachbagauer et al. (2018)\n\nNo pre-infection immunization, other than monoclonal antibodies 24h prior to challenge\n\n\n\nDriskell et al. (2010)\n\nNo pre-infection immunization"
+    "objectID": "presentations/proposal-idig/index.html#influenza-2",
+    "href": "presentations/proposal-idig/index.html#influenza-2",
+    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
+    "section": "Influenza",
+    "text": "Influenza\n\n\n\n\n\nEnveloped negative-sense single-strand RNA virus\nSegmented genome (8 segmenets)\nHA facilitates viral entry\nNA facilitates viral release\n\n\n\n\nCDC (2024a); Krammer et al. (2018)"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Home/About",
+    "objectID": "presentations/proposal-idig/index.html#influenza-classification",
+    "href": "presentations/proposal-idig/index.html#influenza-classification",
+    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
+    "section": "Influenza Classification",
+    "text": "Influenza Classification\n\n\n\nTypes and Subtypes:\n\nA/H1N1\nA/H3N2\nA/H5N1\nB/Victoria\nB/Yamagata\nC\nD\n\n\n\n\nStrains (WHO 2024):\n\nA/Victoria/4897/2022 (H1N1)pdm09-like virus\nA/Thailand/8/2022 (H3N2)-like virus\nB/Austria/1359417/2021 (B/Victoria lineage)-like virus"
+  },
+  {
+    "objectID": "presentations/proposal-idig/index.html#influenza-vaccines",
+    "href": "presentations/proposal-idig/index.html#influenza-vaccines",
+    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
+    "section": "Influenza Vaccines",
+    "text": "Influenza Vaccines\n\nStrains are chosen/recommended each year based on (CDC 2024b):\n\nWhich influenza viruses are making people sick prior to the upcoming flu season,\nThe extent to which those viruses are spreading prior to the upcoming flu season,\nHow well the previous season’s vaccines may protect against those influenza viruses, and\nThe ability of vaccine viruses to provide cross-protection against a range of related influenza viruses of the same type or subtype/lineage."
+  },
+  {
+    "objectID": "presentations/proposal-idig/index.html#influenza-vaccines-1",
+    "href": "presentations/proposal-idig/index.html#influenza-vaccines-1",
+    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
+    "section": "Influenza Vaccines",
+    "text": "Influenza Vaccines\n\n\n\n\n\n\n\nCreated with BioRender.com"
+  },
+  {
+    "objectID": "presentations/proposal-idig/index.html#influenza-vaccines-2",
+    "href": "presentations/proposal-idig/index.html#influenza-vaccines-2",
+    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
+    "section": "Influenza Vaccines",
+    "text": "Influenza Vaccines\n\n\n\n\n\n\n\nCreated with BioRender.com"
+  },
+  {
+    "objectID": "presentations/proposal-idig/index.html#influenza-vaccines-3",
+    "href": "presentations/proposal-idig/index.html#influenza-vaccines-3",
+    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
+    "section": "Influenza Vaccines",
+    "text": "Influenza Vaccines\n\n\n\n\n\n\n\nCreated with BioRender.com"
+  },
+  {
+    "objectID": "presentations/proposal-idig/index.html#influenza-vaccines-4",
+    "href": "presentations/proposal-idig/index.html#influenza-vaccines-4",
+    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
+    "section": "Influenza Vaccines",
+    "text": "Influenza Vaccines\n\n\n\n\n\n\n\nCreated with BioRender.com"
+  },
+  {
+    "objectID": "presentations/proposal-idig/index.html#influenza-vaccines-5",
+    "href": "presentations/proposal-idig/index.html#influenza-vaccines-5",
+    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
+    "section": "Influenza Vaccines",
+    "text": "Influenza Vaccines\n\n\n\n\n\n\n\nCreated with BioRender.com"
+  },
+  {
+    "objectID": "presentations/proposal-idig/index.html#problemsignificance",
+    "href": "presentations/proposal-idig/index.html#problemsignificance",
+    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
+    "section": "Problem/Significance",
+    "text": "Problem/Significance\n\n\n\nVE is variable and often low; CDC (2024c)"
+  },
+  {
+    "objectID": "presentations/proposal-idig/index.html#problemsignificance-1",
+    "href": "presentations/proposal-idig/index.html#problemsignificance-1",
+    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
+    "section": "Problem/Significance",
+    "text": "Problem/Significance\n\n\n\n\nWhy is VE so low? Many different theories (probably a combination):\n\nOriginal antigenic sin/imprinting\nLow immunogenicity\nMatch/Mismatch between vaccine strain and circulating strain\n\n\n\n\n\n\n\n\nCreated with BioRender.com"
+  },
+  {
+    "objectID": "presentations/proposal-idig/index.html#specific-aims",
+    "href": "presentations/proposal-idig/index.html#specific-aims",
+    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
+    "section": "Specific Aims",
+    "text": "Specific Aims\n\nIdentify and model correlates of protection against influenza in animal models.\nEvaluate benefit of high-dose influenza vaccination by estimating and comparing Fluzone vaccine efficacies in age- and dose-based groups.\nQuantify the impact of antigenic distance between vaccine and circulating influenza strains on vaccine effectiveness."
+  },
+  {
+    "objectID": "presentations/proposal-idig/index.html#correlates-of-protection-cops",
+    "href": "presentations/proposal-idig/index.html#correlates-of-protection-cops",
+    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
+    "section": "Correlates of Protection (CoPs)",
+    "text": "Correlates of Protection (CoPs)\n\nBiomarker associated with protection against infection or disease\nRelated terms: surrogate, mechanistic/nonmechanistic correlate, mediator of protection\nNomenclature often depends on the believed causality of the marker\nOften used in vaccine design, development, and licensure\n\n\n\nLim et al. (2020);"
+  },
+  {
+    "objectID": "presentations/proposal-idig/index.html#influenza-cops-in-humans",
+    "href": "presentations/proposal-idig/index.html#influenza-cops-in-humans",
+    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
+    "section": "Influenza CoPs in Humans",
+    "text": "Influenza CoPs in Humans\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHobson 1972(date?) 1:40 50%PT\n\n\n\nFrom top left: Coudeville et al. (2010); Dudášová et al. (2021); Cowling et al. (2019)"
+  },
+  {
+    "objectID": "presentations/proposal-idig/index.html#problemsignificance-2",
+    "href": "presentations/proposal-idig/index.html#problemsignificance-2",
+    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
+    "section": "Problem/Significance",
+    "text": "Problem/Significance\n\nLack of research in correlates of protection in animal models\nVaccine studies in animals base endpoints on human 50%PT\nLack of evidence supporting that those 50%PTs are the same\nIdentifying true 50%PTs/CoP relationships in e.g. mouse, ferret studies can streamline vaccine development"
+  },
+  {
+    "objectID": "presentations/proposal-idig/index.html#planned-data-description",
+    "href": "presentations/proposal-idig/index.html#planned-data-description",
+    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
+    "section": "[Planned] Data Description",
+    "text": "[Planned] Data Description\n\n\n\n\n\n\n\n\nWe are still working on data requests with bench scientists at UGA (and potentially elsewhere) who perform animal studies that follow this basic timeline.\nEssentially, we will request data sets that have mice or ferrets who are pre-immune and/or vaccinated at the beginning of the study, with pre-challenge HAI titers, reasonable inoculations (AKA not 10x the lethal dose), and follow up with infection and disease outcomes.\n\n\n\nCreated with BioRender.com"
+  },
+  {
+    "objectID": "presentations/proposal-idig/index.html#proposed-study",
+    "href": "presentations/proposal-idig/index.html#proposed-study",
+    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
+    "section": "Proposed Study",
+    "text": "Proposed Study\n\n\n\nAnalyze mouse and ferret (two most common influenza animal models) data separately\nBayesian mixed-effects models\n\n\n\n\nOutcomes to assess:\n\nPCR confirmed infection\nWeight loss/anorexia\nTime to illness\nViral load\n\nAccount for:\n\nImmunity source\nInoculum dose\nStudy site\n\n\n\n\n\nCreated with BioRender.com"
+  },
+  {
+    "objectID": "presentations/proposal-idig/index.html#proposed-study-1",
+    "href": "presentations/proposal-idig/index.html#proposed-study-1",
+    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
+    "section": "Proposed Study",
+    "text": "Proposed Study\n\n\n\nAnalyze mouse and ferret (two most common influenza animal models) data separately\nBayesian mixed-effects models\n\n\n\n\nOutcomes to assess:\n\nPCR confirmed infection\nWeight loss/anorexia\nTime to illness\nViral load\n\nAccount for:\n\nImmunity source\nInoculum dose\nStudy site\n\n\n\n\n\nCreated with BioRender.com"
+  },
+  {
+    "objectID": "presentations/proposal-idig/index.html#immunogenicity-studies",
+    "href": "presentations/proposal-idig/index.html#immunogenicity-studies",
+    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
+    "section": "Immunogenicity Studies",
+    "text": "Immunogenicity Studies\n\n\n\n\n\nEfficacy studies time and resource intensive\nImmunogenicity studies typically more sustainable and done more regularly/for longer periods\nStill useful to bring results back to actual protection\n\n\n\n\n\n\n\n\n\nCreated with BioRender.com"
+  },
+  {
+    "objectID": "presentations/proposal-idig/index.html#problemsignificance-3",
+    "href": "presentations/proposal-idig/index.html#problemsignificance-3",
+    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
+    "section": "Problem/Significance",
+    "text": "Problem/Significance\n\nHigh-dose (HD) vaccines have evidence of reducing influenza morbidity and mortality in older adults\nBecause efficacy studies are so resource intensive, there has not been an extended view of how much the HD vaccine helps older adults in terms of actual protection\nWe can use immunogenicity studies to estimate vaccine efficacy and compare protection in different groups"
+  },
+  {
+    "objectID": "presentations/proposal-idig/index.html#data-description",
+    "href": "presentations/proposal-idig/index.html#data-description",
+    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
+    "section": "Data Description",
+    "text": "Data Description\n\nUGAFluVac\nWe’ve talked about this several times in this group, so let’s move on"
+  },
+  {
+    "objectID": "presentations/proposal-idig/index.html#study-methods",
+    "href": "presentations/proposal-idig/index.html#study-methods",
+    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
+    "section": "Study Methods",
+    "text": "Study Methods\n\n\n\nCoudeville et al. (2010)"
+  },
+  {
+    "objectID": "presentations/proposal-idig/index.html#study",
+    "href": "presentations/proposal-idig/index.html#study",
+    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
+    "section": "Study",
+    "text": "Study\n\n\n\nHammerton et al. (2024)"
+  },
+  {
+    "objectID": "presentations/proposal-idig/index.html#study-1",
+    "href": "presentations/proposal-idig/index.html#study-1",
+    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
+    "section": "Study",
+    "text": "Study\n\n\n\n\n\n\n\nHammerton et al. (2024)"
+  },
+  {
+    "objectID": "presentations/proposal-idig/index.html#study-2",
+    "href": "presentations/proposal-idig/index.html#study-2",
+    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
+    "section": "Study",
+    "text": "Study\n\n\n\n\n\n\n\nHammerton et al. (2024)"
+  },
+  {
+    "objectID": "presentations/proposal-idig/index.html#study-3",
+    "href": "presentations/proposal-idig/index.html#study-3",
+    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
+    "section": "Study",
+    "text": "Study\n\n\n\n\n\n\n\nHammerton et al. (2024)"
+  },
+  {
+    "objectID": "presentations/proposal-idig/index.html#antigenic-match-and-mismatch",
+    "href": "presentations/proposal-idig/index.html#antigenic-match-and-mismatch",
+    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
+    "section": "Antigenic Match and Mismatch",
+    "text": "Antigenic Match and Mismatch\n\n\n\nIs the chosen vaccine strain “the same” as the strain(s) infecting people?\nHow much does this matter?\n\n\n\n\n\n\n\n\n\n\nCreated with BioRender.com"
+  },
+  {
+    "objectID": "presentations/proposal-idig/index.html#previous-literature",
+    "href": "presentations/proposal-idig/index.html#previous-literature",
+    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
+    "section": "Previous Literature",
+    "text": "Previous Literature\n\n\n\n\n\n\n\n\n\nTricco match/mismatch:\nInfluenza A strains from infected trial participants were matched with the strain in the vaccine if they belonged to the same A subtype (that is, H1N1 or H3N2) and were antigenically similar in the HI assay (that is, if they showed sufficient crossreaction in a HI chessboard table using ferret antisera; for example, with a HI typing quotient &lt;fourfold titer). Influenza A viral strains were considered mismatched by antigenic drift if they were antigenically distinct from influenza A strains contained in the vaccine as per HI typing (for example, HI titer quotient ≥fourfold) or the characterization did not belong to a similar influenza A subtype contained in the vaccine (for example, H1N1 strains circulating but only H3N2 strains contained in the vaccine for bivalent vaccines with one H subtype).\nTenforde paper:\nAmong B/Victoria viruses, 926 (98%) of 945 sequenced viruses belonged to clade V1A.3, which contains a 3-amino acid deletion (162–164) in the HA protein and differs antigenically from the vaccine component (V1A.1), which has a 2-amino acid deletion (162–163) in the HA protein.\nSkowronski paper:\nTo understand low VE despite reports of vaccine match, we conducted further epidemiologic and laboratory investigations in end-of-season analyses. With additional participants and contributing viruses, we estimated VE against circulating strains belonging to both influenza A subtypes and B lineages accompanied by their in-depth genotypic and phenotypic characterization in relation to vaccine components. Specifically, vaccine-virus relatedness was assessed genotypically by determining the amino acid (AA) sequence of established haemagglutinin (HA) antigenic sites and phenotypically through the haemagglutination inhibition (HI) assay. For H3N2, virus characterization was in relation to the A/Victoria/361/2011 prototype strain recommended by the WHO [10], as well as the egg-adapted high growth reassortant strain as per that actually used by manufacturers in vaccine production (hereafter ‘‘IVR-165’’) [11]. We show that suboptimal VE for the H3N2 component during the 2012–13 season was related to mutations in the egg-adapted IVR-165 vaccine strain, rather than antigenic drift in circulating viruses.\nBelongia paper:\nA virus was considered antigenically different from the corresponding vaccine vaccine strain if there was a &gt;= 4 fold difference between the homologous HAI titer of the vaccine strain."
+  },
+  {
+    "objectID": "presentations/proposal-idig/index.html#previous-literature-1",
+    "href": "presentations/proposal-idig/index.html#previous-literature-1",
+    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
+    "section": "Previous Literature",
+    "text": "Previous Literature\n\n\n\nPan and Deem (2016)"
+  },
+  {
+    "objectID": "presentations/proposal-idig/index.html#problemsignificance-4",
+    "href": "presentations/proposal-idig/index.html#problemsignificance-4",
+    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
+    "section": "Problem/Significance",
+    "text": "Problem/Significance\n\nMatch/mismatch has been dichotomous and arbitrarily defined in many papers\nSome studies have used antigenic distance over one or two seasons, or one specific flu type/subtype\nUnderstanding of the impact of antigenic distance on vaccine effectiveness is still weak"
+  },
+  {
+    "objectID": "presentations/proposal-idig/index.html#planned-data-description-1",
+    "href": "presentations/proposal-idig/index.html#planned-data-description-1",
+    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
+    "section": "[Planned] Data Description",
+    "text": "[Planned] Data Description\n\n\nSeasonLocationPopulationSubTypeProportionaVaxStrainRepeatbCircStrainAgDist1cAgDist2cAgDist3cNdVEexxxxxxxxxxxxxxxxxxxxxxxxxxaProportion of infections caused by the listed circulating strain.bNumber of uninterrupted years this strain has been used in the vaccine, including the referenced season.cAntigenic distance methods will be specified in these column names when final methods are decided.dStudy sample size.eVE with std. error and uncertainty intervals, as available.\n\n\n\nGather vaccine strain history from CDC and WHO recommendations\nFind circulating strains from MMWRs, papers, reports, etc. for specific times and areas\nCalculate antigenic distance multiple ways, including p-epitope, temporal, and Grantham"
+  },
+  {
+    "objectID": "presentations/proposal-idig/index.html#analysis-plan",
+    "href": "presentations/proposal-idig/index.html#analysis-plan",
+    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
+    "section": "Analysis Plan",
+    "text": "Analysis Plan\n\nMeta-analysis of papers/reports on vaccine effectiveness (VE) over the past 2+ decades\nBayesian mixed-effects modeling predicting VE based on anitgenic distance\nAccount for age group, region, “repeat vaccination effect”"
+  },
+  {
+    "objectID": "presentations/proposal-idig/index.html#analysis-plan-1",
+    "href": "presentations/proposal-idig/index.html#analysis-plan-1",
+    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
+    "section": "Analysis Plan",
+    "text": "Analysis Plan\n\n\n\nPrimary modeling result: what is the association between VE and antigenic distance?\n\n\n\n\n\n\nCreated with BioRender.com"
+  },
+  {
+    "objectID": "presentations/proposal-idig/index.html#timeline-goes-here",
+    "href": "presentations/proposal-idig/index.html#timeline-goes-here",
+    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
+    "section": "Timeline goes here :)",
+    "text": "Timeline goes here :)"
+  },
+  {
+    "objectID": "aim3/model-building/index.html",
+    "href": "aim3/model-building/index.html",
+    "title": "VE ~ Antigenic Distance Model Building",
     "section": "",
-    "text": "This repository/site houses my materials and resources use in developing my dissertation. I have information split into general background, each specific aim, and presentations. The background section contains lit review notes split up by topic. Each specific aim may also contain lit review notes specific to something for that aim as needed, and will also have general notes and planning. The presentations section contains any presentations created for the proposal defense and dissertation defense, and any other miscellaneous presentations as needed. Presentations that are specific to one aim will be housed in that aim’s section.\n\nSpecific Aims\nInfluenza is a major public health burden and contributes to substantial morbidity and mortality worldwide. The first influenza vaccine was licensed for public use in 1945, but vaccine effectiveness (VE) is stil variable and often low. This variability limits our ability to make confident public health decisions and reduce morbidity and mortality. The lack of a clear and consistent framework that links immunogenicity to clinical protection, particularly across species and age groups, and under conditions of viral mismatch, is a major challenge in developing and improving seasonal influenza vaccines. This dissertation aims to bridge immunologic correlates of protection and antigenic mismatch analyses to improve estimates of influenza vaccine effectiveness in both animal models and human populations, using statistical and meta-analytic modeling approaches.\nAim 1. Identify and model correlates of protection against influenza in animal models. Animal models are frequently used to evaluate influenza vaccine components and platforms prior to human use. A 1:40 hemagglutination inhibition (HAI) titer is often assumed to reduce infection risk by 50% (50%PT) across species, yet this threshold was derived from human data and may not translate directly to animal models. We will conduct correlates of protection (CoP) analyses in pre-immune murine and ferret challenge models to estimate species-specific CoP curves and 50%PT values. These results will clarify the relationship between HAI titers and protection across species and improve how preclinical studies inform human vaccine development.\nAim 2. Evaluate benefit of high-dose influenza vaccination by estimating and comparing Fluzone vaccine efficacies in age- and dose-based groups. Older adults are at higher risk for severe influenza outcomes, and high-dose vaccines (e.g., Fluzone High-Dose) are recommended to combat immunosenescence and infection and disease vulnerabilities. However, the added benefit of these vaccines remains unclear and unquantified in terms of real-world protection. Using the UGAFluVac immunogenicity data,we will estimate VE by mapping pre- and post-vaccination HAI titers to protection probabilities across three groups: younger adults receiving standard-dose Fluzone vaccines, older adults receiving standard-dose Fluzone vaccines, and older adults receiving high-dose Fluzone vaccines. We will use contrasts to quantify the benefit of high-dose vaccination in older adults.\nAim 3. Quantify the impact of antigenic distance between vaccine and circulating influenza strains on vaccine effectiveness. The seaonal influenza vaccine is updated each year with antigens expected to prompt immune responses that are protective against that season’s prevalent strains. Low vaccine effectiveness (VE) is often said to be caused, in some part, by a “mismatch” of the vaccine strain to the prevalent circulating strain. However, this mismatch is defined differently in many studies and is generally dichotmous (i.e. match or mismatch). We will use continuous measures of antigenic distance to assess the impact of the difference between vaccine and ciruclating strains in linear mixed effects meta-regression."
+    "text": "Model Setup\nHere is my basic planned setup of the model. I will fit linear mixed effects models predicting VE as a function of some combination of parameters associated with fixed and random effects.\nThe general model is defined as:\n\\[\n\\begin{aligned}\nY_{i,s,t} &= \\beta_0 + \\sum_{j=2}^p\\beta_jx_{j,i} + (\\beta_1 + b_t^{(x_1t)})x_{1,i} + b_s^{(s)} +b_t^{(t)} +  \\epsilon_{i,s,t}\\\\\n\\end{aligned}\n\\]\n\n\n\n\n\n\n\nTerm\nInterpretation\n\n\n\n\n\\(\\beta_0\\)\nFixed intercept\n\n\n\\(\\beta_j\\)\nFixed slopes for predictors \\(x_j, j \\ge2\\)\n\n\n\\(b_s^{(s)} \\sim \\mathcal{N}(0,\\sigma^2_s)\\)\nRandom intercept for influenza season \\(s\\)\n\n\n\\(b_t^{(t)} \\sim \\mathcal{N}(0, \\sigma^2_t)\\)\nRandom intercept for influenza type/subtype/lineage \\(t\\)\n\n\n\\(b_t^{(x_1t)} \\sim \\mathcal{N}(0, \\sigma^2_{x_1t})\\)\nRandom slope for antigenic distance predictor \\(x_1\\), varying by subtype \\(t\\)\n\n\n\\(\\epsilon_{i,s,t} \\sim \\mathcal{N}(0, \\sigma^2_\\epsilon)\\)\nResidual\n\n\n\n\n\nFixed Effects\n\n\n\n\n\n\n\nPredictor\nInterpretation\n\n\n\n\n\\(d\\)\nAntigenic distance between vaccine and circulating strain\n\n\n\\(a\\)\nAge group\n\n\n\\(r\\)\nRegion (should this be a random effect?)\n\n\n\\(p\\)\nProportion of infections caused by subtype/lineage \\(t\\)\n\n\n\\(r\\)\nNumber of consecutive years relevant vaccine strain has been included in vaccine as of season \\(s\\)\n\n\n\\(c\\)\nAntigenic distance between this season’s (\\(s\\)) and last season’s relevant vaccine strain"
   },
   {
-    "objectID": "aim3/master-slides/index.html#flu-burden",
-    "href": "aim3/master-slides/index.html#flu-burden",
-    "title": "VE~AgDist Background and Proposal",
-    "section": "Flu Burden",
-    "text": "Flu Burden\n\nCDC (2025)"
+    "objectID": "aim3/analysis-plan/index.html",
+    "href": "aim3/analysis-plan/index.html",
+    "title": "Aim 3 Analysis Plan",
+    "section": "",
+    "text": "We will collect and combine data from previously published articles and reports for this aim.\n\nPreliminary results\nWe have created a simple DAG (Figure 1) describing what we believe are the most important variables on the causal pathway between vaccine/circulating strain antigenic distance (AD) and vaccine effectiveness (VE). In this framework, we believe that the circulating strain (CS) and vaccine strain (VS) will each have direct effects on population VE, as well as leading to the antigenic distance result. We also assume that pre-season immunity (PT), as indicated by HAI titer, will impact VE, although we will not have this information as part of our data set. The vaccine strain in the previous season’s vaccine (PVS) may also impact VE, as described in the antigenic distance hypothesis (Skowronski et al. 2017). Vaccine uptake (VU) may also impact VE through changes in direct and indirect vaccination effects (Eichner et al. 2017). Demographic factors (D) such as age, race, etc. influence VE both directly and indirectly through (VU). We plan to collect data on CS, VS, PVS, and VE in all cases, and will also collect and examine impacts of VU and D as data are available. AD will be calculated using VS and CS.\n\n\n\n\n\n\n\n\nFigure 1: Relevant exposures, outcomes, and covariates on the causal pathway between antigenic distance (AD) and vaccine effectiveness (VE). Exposures (yellow) include AD, circulating influenza strain (CS), vaccine strain (VS), pre-season HAI titers (PT), previous year vaccine strain (PVS), and population vaccine uptake (VU). Demographics (D) is included as a covariate (orange). Our outcome (gray) of interest is VE.\n\n\n\n\n\n\n\nProposed studies\nWe will calculate VE using multiple methods, including p_epitope distance [Gupta, Earl, and Deem (2006); Pan and Deem (2016); ADD MORE], Grantham distance [Grantham (1974); ADD MORE], and temporal distance (Auladell et al. 2022; Boyoglu-Barnum et al. 2021-03-24, 2021-03; Hinojosa et al. 2020-10-22, 2020-10; Li et al. 2021-02-23, 2021-02; Yang et al. 2020; Carlock and Ross 2023). We will then use Bayesian mixed-effects meta-regression (Equation 1 and Table 1) to examine the effect of our predictors (Table 2) on the VE outcome.\n\\[\n\\begin{aligned}\n\\hat\\theta_k &\\sim \\mathcal{N}(\\theta_k,\\sigma^2_k)\\\\\n\\theta_k &\\sim \\mathcal{N}(\\mu_k, \\tau^2), \\quad \\mu_k = \\beta_0 + \\sum_{j=1}^p\\beta_jx_{j,k} + b^{(s)}_{s[k]} + b^{(t)}_{t[k]} + b^{(x_1t)}_{t[k]} \\cdot x_{1,k} \\\\\nb^{(s)}_s &\\sim \\mathcal{N}(0, \\sigma^2_s) \\\\\nb^{(t)}_t &\\sim \\mathcal{N}(0, \\sigma^2_t) \\\\\nb^{(x_1t)}_t &\\sim \\mathcal{N}(0, \\sigma^2_{x_1t}) \\\\\n\\beta_j &\\sim \\mathcal{N}(0, \\sigma^2_j)\n\\end{aligned}\n\\tag{1}\\]\n\n\n\nTable 1: Descriptions of terms used in Equation 1\n\n\n\n\n\n\n\n\n\nTerm\nInterpretation\n\n\n\n\n\\(\\hat\\theta_k\\)\nObserved estimate from study \\(k\\)\n\n\n\\(\\theta_k\\)\nTrue underlying effect for study \\(k\\)\n\n\n\\(\\sigma^2_k\\)\nKnown sampling variance for \\(\\hat\\theta_k\\)\n\n\n\\(\\beta_0\\)\nFixed intercept\n\n\n\\(\\beta_j\\)\nFixed slopes for predictors \\(x_j, j \\ge 1\\) as described in Table 2\n\n\n\\(b^{(s)}_{s[k]}\\)\nRandom intercept/effect for influenza season \\(s\\) for study \\(k\\)\n\n\n\\(b^{(t)}_{t[k]}\\)\nRandom intercept/effect for influenza subtype/lineage \\(t\\) for study \\(k\\)\n\n\n\\(b^{(x_1t)}_{t[k]} \\cdot x_{1,k}\\)\nRandom slope for antigenic distance \\(x_1\\), varying by subtype \\(t\\)\n\n\n\n\n\n\n\n\n\nTable 2: Descriptions of fixed effects \\(\\beta_j\\)\n\n\n\n\n\n\n\n\n\nPredictor\nInterpretation\n\n\n\n\n\\(d\\)\nAntigenic distance between vaccine and circulating strain\n\n\n\\(a\\)\nAge group\n\n\n\\(p_t\\)\nProportion of infections caused by subtype/lineage \\(t\\)\n\n\n\\(r\\)\nNumber of consecutive years relevant vaccine strain has been included in vaccine as of season \\(s\\)\n\n\n\\(c\\)\nAntigenic distance between this season’s and last season’s relevant vaccine strain\n\n\n\n\n\n\n\n\nExpected outcomes\n\n\n\n\n\n\n\n\nFigure 2: Theorized potential relationships between antigenic distance and VE. Created with BioRender.com.\n\n\n\n\n\n\n\n\n\n\n\n\n\nReferences\n\nAuladell, Maria, Hoang Vu Mai Phuong, Le Thi Quynh Mai, Yeu-Yang Tseng, Louise Carolan, Sam Wilks, Pham Quang Thai, et al. 2022. “Influenza Virus Infection History Shapes Antibody Responses to Influenza Vaccination.” Nat Med 28 (2): 363–72. https://doi.org/10.1038/s41591-022-01690-w.\n\n\nBoyoglu-Barnum, Seyhan, Daniel Ellis, Rebecca A. Gillespie, Geoffrey B. Hutchinson, Young-Jun Park, Syed M. Moin, Oliver J. Acton, et al. 2021-03-24, 2021-03. “Quadrivalent Influenza Nanoparticle Vaccines Induce Broad Protection.” Nature 592 (7855): 623–28. https://doi.org/10.1038/s41586-021-03365-x.\n\n\nCarlock, Michael A., and Ted M. Ross. 2023. “A Computationally Optimized Broadly Reactive Hemagglutinin Vaccine Elicits Neutralizing Antibodies Against Influenza B Viruses from Both Lineages.” Sci Rep 13 (September): 15911. https://doi.org/10.1038/s41598-023-43003-2.\n\n\nEichner, Martin, Markus Schwehm, Linda Eichner, and Laetitia Gerlier. 2017. “Direct and Indirect Effects of Influenza Vaccination.” BMC Infectious Diseases 17 (1): 308. https://doi.org/10.1186/s12879-017-2399-4.\n\n\nGrantham, R. 1974. “Amino Acid Difference Formula to Help Explain Protein Evolution.” Science 185 (4154): 862–64. https://doi.org/10.1126/science.185.4154.862.\n\n\nGupta, Vishal, David J. Earl, and Michael W. Deem. 2006. “Quantifying Influenza Vaccine Efficacy and Antigenic Distance.” Vaccine, 3rd International Conference on Vaccines for Enteric Diseases, 24 (18): 3881–88. https://doi.org/10.1016/j.vaccine.2006.01.010.\n\n\nHinojosa, Michael, Samuel S Shepard, Jessie R Chung, Jennifer P King, Huong Q McLean, Brendan Flannery, Edward A Belongia, and Min Z Levine. 2020-10-22, 2020-10. “Impact of Immune Priming, Vaccination, and Infection on Influenza A(H3N2) Antibody Landscapes in Children.” The Journal of Infectious Diseases, 2020-10-22, 2020-10. https://doi.org/10.1093/infdis/jiaa665.\n\n\nLi, Zhu-Nan, Feng Liu, F. Liaini Gross, Lindsay Kim, Jill Ferdinands, Paul Carney, Jessie Chang, James Stevens, Terrence Tumpey, and Min Z. Levine. 2021-02-23, 2021-02. “Antibody Landscape Analysis Following Influenza Vaccination and Natural Infection in Humans with a High-Throughput Multiplex Influenza Antibody Detection Assay.” Edited by Kanta Subbarao. mBio 12 (1). https://doi.org/10.1128/mbio.02808-20.\n\n\nPan, Yidan, and Michael W. Deem. 2016. “Prediction of Influenza B Vaccine Effectiveness from Sequence Data.” Vaccine 34 (38): 4610–17. https://doi.org/10.1016/j.vaccine.2016.07.015.\n\n\nSkowronski, Danuta M., Catharine Chambers, Gaston De Serres, Suzana Sabaiduc, Anne-Luise Winter, James A. Dickinson, Jonathan B. Gubbay, et al. 2017. “Serial Vaccination and the Antigenic Distance Hypothesis: Effects on Influenza Vaccine Effectiveness During A(H3N2) Epidemics in Canada, 2010–2011 to 2014–2015.” J Infect Dis 215 (7): 1059–99. https://doi.org/10.1093/infdis/jix074.\n\n\nYang, Bingyi, Justin Lessler, Huachen Zhu, Chao Qiang Jiang, Jonathan M. Read, James A. Hay, Kin On Kwok, et al. 2020. “Life Course Exposures Continually Shape Antibody Profiles and Risk of Seroconversion to Influenza.” PLOS Pathogens 16 (7): e1008635. https://doi.org/10.1371/journal.ppat.1008635."
   },
   {
-    "objectID": "aim3/master-slides/index.html#flu-in-the-news",
-    "href": "aim3/master-slides/index.html#flu-in-the-news",
-    "title": "VE~AgDist Background and Proposal",
-    "section": "Flu in the news",
-    "text": "Flu in the news"
+    "objectID": "background/flu-ve/index.html",
+    "href": "background/flu-ve/index.html",
+    "title": "Flu VE",
+    "section": "",
+    "text": "In CoP section"
   },
   {
-    "objectID": "aim3/master-slides/index.html#influenza-virus",
-    "href": "aim3/master-slides/index.html#influenza-virus",
-    "title": "VE~AgDist Background and Proposal",
-    "section": "Influenza virus",
-    "text": "Influenza virus\n\n\n\nCDC (2024a)"
+    "objectID": "background/flu-ve/index.html#the-household-influenza-vaccine-effectiveness-study-lack-of-antibody-response-and-protection-following-receipt-of-2014-2015-influenza-vaccine-petrie17",
+    "href": "background/flu-ve/index.html#the-household-influenza-vaccine-effectiveness-study-lack-of-antibody-response-and-protection-following-receipt-of-2014-2015-influenza-vaccine-petrie17",
+    "title": "Flu VE",
+    "section": "",
+    "text": "In CoP section"
   },
   {
-    "objectID": "aim3/master-slides/index.html#multiple-strains-in-a-flu-vaccine",
-    "href": "aim3/master-slides/index.html#multiple-strains-in-a-flu-vaccine",
-    "title": "VE~AgDist Background and Proposal",
-    "section": "Multiple strains in a flu vaccine",
-    "text": "Multiple strains in a flu vaccine\n\n\n\nTypes and Subtypes:\n\nA/H1N1\nA/H3N2\nA/H5N1\nB/Victoria\nB/Yamagata\nC\nD\n\n\n\n\nStrains (WHO 2024):\n\nA/Victoria/4897/2022 (H1N1)pdm09-like virus\nA/Thailand/8/2022 (H3N2)-like virus\nB/Austria/1359417/2021 (B/Victoria lineage)-like virus"
+    "objectID": "background/flu-ve/index.html#multivariate-analysis-of-factors-affecting-the-immunogenicity-of-trivalent-inactivated-influenza-vaccine-in-school-age-children-freeman15",
+    "href": "background/flu-ve/index.html#multivariate-analysis-of-factors-affecting-the-immunogenicity-of-trivalent-inactivated-influenza-vaccine-in-school-age-children-freeman15",
+    "title": "Flu VE",
+    "section": "“Multivariate Analysis of Factors Affecting the Immunogenicity of Trivalent Inactivated Influenza Vaccine in School-Age Children” (Freeman et al. 2015)",
+    "text": "“Multivariate Analysis of Factors Affecting the Immunogenicity of Trivalent Inactivated Influenza Vaccine in School-Age Children” (Freeman et al. 2015)"
   },
   {
-    "objectID": "aim3/master-slides/index.html#vaccine-strains-are-chosen-each-year",
-    "href": "aim3/master-slides/index.html#vaccine-strains-are-chosen-each-year",
-    "title": "VE~AgDist Background and Proposal",
-    "section": "Vaccine strains are chosen each year",
-    "text": "Vaccine strains are chosen each year\nBased on (CDC 2024b):\n\nWhich influenza viruses are making people sick prior to the upcoming flu season,\nThe extent to which those viruses are spreading prior to the upcoming flu season,\nHow well the previous season’s vaccines may protect against those influenza viruses, and\nThe ability of vaccine viruses to provide cross-protection against a range of related influenza viruses of the same type or subtype/lineage."
+    "objectID": "background/flu-ve/index.html#quantifying-homologous-and-heterologous-antibody-titre-rises-after-influenza-virus-infection-freeman16",
+    "href": "background/flu-ve/index.html#quantifying-homologous-and-heterologous-antibody-titre-rises-after-influenza-virus-infection-freeman16",
+    "title": "Flu VE",
+    "section": "“Quantifying Homologous and Heterologous Antibody Titre Rises after Influenza Virus Infection” (Freeman et al. 2016)",
+    "text": "“Quantifying Homologous and Heterologous Antibody Titre Rises after Influenza Virus Infection” (Freeman et al. 2016)"
   },
   {
-    "objectID": "aim3/master-slides/index.html#ve-is-variable-and-often-low",
-    "href": "aim3/master-slides/index.html#ve-is-variable-and-often-low",
-    "title": "VE~AgDist Background and Proposal",
-    "section": "VE is variable and often low",
-    "text": "VE is variable and often low\n\n\n\nCDC (2024c)"
+    "objectID": "background/flu-ve/index.html#preexisting-subtype-immunodominance-shapes-memory-b-cell-recall-response-to-influenza-vaccination-abreu20",
+    "href": "background/flu-ve/index.html#preexisting-subtype-immunodominance-shapes-memory-b-cell-recall-response-to-influenza-vaccination-abreu20",
+    "title": "Flu VE",
+    "section": "“Preexisting subtype immunodominance shapes memory B cell recall response to influenza vaccination” (Abreu et al. 2020)",
+    "text": "“Preexisting subtype immunodominance shapes memory B cell recall response to influenza vaccination” (Abreu et al. 2020)"
   },
   {
-    "objectID": "aim3/master-slides/index.html#why-is-ve-so-low",
-    "href": "aim3/master-slides/index.html#why-is-ve-so-low",
-    "title": "VE~AgDist Background and Proposal",
-    "section": "Why is VE so low?",
-    "text": "Why is VE so low?\n\n\n\nMany different theories (probably a combination):\n\nOriginal antigenic sin/imprinting\nLow immunogenicity\nVaccine mismatch\n\nMatch/Mismatch between vaccine strain and circulating strain\nOften dichotomized and defined differently from lab to lab and paper to paper\n\n\n\n\n\n\n\nCreated with BioRender.com\n\n\n\n\n\nCobey paper stated that it was not the “mismatch” of the vaccine that caused poor VE in 12/13 season, but an immunogenicity problem.\nAdd more notes about this paper!"
+    "objectID": "background/flu-ve/index.html#comparative-immunogenicity-of-several-enhanced-influenza-vaccine-options-for-older-adults-a-randomized-controlled-trial-cowling20",
+    "href": "background/flu-ve/index.html#comparative-immunogenicity-of-several-enhanced-influenza-vaccine-options-for-older-adults-a-randomized-controlled-trial-cowling20",
+    "title": "Flu VE",
+    "section": "“Comparative Immunogenicity of Several Enhanced Influenza Vaccine Options for Older Adults: A Randomized, Controlled Trial” (Cowling et al. 2020)",
+    "text": "“Comparative Immunogenicity of Several Enhanced Influenza Vaccine Options for Older Adults: A Randomized, Controlled Trial” (Cowling et al. 2020)"
   },
   {
-    "objectID": "aim3/master-slides/index.html#research-gap",
-    "href": "aim3/master-slides/index.html#research-gap",
-    "title": "VE~AgDist Background and Proposal",
-    "section": "Research Gap",
-    "text": "Research Gap\n\nThere does not seem to be one clear answer about how much impact a vaccine’s “mismatch” actually has on its effectiveness (Cobey et al. 2018)"
+    "objectID": "background/flu-ve/index.html#cell-mediated-immune-responses-after-influenza-vaccination-of-solid-organ-transplant-recipients-secondary-outcomes-analyses-of-a-randomized-controlled-trial-lhuillier20",
+    "href": "background/flu-ve/index.html#cell-mediated-immune-responses-after-influenza-vaccination-of-solid-organ-transplant-recipients-secondary-outcomes-analyses-of-a-randomized-controlled-trial-lhuillier20",
+    "title": "Flu VE",
+    "section": "“Cell-Mediated Immune Responses After Influenza Vaccination of Solid Organ Transplant Recipients: Secondary Outcomes Analyses of a Randomized Controlled Trial” (L’huillier et al. 2020)",
+    "text": "“Cell-Mediated Immune Responses After Influenza Vaccination of Solid Organ Transplant Recipients: Secondary Outcomes Analyses of a Randomized Controlled Trial” (L’huillier et al. 2020)"
   },
   {
-    "objectID": "aim3/master-slides/index.html#matchmismatch-papers",
-    "href": "aim3/master-slides/index.html#matchmismatch-papers",
-    "title": "VE~AgDist Background and Proposal",
-    "section": "Match/Mismatch Papers",
-    "text": "Match/Mismatch Papers"
+    "objectID": "background/flu-ve/index.html#the-effect-of-influenza-vaccination-history-on-changes-in-hemagglutination-inhibition-titers-after-receipt-of-the-2015-2016-influenza-vaccine-in-older-adults-in-hong-kong-ng20",
+    "href": "background/flu-ve/index.html#the-effect-of-influenza-vaccination-history-on-changes-in-hemagglutination-inhibition-titers-after-receipt-of-the-2015-2016-influenza-vaccine-in-older-adults-in-hong-kong-ng20",
+    "title": "Flu VE",
+    "section": "“The Effect of Influenza Vaccination History on Changes in Hemagglutination Inhibition Titers After Receipt of the 2015-2016 Influenza Vaccine in Older Adults in Hong Kong” (Ng et al. 2020)",
+    "text": "“The Effect of Influenza Vaccination History on Changes in Hemagglutination Inhibition Titers After Receipt of the 2015-2016 Influenza Vaccine in Older Adults in Hong Kong” (Ng et al. 2020)"
   },
   {
-    "objectID": "aim3/master-slides/index.html#ve-match-papers",
-    "href": "aim3/master-slides/index.html#ve-match-papers",
-    "title": "VE~AgDist Background and Proposal",
-    "section": "VE ~ Match Papers",
-    "text": "VE ~ Match Papers\n\n\n\nKelly et al., 2013 (Section 1.11)\nTricco et al., 2013 (Section 1.12)\nBelongia et al., 2016 (Section 1.13)\nBeran et al., 2021 (Section 1.14)\nOkoli et al., 2021 (Section 1.15)"
+    "objectID": "background/flu-ve/index.html#influenza-vaccination-in-immunocompromised-populations-strategies-to-improve-immunogenicity-caldera21",
+    "href": "background/flu-ve/index.html#influenza-vaccination-in-immunocompromised-populations-strategies-to-improve-immunogenicity-caldera21",
+    "title": "Flu VE",
+    "section": "“Influenza vaccination in immunocompromised populations: Strategies to improve immunogenicity” (Caldera et al. 2021)",
+    "text": "“Influenza vaccination in immunocompromised populations: Strategies to improve immunogenicity” (Caldera et al. 2021)"
   },
   {
-    "objectID": "aim3/master-slides/index.html#sec-kelly13",
-    "href": "aim3/master-slides/index.html#sec-kelly13",
-    "title": "VE~AgDist Background and Proposal",
-    "section": "“Moderate influenza vaccine effectiveness with variable effectiveness by match between circulating and vaccine strains in Australian adults aged 20–64 years, 2007–2011” (Kelly et al. 2013)",
-    "text": "“Moderate influenza vaccine effectiveness with variable effectiveness by match between circulating and vaccine strains in Australian adults aged 20–64 years, 2007–2011” (Kelly et al. 2013)\n\nMatch definition: “Circulating and vaccine strains were compared based on the degree of cross-reaction between strains and were conventionally assessed as being incompletely matched if there was ‡8-fold difference in haemagglutination inhibition titres between the vaccine antigen and ferret-derived antibodies to the circulating strain.1 We accepted a match as incomplete when the vaccine and predominant circulating strains differed.”"
+    "objectID": "background/flu-ve/index.html#longitudinal-assessment-of-immune-responses-to-repeated-annual-influenza-vaccination-in-a-human-cohort-of-adults-and-teenagers-sung21",
+    "href": "background/flu-ve/index.html#longitudinal-assessment-of-immune-responses-to-repeated-annual-influenza-vaccination-in-a-human-cohort-of-adults-and-teenagers-sung21",
+    "title": "Flu VE",
+    "section": "“Longitudinal Assessment of Immune Responses to Repeated Annual Influenza Vaccination in a Human Cohort of Adults and Teenagers” (Sung et al. 2021)",
+    "text": "“Longitudinal Assessment of Immune Responses to Repeated Annual Influenza Vaccination in a Human Cohort of Adults and Teenagers” (Sung et al. 2021)"
   },
   {
-    "objectID": "aim3/master-slides/index.html#sec-tricco2013",
-    "href": "aim3/master-slides/index.html#sec-tricco2013",
-    "title": "VE~AgDist Background and Proposal",
+    "objectID": "background/flu-ve/index.html#evaluation-of-determinants-of-the-serological-response-to-the-quadrivalent-splitinactivated-influenza-vaccinewu22",
+    "href": "background/flu-ve/index.html#evaluation-of-determinants-of-the-serological-response-to-the-quadrivalent-splitinactivated-influenza-vaccinewu22",
+    "title": "Flu VE",
+    "section": "“Evaluation of determinants of the serological response to the quadrivalent split‐inactivated influenza vaccine(Wu et al. 2022)",
+    "text": "“Evaluation of determinants of the serological response to the quadrivalent split‐inactivated influenza vaccine(Wu et al. 2022)"
+  },
+  {
+    "objectID": "background/flu-ve/index.html#imprinted-anti-hemagglutinin-and-anti-neuraminidase-antibody-responses-after-childhood-infections-of-ah1n1-and-ah1n1pdm09-influenza-viruses-daulagala23",
+    "href": "background/flu-ve/index.html#imprinted-anti-hemagglutinin-and-anti-neuraminidase-antibody-responses-after-childhood-infections-of-ah1n1-and-ah1n1pdm09-influenza-viruses-daulagala23",
+    "title": "Flu VE",
+    "section": "“Imprinted Anti-Hemagglutinin and Anti-Neuraminidase Antibody Responses after Childhood Infections of A(H1N1) and A(H1N1)pdm09 Influenza Viruses” (Daulagala et al. 2023)",
+    "text": "“Imprinted Anti-Hemagglutinin and Anti-Neuraminidase Antibody Responses after Childhood Infections of A(H1N1) and A(H1N1)pdm09 Influenza Viruses” (Daulagala et al. 2023)"
+  },
+  {
+    "objectID": "background/flu-ve/index.html#immunogenicity-of-high-dose-egg-based-recombinant-and-cell-culturebased-influenza-vaccines-compared-with-standard-dose-egg-based-influenza-vaccine-among-health-care-personnel-aged-1865-years-in-20192020-naleway23",
+    "href": "background/flu-ve/index.html#immunogenicity-of-high-dose-egg-based-recombinant-and-cell-culturebased-influenza-vaccines-compared-with-standard-dose-egg-based-influenza-vaccine-among-health-care-personnel-aged-1865-years-in-20192020-naleway23",
+    "title": "Flu VE",
+    "section": "“Immunogenicity of High-Dose Egg-Based, Recombinant, and Cell Culture–Based Influenza Vaccines Compared With Standard-Dose Egg-Based Influenza Vaccine Among Health Care Personnel Aged 18–65 Years in 2019–2020” (Naleway et al. 2023)",
+    "text": "“Immunogenicity of High-Dose Egg-Based, Recombinant, and Cell Culture–Based Influenza Vaccines Compared With Standard-Dose Egg-Based Influenza Vaccine Among Health Care Personnel Aged 18–65 Years in 2019–2020” (Naleway et al. 2023)\n\nComparing three different vaccines against conventional egg-based standard-dose quadrivalent inactivated influenza vaccine (SD-IIV4) - Fluzone Quadrivalent\n\nQuadrivalent cell-culture-based influenza vaccine (ccIIV4) (randomized) - Flucelvax Quadrivalent\nRecombinant influenza vaccine (RIV4) (randomized) - Flublok Quadrivalent\nHigh-dose egg-based trivalent inactivated influenza vaccine (HD-IIV3) (nonrandomized, added in second season) - Fluzone High-Dose\n\nConducted among health care providers (HCP) at two sites (Baylor Scott & White Health (BSWH) and Kaiser Permanente Northwest (KPNW)) in 2018-2019 and 2019-2020 seasons\n\nSeason 1 - HCP participants enrolled in randomized, open-label influenza vaccine trial were re-consented and enrolled in season 2\nSeason 2 - eligible 18-64 (at start of first season) HCP (at both sites) who had received SD-IIV4 in season 1 were offered enrollment in randomized arms to receive SD-IIV4, RIV4, or ccIIV4\n\nAt KPNW, HCP were also recruited to receive open- and off-label HD-IIV3 (not randomized)\nQ: Was this everybody of any age? If so, what was the age breakdown?\n\nA: Yes. Mean age of 46, SD of 10; similar to other groups (Table 1)\n\n\n\nRandomization:\n\nStudy site-specific stratified block randomization with 18-44 and 45-65 age groups\n1:1:1 randomization, receiving ccIIV4, RIV4, or SD-IIV4\n\nSerum collection at d0/enrollment/pre-vax and ~1 month (20-62 days acceptable range) post-vax\nCoprimary outcomes:\n\nSerologic HAI responses at ~1 month post-vax using the following measures:\n\nSeroconversion rate (SCR)\nGeometric mean titers (GMTs)\nMean-fold rise (MFR)\nGMT ratios comparing post-vax HAI titers by study arm vs reference group\n\n\nData analysis:\n\nOnly included those who received SD-IIV4 in season 1\nANOVA to compare GMT ratios, GMTs, and mean fold GMT rise\nLogistic regression to compared rates of SCR and proportions of participatns with postvaccination HAI titers greater than 1:40, 1:80, and 1:160\nModels adjusted for study site, log pre-vax HAI titer\n\nSex, chronic medical conditions, and immunosuppresive conditions also considered but not significant\n\nBonferroni correction led to statistical significance definition at \\(P=0.007\\) and 99.3% CIs\nSensitivity analysis - restricted comparisons to KPNW\n\n390 HCP\n\n103 RIV4\n106 ccIIV4\n109 SD-IIV4\n79 HD-IIV3\n\n“After adjusting for study site and the log of prevaccination HI titers, there were no statistically significant differences in postvaccination SCR, GMT, or MFR against any of the vaccine reference viruses between HD-IIV3 and SD-IIV4 recipients”\n\nInteresting that similar age groups don’t seem to have a larger boost with HD vs SD\n\n“Adjusted postvaccination SCR, GMT, and MFR were significantly higher among ccIIV4 recipients compared with SD-IIV4 recipients against the A/ H1N1pdm09 reference virus only.”\n“CRs, GMTs, and MFRs were significantly higher among RIV4 recipients compared with SD-IIV4 recipients against all vaccine reference viruses.”\n“…higher proportions of RIV4 recipients had titers greater than 1:80 and 1:160 against the A(H1N1) pdm09, B/Yamagata, and B/Victoria reference viruses and &gt;1:160 against A(H3N2) [compared to reference group]”\n“There were no differences in the proportions of ccIIV4 compared with SD-IIV4 recipients with titers greater than 1:40, 1:80, or 1:160 for any vaccine reference virus, with the exception of HI titers &gt;1:80 against A/ (H1N1)pdm09.”\n“There were no differences in the proportions of HD-IIV3 and SD-IIV4 recipients with titers greater than 1:40, 1:80, or 1:160 for any vaccine reference virus.”\nSeems like higher response to RIV4 might be driven by recombinant HA antigen rather than higher antigen dose\n\nHigher egg-based antigen dose alonse is not enough to increase responses in highly vaccinated adults 18-65"
+  },
+  {
+    "objectID": "background/ve-agdist/index.html#comparing-influenza-vaccine-efficacy-against-mismatched-and-matched-strains-a-systematic-review-and-meta-analysis-tricco13",
+    "href": "background/ve-agdist/index.html#comparing-influenza-vaccine-efficacy-against-mismatched-and-matched-strains-a-systematic-review-and-meta-analysis-tricco13",
+    "title": "VE~AgDist",
     "section": "“Comparing influenza vaccine efficacy against mismatched and matched strains: a systematic review and meta-analysis” (Tricco et al. 2013)",
-    "text": "“Comparing influenza vaccine efficacy against mismatched and matched strains: a systematic review and meta-analysis” (Tricco et al. 2013)\n\nMatch definition: “Influenza A strains from infected trial participants were matched with the strain in the vaccine if they belonged to the same A subtype (that is, H1N1 or H3N2) and were antigenically similar in the HI assay (that is, if they showed sufficient crossreaction in a HI chessboard table using ferret antisera; for example, with a HI typing quotient &lt;fourfold titer). Influenza A viral strains were considered mismatched by antigenic drift if they were antigenically distinct from influenza A strains contained in the vaccine as per HI typing (for example, HI titer quotient ≥fourfold) or the characterization did not belong to a similar influenza A subtype contained in the vaccine (for example, H1N1 strains circulating but only H3N2 strains contained in the vaccine for bivalent vaccines with one H subtype). For influenza B, the epidemiological situation is more complex. In recent years, there have been two coexisting phylogenetic influenza B lineages: B/Victoria and B/ Yamagata [19,20]. Influenza B strains from infected trial participants were considered matched if the strain belonged to the same lineage and were antigenically similar to the vaccine strain as per HI typing (for example, HI typing quotient &lt;fourfold titer). For influenza B mismatches, two different forms were considered. Mismatch by antigenic drift refers to strains of the same lineage that were antigenically distinct from influenza B strains contained in the vaccine as per HI typing (for example, HI quotient ≥fourfold titer), whereas mismatch by lineage refers to influenza B strains of different lineages. Whenever the influenza B lineage was not presented in the trial report, categorization was based on the influenza phylogenetic tree and verified by influenza experts on the team.”"
+    "text": "“Comparing influenza vaccine efficacy against mismatched and matched strains: a systematic review and meta-analysis” (Tricco et al. 2013)"
   },
   {
-    "objectID": "aim3/master-slides/index.html#sec-belongia2016",
-    "href": "aim3/master-slides/index.html#sec-belongia2016",
-    "title": "VE~AgDist Background and Proposal",
-    "section": "“Variable influenza vaccine effectiveness by subtype: a systematic review and meta-analysis of test-negative design studies” (Belongia et al. 2016)",
-    "text": "“Variable influenza vaccine effectiveness by subtype: a systematic review and meta-analysis of test-negative design studies” (Belongia et al. 2016)\n\nMatch definition: “We therefore classified H3N2 viruses as predominately matched, predominately variant, or mixed on the basis of the authors’ interpretation.”"
+    "objectID": "background/ve-agdist/index.html#effect-of-antigenic-drift-on-influenza-vaccine-effectiveness-in-the-united-states20192020-tenforde21",
+    "href": "background/ve-agdist/index.html#effect-of-antigenic-drift-on-influenza-vaccine-effectiveness-in-the-united-states20192020-tenforde21",
+    "title": "VE~AgDist",
+    "section": "“Effect of Antigenic Drift on Influenza Vaccine Effectiveness in the United States—2019–2020” (Tenforde et al. 2021)",
+    "text": "“Effect of Antigenic Drift on Influenza Vaccine Effectiveness in the United States—2019–2020” (Tenforde et al. 2021)"
   },
   {
-    "objectID": "aim3/master-slides/index.html#sec-beran2021",
-    "href": "aim3/master-slides/index.html#sec-beran2021",
-    "title": "VE~AgDist Background and Proposal",
-    "section": "“Prevention of influenza during mismatched seasons in older adults with an MF59-adjuvanted quadrivalent influenza vaccine: a randomised, controlled, multicentre, phase 3 efficacy study” (Beran et al. 2021)",
-    "text": "“Prevention of influenza during mismatched seasons in older adults with an MF59-adjuvanted quadrivalent influenza vaccine: a randomised, controlled, multicentre, phase 3 efficacy study” (Beran et al. 2021)\n\nMatch definition: “Matched strains were those with 4-fold and lower difference in titre and unmatched strains were those with a more than 4-fold difference in titre compared with the reference standards.”"
+    "objectID": "background/ve-agdist/index.html#vaccine-mismatches-viral-circulation-and-clinical-severity-patterns-of-influenza-b-victoria-and-yamagata-infections-in-brazil-over-the-decade-20102020-a-statistical-and-phylogenytrait-analyses-dacosta22",
+    "href": "background/ve-agdist/index.html#vaccine-mismatches-viral-circulation-and-clinical-severity-patterns-of-influenza-b-victoria-and-yamagata-infections-in-brazil-over-the-decade-20102020-a-statistical-and-phylogenytrait-analyses-dacosta22",
+    "title": "VE~AgDist",
+    "section": "“Vaccine Mismatches, Viral Circulation, and Clinical Severity Patterns of Influenza B Victoria and Yamagata Infections in Brazil over the Decade 2010–2020: A Statistical and Phylogeny–Trait Analyses” (da Costa et al. 2022)",
+    "text": "“Vaccine Mismatches, Viral Circulation, and Clinical Severity Patterns of Influenza B Victoria and Yamagata Infections in Brazil over the Decade 2010–2020: A Statistical and Phylogeny–Trait Analyses” (da Costa et al. 2022)"
   },
   {
-    "objectID": "aim3/master-slides/index.html#sec-okoli2021a",
-    "href": "aim3/master-slides/index.html#sec-okoli2021a",
-    "title": "VE~AgDist Background and Proposal",
-    "section": "“Variable seasonal influenza vaccine effectiveness across geographical regions, age groups and levels of vaccine antigenic similarity with circulating virus strains: A systematic review and meta-analysis of the evidence from test-negative design studies after the 2009/10 influenza pandemic” (Okoli et al. 2021)",
-    "text": "“Variable seasonal influenza vaccine effectiveness across geographical regions, age groups and levels of vaccine antigenic similarity with circulating virus strains: A systematic review and meta-analysis of the evidence from test-negative design studies after the 2009/10 influenza pandemic” (Okoli et al. 2021)\n\nMatch definition: “gathered match/mismatch variables from the included papers when available and, when not, used other reports for the same general time and region to deduce a general match status” - had match, partial match, and mismatch, it seems like based on different definitions"
+    "objectID": "background/ve-agdist/index.html#quantifying-influenza-vaccine-efficacy-and-antigenic-distance-gupta2006",
+    "href": "background/ve-agdist/index.html#quantifying-influenza-vaccine-efficacy-and-antigenic-distance-gupta2006",
+    "title": "VE~AgDist",
+    "section": "“Quantifying Influenza Vaccine Efficacy and Antigenic Distance” (Gupta, Earl, and Deem 2006)",
+    "text": "“Quantifying Influenza Vaccine Efficacy and Antigenic Distance” (Gupta, Earl, and Deem 2006)\n\n\\(p_{epitope}\\) original paper\nThe aim of this paper was to “… provide a quantitative definition of the difference between dominant epitope regions in the vaccine and circulating strain and show that this definition of antigenic distance correlates well with human influenza vaccine efficacy over the last 35 years”\nTheir model does not allow for immunosenescence - they focused only on 18-64 year olds\nRestricted their focus to the hemagglutinin protein, which has 5 epitope regions (Figure 1)\nUse the NK model which states that the difference between the vaccine and circulating strains is the fraction of the amino acids that differ in the dominant epitope region\n\nIn this study, the dominant epitope was defined as the epitope with the largest fractional change in the amino acid sequence relative to the vaccine strain\n\n\n\\[\n\\begin{aligned}\np_{epitope} &= \\frac{\\text{number of amino acid differences in dominant epitope}}{\\text{total number of amino acids in dominant epitope}}\\\\\n\\end{aligned}\n\\]\n\nModeling vaccine efficacy \\(E\\)\n\n\\[\n\\begin{aligned}\nE &= \\alpha \\ln \\frac{K_{secondary}(p_{epitope})}{K_{primary}},\\\\\n&\\text{where:}&\\\\\n\\end{aligned}\n\\]\n- constant 𝛼 is chosen so that a perfect match between the vaccine and circulating strains leads to a 45% VE (**Q.** do we still think this is what we should shoot for with this 𝛼?)\n- K_primary is the binding constant for the primary immune response\n- K_secondary is the binding constant for the secondary immune response following vaccination\n- This model is entirely predictive, with no fitted parameters except for 𝛼\n\nPrimary results shown in Figure 2\n\n\n\n\n\n\n\n\n\nFigure 1\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 2"
   },
   {
-    "objectID": "aim3/master-slides/index.html#another-better-way",
-    "href": "aim3/master-slides/index.html#another-better-way",
-    "title": "VE~AgDist Background and Proposal",
-    "section": "Another (better) way",
-    "text": "Another (better) way\n\n\n\nAntigenic distance\n\nA continuous measure of the difference between two strains\nDifferent ways to calculate\n\n\n\n\nThe idea:\n\nModel VE as predicted by antigenic distance\nGather data from a wide range of years, locations; look at different subtypes\nGet a big picture view of the effect of “mismatch”"
+    "objectID": "background/misc/index.html#comparing-influenza-vaccine-efficacy-against-mismatched-and-matched-strains-a-systematic-review-and-meta-analysis-tricco13",
+    "href": "background/misc/index.html#comparing-influenza-vaccine-efficacy-against-mismatched-and-matched-strains-a-systematic-review-and-meta-analysis-tricco13",
+    "title": "Misc",
+    "section": "“Comparing influenza vaccine efficacy against mismatched and matched strains: a systematic review and meta-analysis” (Tricco et al. 2013)",
+    "text": "“Comparing influenza vaccine efficacy against mismatched and matched strains: a systematic review and meta-analysis” (Tricco et al. 2013)"
   },
   {
-    "objectID": "aim3/master-slides/index.html#antigenic-distance-background",
-    "href": "aim3/master-slides/index.html#antigenic-distance-background",
-    "title": "VE~AgDist Background and Proposal",
-    "section": "Antigenic Distance Background",
-    "text": "Antigenic Distance Background"
-  },
-  {
-    "objectID": "aim3/master-slides/index.html#antigenic-distance-methods",
-    "href": "aim3/master-slides/index.html#antigenic-distance-methods",
-    "title": "VE~AgDist Background and Proposal",
-    "section": "Antigenic Distance Methods",
-    "text": "Antigenic Distance Methods\n\nP-epitope (Gupta, Earl, and Deem 2006; Pan and Deem 2016)"
-  },
-  {
-    "objectID": "aim3/master-slides/index.html#ve-distance-papers",
-    "href": "aim3/master-slides/index.html#ve-distance-papers",
-    "title": "VE~AgDist Background and Proposal",
-    "section": "VE ~ Distance Papers",
-    "text": "VE ~ Distance Papers\n\n“Quantifying influenza vaccine efficacy and antigenic distance” (Gupta, Earl, and Deem 2006)\n“Prediction of influenza B vaccine effectiveness from sequence data” (Pan and Deem 2016)"
-  },
-  {
-    "objectID": "aim3/master-slides/index.html#table-1",
-    "href": "aim3/master-slides/index.html#table-1",
-    "title": "VE~AgDist Background and Proposal",
-    "section": "Table 1",
-    "text": "Table 1\n\n\nSeasonLocationPopulationSubTypeProportionaVaxStrainRepeatbCircStrainAgDist1cAgDist2cAgDist3cNdVEexxxxxxxxxxxxxxxxxxxxxxxxxxaProportion of infections caused by the listed circulating strain.bNumber of uninterrupted years this strain has been used in the vaccine, including the referenced season.cAntigenic distance methods will be specified in these column names when final methods are decided.dStudy sample size.eVE with std. error and uncertainty intervals, as available."
-  },
-  {
-    "objectID": "aim3/master-slides/index.html#figure-1",
-    "href": "aim3/master-slides/index.html#figure-1",
-    "title": "VE~AgDist Background and Proposal",
-    "section": "FIgure 1",
-    "text": "FIgure 1\n\n\n\nPrimary modeling result: what is the association between VE and antigenic distance?\n\n\n\n\n\nCreated with BioRender.com"
-  },
-  {
-    "objectID": "background.html",
-    "href": "background.html",
-    "title": "Dissertation Notes and Writing",
-    "section": "",
-    "text": "Flu Correlates of Protection\n\n\n\n\n\n\n\n\n\n\n\nSavannah L. Miller\n\n\n\n\n\n\n\n\n\n\n\n\nFlu VE\n\n\n\n\n\n\n\n\n\n\n\nSavannah L. Miller\n\n\n\n\n\n\n\n\n\n\n\n\nMisc\n\n\n\n\n\n\n\n\n\n\n\nSavannah L. Miller\n\n\n\n\n\n\n\n\n\n\n\n\nVE~AgDist\n\n\n\n\n\n\n\n\n\n\n\nSavannah L. Miller\n\n\n\n\n\n\nNo matching items"
+    "objectID": "background/misc/index.html#effect-of-antigenic-drift-on-influenza-vaccine-effectiveness-in-the-united-states20192020-tenforde21",
+    "href": "background/misc/index.html#effect-of-antigenic-drift-on-influenza-vaccine-effectiveness-in-the-united-states20192020-tenforde21",
+    "title": "Misc",
+    "section": "“Effect of Antigenic Drift on Influenza Vaccine Effectiveness in the United States—2019–2020” (Tenforde et al. 2021)",
+    "text": "“Effect of Antigenic Drift on Influenza Vaccine Effectiveness in the United States—2019–2020” (Tenforde et al. 2021)"
   },
   {
     "objectID": "background/flu-cops/index.html#a-model-for-immunological-correlates-of-protection-dunning06",
@@ -504,396 +714,193 @@
     "text": "“Risk factors and attack rates of seasonal influenza infection: Results of the Southern Hemisphere Influenza and Vaccine Effectiveness Research and Surveillance (SHIVERS) seroepidemiologic cohort study” (Huang et al. 2019)"
   },
   {
-    "objectID": "background/misc/index.html#comparing-influenza-vaccine-efficacy-against-mismatched-and-matched-strains-a-systematic-review-and-meta-analysis-tricco13",
-    "href": "background/misc/index.html#comparing-influenza-vaccine-efficacy-against-mismatched-and-matched-strains-a-systematic-review-and-meta-analysis-tricco13",
-    "title": "Misc",
+    "objectID": "background.html",
+    "href": "background.html",
+    "title": "Dissertation Notes and Writing",
+    "section": "",
+    "text": "Flu Correlates of Protection\n\n\n\n\n\n\n\n\n\n\n\nSavannah L. Miller\n\n\n\n\n\n\n\n\n\n\n\n\nFlu VE\n\n\n\n\n\n\n\n\n\n\n\nSavannah L. Miller\n\n\n\n\n\n\n\n\n\n\n\n\nMisc\n\n\n\n\n\n\n\n\n\n\n\nSavannah L. Miller\n\n\n\n\n\n\n\n\n\n\n\n\nVE~AgDist\n\n\n\n\n\n\n\n\n\n\n\nSavannah L. Miller\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "aim3/master-slides/index.html#flu-burden",
+    "href": "aim3/master-slides/index.html#flu-burden",
+    "title": "VE~AgDist Background and Proposal",
+    "section": "Flu Burden",
+    "text": "Flu Burden\n\nCDC (2025)"
+  },
+  {
+    "objectID": "aim3/master-slides/index.html#flu-in-the-news",
+    "href": "aim3/master-slides/index.html#flu-in-the-news",
+    "title": "VE~AgDist Background and Proposal",
+    "section": "Flu in the news",
+    "text": "Flu in the news"
+  },
+  {
+    "objectID": "aim3/master-slides/index.html#influenza-virus",
+    "href": "aim3/master-slides/index.html#influenza-virus",
+    "title": "VE~AgDist Background and Proposal",
+    "section": "Influenza virus",
+    "text": "Influenza virus\n\n\n\nCDC (2024a)"
+  },
+  {
+    "objectID": "aim3/master-slides/index.html#multiple-strains-in-a-flu-vaccine",
+    "href": "aim3/master-slides/index.html#multiple-strains-in-a-flu-vaccine",
+    "title": "VE~AgDist Background and Proposal",
+    "section": "Multiple strains in a flu vaccine",
+    "text": "Multiple strains in a flu vaccine\n\n\n\nTypes and Subtypes:\n\nA/H1N1\nA/H3N2\nA/H5N1\nB/Victoria\nB/Yamagata\nC\nD\n\n\n\n\nStrains (WHO 2024):\n\nA/Victoria/4897/2022 (H1N1)pdm09-like virus\nA/Thailand/8/2022 (H3N2)-like virus\nB/Austria/1359417/2021 (B/Victoria lineage)-like virus"
+  },
+  {
+    "objectID": "aim3/master-slides/index.html#vaccine-strains-are-chosen-each-year",
+    "href": "aim3/master-slides/index.html#vaccine-strains-are-chosen-each-year",
+    "title": "VE~AgDist Background and Proposal",
+    "section": "Vaccine strains are chosen each year",
+    "text": "Vaccine strains are chosen each year\nBased on (CDC 2024b):\n\nWhich influenza viruses are making people sick prior to the upcoming flu season,\nThe extent to which those viruses are spreading prior to the upcoming flu season,\nHow well the previous season’s vaccines may protect against those influenza viruses, and\nThe ability of vaccine viruses to provide cross-protection against a range of related influenza viruses of the same type or subtype/lineage."
+  },
+  {
+    "objectID": "aim3/master-slides/index.html#ve-is-variable-and-often-low",
+    "href": "aim3/master-slides/index.html#ve-is-variable-and-often-low",
+    "title": "VE~AgDist Background and Proposal",
+    "section": "VE is variable and often low",
+    "text": "VE is variable and often low\n\n\n\nCDC (2024c)"
+  },
+  {
+    "objectID": "aim3/master-slides/index.html#why-is-ve-so-low",
+    "href": "aim3/master-slides/index.html#why-is-ve-so-low",
+    "title": "VE~AgDist Background and Proposal",
+    "section": "Why is VE so low?",
+    "text": "Why is VE so low?\n\n\n\nMany different theories (probably a combination):\n\nOriginal antigenic sin/imprinting\nLow immunogenicity\nVaccine mismatch\n\nMatch/Mismatch between vaccine strain and circulating strain\nOften dichotomized and defined differently from lab to lab and paper to paper\n\n\n\n\n\n\n\nCreated with BioRender.com\n\n\n\n\n\nCobey paper stated that it was not the “mismatch” of the vaccine that caused poor VE in 12/13 season, but an immunogenicity problem.\nAdd more notes about this paper!"
+  },
+  {
+    "objectID": "aim3/master-slides/index.html#research-gap",
+    "href": "aim3/master-slides/index.html#research-gap",
+    "title": "VE~AgDist Background and Proposal",
+    "section": "Research Gap",
+    "text": "Research Gap\n\nThere does not seem to be one clear answer about how much impact a vaccine’s “mismatch” actually has on its effectiveness (Cobey et al. 2018)"
+  },
+  {
+    "objectID": "aim3/master-slides/index.html#matchmismatch-papers",
+    "href": "aim3/master-slides/index.html#matchmismatch-papers",
+    "title": "VE~AgDist Background and Proposal",
+    "section": "Match/Mismatch Papers",
+    "text": "Match/Mismatch Papers"
+  },
+  {
+    "objectID": "aim3/master-slides/index.html#ve-match-papers",
+    "href": "aim3/master-slides/index.html#ve-match-papers",
+    "title": "VE~AgDist Background and Proposal",
+    "section": "VE ~ Match Papers",
+    "text": "VE ~ Match Papers\n\n\n\nKelly et al., 2013 (Section 1.11)\nTricco et al., 2013 (Section 1.12)\nBelongia et al., 2016 (Section 1.13)\nBeran et al., 2021 (Section 1.14)\nOkoli et al., 2021 (Section 1.15)"
+  },
+  {
+    "objectID": "aim3/master-slides/index.html#sec-kelly13",
+    "href": "aim3/master-slides/index.html#sec-kelly13",
+    "title": "VE~AgDist Background and Proposal",
+    "section": "“Moderate influenza vaccine effectiveness with variable effectiveness by match between circulating and vaccine strains in Australian adults aged 20–64 years, 2007–2011” (Kelly et al. 2013)",
+    "text": "“Moderate influenza vaccine effectiveness with variable effectiveness by match between circulating and vaccine strains in Australian adults aged 20–64 years, 2007–2011” (Kelly et al. 2013)\n\nMatch definition: “Circulating and vaccine strains were compared based on the degree of cross-reaction between strains and were conventionally assessed as being incompletely matched if there was ‡8-fold difference in haemagglutination inhibition titres between the vaccine antigen and ferret-derived antibodies to the circulating strain.1 We accepted a match as incomplete when the vaccine and predominant circulating strains differed.”"
+  },
+  {
+    "objectID": "aim3/master-slides/index.html#sec-tricco2013",
+    "href": "aim3/master-slides/index.html#sec-tricco2013",
+    "title": "VE~AgDist Background and Proposal",
     "section": "“Comparing influenza vaccine efficacy against mismatched and matched strains: a systematic review and meta-analysis” (Tricco et al. 2013)",
-    "text": "“Comparing influenza vaccine efficacy against mismatched and matched strains: a systematic review and meta-analysis” (Tricco et al. 2013)"
+    "text": "“Comparing influenza vaccine efficacy against mismatched and matched strains: a systematic review and meta-analysis” (Tricco et al. 2013)\n\nMatch definition: “Influenza A strains from infected trial participants were matched with the strain in the vaccine if they belonged to the same A subtype (that is, H1N1 or H3N2) and were antigenically similar in the HI assay (that is, if they showed sufficient crossreaction in a HI chessboard table using ferret antisera; for example, with a HI typing quotient &lt;fourfold titer). Influenza A viral strains were considered mismatched by antigenic drift if they were antigenically distinct from influenza A strains contained in the vaccine as per HI typing (for example, HI titer quotient ≥fourfold) or the characterization did not belong to a similar influenza A subtype contained in the vaccine (for example, H1N1 strains circulating but only H3N2 strains contained in the vaccine for bivalent vaccines with one H subtype). For influenza B, the epidemiological situation is more complex. In recent years, there have been two coexisting phylogenetic influenza B lineages: B/Victoria and B/ Yamagata [19,20]. Influenza B strains from infected trial participants were considered matched if the strain belonged to the same lineage and were antigenically similar to the vaccine strain as per HI typing (for example, HI typing quotient &lt;fourfold titer). For influenza B mismatches, two different forms were considered. Mismatch by antigenic drift refers to strains of the same lineage that were antigenically distinct from influenza B strains contained in the vaccine as per HI typing (for example, HI quotient ≥fourfold titer), whereas mismatch by lineage refers to influenza B strains of different lineages. Whenever the influenza B lineage was not presented in the trial report, categorization was based on the influenza phylogenetic tree and verified by influenza experts on the team.”"
   },
   {
-    "objectID": "background/misc/index.html#effect-of-antigenic-drift-on-influenza-vaccine-effectiveness-in-the-united-states20192020-tenforde21",
-    "href": "background/misc/index.html#effect-of-antigenic-drift-on-influenza-vaccine-effectiveness-in-the-united-states20192020-tenforde21",
-    "title": "Misc",
-    "section": "“Effect of Antigenic Drift on Influenza Vaccine Effectiveness in the United States—2019–2020” (Tenforde et al. 2021)",
-    "text": "“Effect of Antigenic Drift on Influenza Vaccine Effectiveness in the United States—2019–2020” (Tenforde et al. 2021)"
+    "objectID": "aim3/master-slides/index.html#sec-belongia2016",
+    "href": "aim3/master-slides/index.html#sec-belongia2016",
+    "title": "VE~AgDist Background and Proposal",
+    "section": "“Variable influenza vaccine effectiveness by subtype: a systematic review and meta-analysis of test-negative design studies” (Belongia et al. 2016)",
+    "text": "“Variable influenza vaccine effectiveness by subtype: a systematic review and meta-analysis of test-negative design studies” (Belongia et al. 2016)\n\nMatch definition: “We therefore classified H3N2 viruses as predominately matched, predominately variant, or mixed on the basis of the authors’ interpretation.”"
   },
   {
-    "objectID": "background/ve-agdist/index.html#comparing-influenza-vaccine-efficacy-against-mismatched-and-matched-strains-a-systematic-review-and-meta-analysis-tricco13",
-    "href": "background/ve-agdist/index.html#comparing-influenza-vaccine-efficacy-against-mismatched-and-matched-strains-a-systematic-review-and-meta-analysis-tricco13",
-    "title": "VE~AgDist",
-    "section": "“Comparing influenza vaccine efficacy against mismatched and matched strains: a systematic review and meta-analysis” (Tricco et al. 2013)",
-    "text": "“Comparing influenza vaccine efficacy against mismatched and matched strains: a systematic review and meta-analysis” (Tricco et al. 2013)"
+    "objectID": "aim3/master-slides/index.html#sec-beran2021",
+    "href": "aim3/master-slides/index.html#sec-beran2021",
+    "title": "VE~AgDist Background and Proposal",
+    "section": "“Prevention of influenza during mismatched seasons in older adults with an MF59-adjuvanted quadrivalent influenza vaccine: a randomised, controlled, multicentre, phase 3 efficacy study” (Beran et al. 2021)",
+    "text": "“Prevention of influenza during mismatched seasons in older adults with an MF59-adjuvanted quadrivalent influenza vaccine: a randomised, controlled, multicentre, phase 3 efficacy study” (Beran et al. 2021)\n\nMatch definition: “Matched strains were those with 4-fold and lower difference in titre and unmatched strains were those with a more than 4-fold difference in titre compared with the reference standards.”"
   },
   {
-    "objectID": "background/ve-agdist/index.html#effect-of-antigenic-drift-on-influenza-vaccine-effectiveness-in-the-united-states20192020-tenforde21",
-    "href": "background/ve-agdist/index.html#effect-of-antigenic-drift-on-influenza-vaccine-effectiveness-in-the-united-states20192020-tenforde21",
-    "title": "VE~AgDist",
-    "section": "“Effect of Antigenic Drift on Influenza Vaccine Effectiveness in the United States—2019–2020” (Tenforde et al. 2021)",
-    "text": "“Effect of Antigenic Drift on Influenza Vaccine Effectiveness in the United States—2019–2020” (Tenforde et al. 2021)"
+    "objectID": "aim3/master-slides/index.html#sec-okoli2021a",
+    "href": "aim3/master-slides/index.html#sec-okoli2021a",
+    "title": "VE~AgDist Background and Proposal",
+    "section": "“Variable seasonal influenza vaccine effectiveness across geographical regions, age groups and levels of vaccine antigenic similarity with circulating virus strains: A systematic review and meta-analysis of the evidence from test-negative design studies after the 2009/10 influenza pandemic” (Okoli et al. 2021)",
+    "text": "“Variable seasonal influenza vaccine effectiveness across geographical regions, age groups and levels of vaccine antigenic similarity with circulating virus strains: A systematic review and meta-analysis of the evidence from test-negative design studies after the 2009/10 influenza pandemic” (Okoli et al. 2021)\n\nMatch definition: “gathered match/mismatch variables from the included papers when available and, when not, used other reports for the same general time and region to deduce a general match status” - had match, partial match, and mismatch, it seems like based on different definitions"
   },
   {
-    "objectID": "background/ve-agdist/index.html#vaccine-mismatches-viral-circulation-and-clinical-severity-patterns-of-influenza-b-victoria-and-yamagata-infections-in-brazil-over-the-decade-20102020-a-statistical-and-phylogenytrait-analyses-dacosta22",
-    "href": "background/ve-agdist/index.html#vaccine-mismatches-viral-circulation-and-clinical-severity-patterns-of-influenza-b-victoria-and-yamagata-infections-in-brazil-over-the-decade-20102020-a-statistical-and-phylogenytrait-analyses-dacosta22",
-    "title": "VE~AgDist",
-    "section": "“Vaccine Mismatches, Viral Circulation, and Clinical Severity Patterns of Influenza B Victoria and Yamagata Infections in Brazil over the Decade 2010–2020: A Statistical and Phylogeny–Trait Analyses” (da Costa et al. 2022)",
-    "text": "“Vaccine Mismatches, Viral Circulation, and Clinical Severity Patterns of Influenza B Victoria and Yamagata Infections in Brazil over the Decade 2010–2020: A Statistical and Phylogeny–Trait Analyses” (da Costa et al. 2022)"
+    "objectID": "aim3/master-slides/index.html#another-better-way",
+    "href": "aim3/master-slides/index.html#another-better-way",
+    "title": "VE~AgDist Background and Proposal",
+    "section": "Another (better) way",
+    "text": "Another (better) way\n\n\n\nAntigenic distance\n\nA continuous measure of the difference between two strains\nDifferent ways to calculate\n\n\n\n\nThe idea:\n\nModel VE as predicted by antigenic distance\nGather data from a wide range of years, locations; look at different subtypes\nGet a big picture view of the effect of “mismatch”"
   },
   {
-    "objectID": "background/ve-agdist/index.html#quantifying-influenza-vaccine-efficacy-and-antigenic-distance-gupta2006",
-    "href": "background/ve-agdist/index.html#quantifying-influenza-vaccine-efficacy-and-antigenic-distance-gupta2006",
-    "title": "VE~AgDist",
-    "section": "“Quantifying Influenza Vaccine Efficacy and Antigenic Distance” (Gupta, Earl, and Deem 2006)",
-    "text": "“Quantifying Influenza Vaccine Efficacy and Antigenic Distance” (Gupta, Earl, and Deem 2006)\n\n\\(p_{epitope}\\) original paper\nThe aim of this paper was to “… provide a quantitative definition of the difference between dominant epitope regions in the vaccine and circulating strain and show that this definition of antigenic distance correlates well with human influenza vaccine efficacy over the last 35 years”\nTheir model does not allow for immunosenescence - they focused only on 18-64 year olds\nRestricted their focus to the hemagglutinin protein, which has 5 epitope regions (Figure 1)\nUse the NK model which states that the difference between the vaccine and circulating strains is the fraction of the amino acids that differ in the dominant epitope region\n\nIn this study, the dominant epitope was defined as the epitope with the largest fractional change in the amino acid sequence relative to the vaccine strain\n\n\n\\[\n\\begin{aligned}\np_{epitope} &= \\frac{\\text{number of amino acid differences in dominant epitope}}{\\text{total number of amino acids in dominant epitope}}\\\\\n\\end{aligned}\n\\]\n\nModeling vaccine efficacy \\(E\\)\n\n\\[\n\\begin{aligned}\nE &= \\alpha \\ln \\frac{K_{secondary}(p_{epitope})}{K_{primary}},\\\\\n&\\text{where:}&\\\\\n\\end{aligned}\n\\]\n- constant 𝛼 is chosen so that a perfect match between the vaccine and circulating strains leads to a 45% VE (**Q.** do we still think this is what we should shoot for with this 𝛼?)\n- K_primary is the binding constant for the primary immune response\n- K_secondary is the binding constant for the secondary immune response following vaccination\n- This model is entirely predictive, with no fitted parameters except for 𝛼\n\nPrimary results shown in Figure 2\n\n\n\n\n\n\n\n\n\nFigure 1\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 2"
+    "objectID": "aim3/master-slides/index.html#antigenic-distance-background",
+    "href": "aim3/master-slides/index.html#antigenic-distance-background",
+    "title": "VE~AgDist Background and Proposal",
+    "section": "Antigenic Distance Background",
+    "text": "Antigenic Distance Background"
   },
   {
-    "objectID": "background/flu-ve/index.html",
-    "href": "background/flu-ve/index.html",
-    "title": "Flu VE",
+    "objectID": "aim3/master-slides/index.html#antigenic-distance-methods",
+    "href": "aim3/master-slides/index.html#antigenic-distance-methods",
+    "title": "VE~AgDist Background and Proposal",
+    "section": "Antigenic Distance Methods",
+    "text": "Antigenic Distance Methods\n\nP-epitope (Gupta, Earl, and Deem 2006; Pan and Deem 2016)"
+  },
+  {
+    "objectID": "aim3/master-slides/index.html#ve-distance-papers",
+    "href": "aim3/master-slides/index.html#ve-distance-papers",
+    "title": "VE~AgDist Background and Proposal",
+    "section": "VE ~ Distance Papers",
+    "text": "VE ~ Distance Papers\n\n“Quantifying influenza vaccine efficacy and antigenic distance” (Gupta, Earl, and Deem 2006)\n“Prediction of influenza B vaccine effectiveness from sequence data” (Pan and Deem 2016)"
+  },
+  {
+    "objectID": "aim3/master-slides/index.html#table-1",
+    "href": "aim3/master-slides/index.html#table-1",
+    "title": "VE~AgDist Background and Proposal",
+    "section": "Table 1",
+    "text": "Table 1\n\n\nSeasonLocationPopulationSubTypeProportionaVaxStrainRepeatbCircStrainAgDist1cAgDist2cAgDist3cNdVEexxxxxxxxxxxxxxxxxxxxxxxxxxaProportion of infections caused by the listed circulating strain.bNumber of uninterrupted years this strain has been used in the vaccine, including the referenced season.cAntigenic distance methods will be specified in these column names when final methods are decided.dStudy sample size.eVE with std. error and uncertainty intervals, as available."
+  },
+  {
+    "objectID": "aim3/master-slides/index.html#figure-1",
+    "href": "aim3/master-slides/index.html#figure-1",
+    "title": "VE~AgDist Background and Proposal",
+    "section": "FIgure 1",
+    "text": "FIgure 1\n\n\n\nPrimary modeling result: what is the association between VE and antigenic distance?\n\n\n\n\n\nCreated with BioRender.com"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home/About",
     "section": "",
-    "text": "In CoP section"
+    "text": "This repository/site houses my materials and resources use in developing my dissertation. I have information split into general background, each specific aim, and presentations. The background section contains lit review notes split up by topic. Each specific aim may also contain lit review notes specific to something for that aim as needed, and will also have general notes and planning. The presentations section contains any presentations created for the proposal defense and dissertation defense, and any other miscellaneous presentations as needed. Presentations that are specific to one aim will be housed in that aim’s section.\n\nSpecific Aims\nInfluenza is a major public health burden and contributes to substantial morbidity and mortality worldwide. The first influenza vaccine was licensed for public use in 1945, but vaccine effectiveness (VE) is stil variable and often low. This variability limits our ability to make confident public health decisions and reduce morbidity and mortality. The lack of a clear and consistent framework that links immunogenicity to clinical protection, particularly across species and age groups, and under conditions of viral mismatch, is a major challenge in developing and improving seasonal influenza vaccines. This dissertation aims to bridge immunologic correlates of protection and antigenic mismatch analyses to improve estimates of influenza vaccine effectiveness in both animal models and human populations, using statistical and meta-analytic modeling approaches.\nAim 1. Identify and model correlates of protection against influenza in animal models. Animal models are frequently used to evaluate influenza vaccine components and platforms prior to human use. A 1:40 hemagglutination inhibition (HAI) titer is often assumed to reduce infection risk by 50% (50%PT) across species, yet this threshold was derived from human data and may not translate directly to animal models. We will conduct correlates of protection (CoP) analyses in pre-immune murine and ferret challenge models to estimate species-specific CoP curves and 50%PT values. These results will clarify the relationship between HAI titers and protection across species and improve how preclinical studies inform human vaccine development.\nAim 2. Evaluate benefit of high-dose influenza vaccination by estimating and comparing Fluzone vaccine efficacies in age- and dose-based groups. Older adults are at higher risk for severe influenza outcomes, and high-dose vaccines (e.g., Fluzone High-Dose) are recommended to combat immunosenescence and infection and disease vulnerabilities. However, the added benefit of these vaccines remains unclear and unquantified in terms of real-world protection. Using the UGAFluVac immunogenicity data,we will estimate VE by mapping pre- and post-vaccination HAI titers to protection probabilities across three groups: younger adults receiving standard-dose Fluzone vaccines, older adults receiving standard-dose Fluzone vaccines, and older adults receiving high-dose Fluzone vaccines. We will use contrasts to quantify the benefit of high-dose vaccination in older adults.\nAim 3. Quantify the impact of antigenic distance between vaccine and circulating influenza strains on vaccine effectiveness. The seaonal influenza vaccine is updated each year with antigens expected to prompt immune responses that are protective against that season’s prevalent strains. Low vaccine effectiveness (VE) is often said to be caused, in some part, by a “mismatch” of the vaccine strain to the prevalent circulating strain. However, this mismatch is defined differently in many studies and is generally dichotmous (i.e. match or mismatch). We will use continuous measures of antigenic distance to assess the impact of the difference between vaccine and ciruclating strains in linear mixed effects meta-regression."
   },
   {
-    "objectID": "background/flu-ve/index.html#the-household-influenza-vaccine-effectiveness-study-lack-of-antibody-response-and-protection-following-receipt-of-2014-2015-influenza-vaccine-petrie17",
-    "href": "background/flu-ve/index.html#the-household-influenza-vaccine-effectiveness-study-lack-of-antibody-response-and-protection-following-receipt-of-2014-2015-influenza-vaccine-petrie17",
-    "title": "Flu VE",
+    "objectID": "aim1/animal-studies/index.html",
+    "href": "aim1/animal-studies/index.html",
+    "title": "Potential Animal Study Data Source Summaries",
     "section": "",
-    "text": "In CoP section"
+    "text": "This page contains a general literature review in which I am looking for potential data sources for a project that will assess correlates of protection against influenza outcomes in animal models. Figure 1 shows the basic layout of data we need - titers in pre-immune animals prior to live virus challenge (prefereably non-lethal) with follow up to assess clinical outcomes such as infection, weight loss, fatality, etc. We are primarily looking for data from mouse/murine and ferret studies, but are open to other models as well if enough data present themselves.\nThis page is generally organized by interest/availability of data. It has a section of “potential data sources” (P, Section 2.1) that appear to have the data we need, but have not been confirmed to have all that data or to be available to us. It then has “confirmed” (C, Section 2.2) and “rejected” (R, Section 2.3) sections.\n\n\nTompkins papers reviewed:\n\nSection 2.1.1 - Page et al. (2025); P\nSection 2.1.3 - Hoxie et al. (2024); P\nSection 2.1.6 - Bimler et al. (2021); P\nSection 2.1.7 - Mooney et al. (2017); P\nSection 2.1.8 - Smith et al. (2012); P\nCurran et al. (2024); R\nChopra et al. (2024); R\nLieber et al. (2023); R\nLuczo et al. (2023); R\nPliasas et al. (2023); R\nDriskell et al. (2010); R\n\n\nRoss papers reviewed:\n\nSection 2.1.4 - Uno et al. (2024); P\nSection 2.1.5 - Uno and Ross (2024); P\nSection 2.1.2 - Allen and Ross (2024); C\n\n\n\n\n\n\n\n\n\n\n\nFigure 1"
   },
   {
-    "objectID": "background/flu-ve/index.html#multivariate-analysis-of-factors-affecting-the-immunogenicity-of-trivalent-inactivated-influenza-vaccine-in-school-age-children-freeman15",
-    "href": "background/flu-ve/index.html#multivariate-analysis-of-factors-affecting-the-immunogenicity-of-trivalent-inactivated-influenza-vaccine-in-school-age-children-freeman15",
-    "title": "Flu VE",
-    "section": "“Multivariate Analysis of Factors Affecting the Immunogenicity of Trivalent Inactivated Influenza Vaccine in School-Age Children” (Freeman et al. 2015)",
-    "text": "“Multivariate Analysis of Factors Affecting the Immunogenicity of Trivalent Inactivated Influenza Vaccine in School-Age Children” (Freeman et al. 2015)"
+    "objectID": "aim1/animal-studies/index.html#sec-potential",
+    "href": "aim1/animal-studies/index.html#sec-potential",
+    "title": "Potential Animal Study Data Source Summaries",
+    "section": "Potential data sources",
+    "text": "Potential data sources\n\nNeuraminidase-specific antibodies drive differential cross-protection between contemporary FLUBV lineages (Page et al. 2025)\n\nFirst/Last Authors: Caroline K. Page/Mark Tompkins\nAuthor we know (loc): Caroline PAge (first), Mark Tompkins (last)\nAnimal Model: Mouse/Murine\nSummary: “Here, we establish two animal models to replicate preliminary human observations and demonstrate that NA-specific antibodies are key mediators of cross-protection from contemporary Victoria to Yamagata viruses. These findings offer important insights into the asymmetric immunity between FLUBV lineages and how viral evolution influences immune responses.”\nNotes:\n\nTl;dr - has the basic data needed, but only assesses cross-lineage protection (i.e. Yamagata antibodies protecting against Victoria and vice versa); not sure if we’re focusing on homologous or including heterologous antibodies yet.\n“… FLUAV preimmune ferrets, previously exposed to A/California/07/2009 (H1N1), along with naïve ferrets were intranasally inoculated with either B/Washington/02/2019 (Victoria) or B/Oklahoma/10/2018 (Yamagata) at a dose of \\(10^6\\) plaque-forming units (PFU). No clinical signs, such as weight loss or temperature changes, were observed in any group (fig. S1, A to D), and FLUBV replication was comparable in the upper respiratory tract of H1N1-preimmune and naïve ferrets for both lineages.”\n“To assess differences in duration of cross-protection following initial FLUBV infection, the ferrets were rested for either 2 or 6 months prior to being challenged with the opposing influenza B lineage virus”\n“Mice were intranasally infected with a sublethal dose of 103 PFU of either a contemporary or noncontemporary Victoria or Yamagata virus…Thirty-five days postinfection, after clearance of the acute infection and the establishment of immune memory, the animals were reinfected with a contemporary or noncontemporary cross-lineage challenge virus, and lungs were collected to assess viral replication.”\n“Mice were passively transferred serum conferred from either a contemporary Victoria or Yamagata infection and subsequently challenged intranasally with 103 PFU of a cross-lineage contemporary virus”\n\n\n\n\nmRNA vaccines encoding computationally optimized hemagglutinin elicit protective antibodies against future antigenically drifted H1N1 and H3N2 influenza viruses isolated between 2018-2020 (Allen and Ross 2024)\n\nFirst/Last Authors: James D. Allen/Ted M. Ross\nAuthor we know (loc): Ted M. Ross\nAnimal Model: Mouse/Murine\nSummary: “Overall, this was the first time that mRNA encoding COBRA HA antigens were synthesized and used to vaccinate immunologically naïve mice to determine their effectiveness at eliciting broadly protective antibody responses against diverse panels of H1N1 and H3N2 vaccine strains from the last decade. These responses were superior to those elicited by wild-type mRNA expressing HA antigens at inhibiting viral binding to host cell surface receptors and preventing viral infection. Thus, demonstrating the potential benefits of using in-silico designed influenza mRNA vaccine antigens to elicit more broadly protective immune responses over traditional wild-type vaccine antigens.”\nNotes:\n\n“At the beginning of the study the mice were randomly divided into 10 groups (n=11 mice/group), and vaccinated intramuscularly with 50mL of a solution containing 1mg of mRNA vaccines encoding the HA proteins of either the H1 COBRA Y2, H1 A/California/07/2009, H3 COBRA NG2 or H3 A/Kansas/14/2017 in phosphate buffered saline (PBS), or 50mL of PBS alone as a placebo control vaccine (24, 30, 50). The vaccines were administered as either a monovalent (1mg) or bivalent (H1 + H3) (1mg each) formulation intramuscularly into the hamstring of the hind leg of the mice on the first day of the study and again on day 28. Blood samples were obtained from the facial vein of the animals on day 14 and day 42 post initial vaccination.”\n“On day 56 post initial vaccination, 55 of the mice (n= [11] mice/group) were infected with 50 mL of a human A/California/07/2009 H1N1 influenza isolate that has been passaged in eggs (EP4) at a dose of 5x104 PFU/50mL. Also on day 56 post initial vaccination, another set of 55 mice (n=11 mice/group) were challenged with 50mL of a human A/Kansas/14/2017 H3N2 influenza isolate that has been passaged in eggs (EP1) at a dose of 1.55x107 PFU/50mL. Mice were observed for 14 consecutive days after infection for weight loss and clinical signs of infection. A humane 25% weight loss cut off was observed for all mice, post infection, as previously established by the IACUC committee. On the third day of the viral challenge, 3 mice from each group were humanely euthanized, and their lungs were removed, snap frozen, and stored at -80°C. Following day 14 of the influenza virus challenge, all mice were humanely euthanized using IACUC approved methods.”\nWe already have this data from Yao\n\n\n\n\n\n\n\n\n\n\n\n\n\nA recombinant N2 neuraminidase-based CpG 1018® adjuvanted vaccine provides protection against challenge with heterologous influenza viruses in mice and hamsters (Hoxie et al. 2024)\n\nFirst/Last Authors: Irene Hoxie/Florian Krammer\nAuthor we know (loc): Mark Tompkins (middle), Florian Krammer (last)\nAnimal Model: Mouse/Murine, Hamster\nSummary: “Here, we evaluated the immunogenicity and cross-protective potential of a recombinant influenza virus N2 neuraminidase vaccine construct, adjuvanted with a toll-like receptor 9 (TLR9) agonist (CpG 1018® adjuvant), and alum. The combination of CpG 1018 adjuvant and alum induced a balanced and robust humoral and T-cellular immune response against the NA, which provided protection and reduced morbidity against homologous and heterologous viral challenges in mouse and hamster models. This study supports Syrian hamsters as a useful complementary animal model to mice for pre-clinical evaluation of influenza virus vaccines.”\nNotes:\n\nMouse study at Mt. Sinai, hamster study at University of Wisconsin-Madison\n“For mouse studies, naive 6–8-week-old BALB/c or DBA/2J mice were initially primed intramuscularly . . . A second vaccination with the same vaccine formulations was administered on day 21 following the initial dose. Blood samples were collected by submandibular bleed on day 21 after the prime and on day 28 after the booster vaccination and used for subsequent serology assays.\n“To assess the protective efficacy of the tested vaccine formulations in an H3N2 challenge model, DBA/2J mice were anesthetized with 100ul of ketamine-xylazine cocktail (87.5 mg/kg, 12.5 mg/kg) and intranasally infected with either 5 or 25 times the 50 % lethal dose (LD50) in 50ul of the heterologous mouse-adapted A/Switzerland/9715293/2013 (H3N2) influenza virus strain which is antigenically closer to the vaccine antigen. DBA/2J mice were used here since they are more susceptible to recent human H3N2 strains. Vaccinated BALB/c mice were infected with 5xLD50 doses of A/Philippines/2/1982 (H3N2, X-79), A/Hong Kong/2/68 (H3N2, X-31), or A/swine/Germany/Bak50/2017 (H1N2, A/PR/8/34 6:2 reassortant). Survival and body weight change in mice were monitored for 14 days following the challenge.”\n“Syrian hamsters (4–6-week-old males; Charles River) were confirmed to be seronegative for recent circulating H3N2 influenza viruses before being immunized. Three groups of 4 Syrian hamsters were intramuscularly immunized . . . Three weeks later, the hamsters were boosted with the same antigen. Serum samples were collected three weeks after the first immunization and three weeks after the boost immunization to measure antibody responses elicited by the immunization. Under isoflurane anesthesia, the hamsters were intranasally inoculated with 106 plaque forming units (pfu) of homologous (A/Kansas/14/2017, H3N2) or heterologous (A/Aichi/2/1968, H3N2) viruses three weeks after the boost. . . On days 3 and 5 post-challenge, hamsters were humanely euthanized, and lungs, tracheas, and nasal turbinates were collected for virus titration via plaque assay.”\n“For the mice, animals were vaccinated (Fig. 1), and challenged with a **sublethal challenge dose of 0.1 LD50 of A/Switzerland/9715293/2013. Lungs were harvested 3 and 6 days post-infection, and homogenized.” (Not sure if this was at Mt. Sinai or UWisconsin-Madison - this is stated in the same section as the study referencing Wisconsin ethics)\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntranasal administration of octavalent next-generation influenza vaccine elicits protective immune responses against seasonal and pre-pandemic viruses (Uno et al. 2024)\n\nFirst/Last Authors: Naoko Uno/Ted M. Ross\nAuthor we know: Ted M. Ross (last)\nAnimal Model: Ferret\nSummary: “Octavalent mixtures of COBRA hemagglutinin (HA) (H1, H2, H3, H5, H7, and influenza B virus) plus neuraminidase (NA) (N1 and N2) recombinant proteins mixed with c-di-AMP adjuvant were administered intranasally to naive or pre-immune ferrets in prime-boost fashion. Four weeks after final vaccination, collected sera were analyzed for breadth of antibody response, and the animals were challenged with seasonal or pre-pandemic strains. The octavalent COBRA vaccine elicited antibodies that recognized a broad panel of strains representing different subtypes, and these vaccinated animals were protected against influenza virus challenges. Overall, this study demonstrated that the mixture of eight COBRA HA/NA proteins mixed with an intranasal adjuvant is a promising candidate for a universal influenza vaccine.”\nNotes:\n\n“Ferrets were randomly divided into [four] vaccine groups, and each vaccine group had three different infection groups (n = 4–6). The groups were pre-immune ferrets given octavalent COBRA vaccine, naive ferrets given octavalent COBRA vaccine, pre-immune ferrets given mock vaccine, and naive ferrets given mock vaccine.”\n“For the pre-immune groups, ferrets that had been previously exposed to CA/09 prior to this study were infected with Pan/99 and B/HK/01 60 days prior to vaccination.”\n“Ferrets were boosted 28 days after initial vaccination. Blood was harvested from all anesthetized ferrets via the anterior vena cava prior to vaccination and at days 28 and 56 post-initial vaccination.”\n“On day 56 post-vaccination, ferrets were challenged i.n. with H1N1 Bris/18 (108 PFU), IBV B/WA/19 (107 PFU), or a lethal dose of H5N1 Vn/04 (105 PFU, BSL3 select agent) viruses in a volume of 1 mL (n = 5 per vaccine group per challenge).”\n“Ferrets were monitored daily for weight loss, disease signs, and death for 10 days after infection. Experimental endpoints were defined as &gt;20% wt loss compared to initial body weight. Additionally, dyspnea, lethargy, response to external stimuli, and other respiratory distress were closely monitored for the determination of humane endpoint.”\n\n\n\n\n\n\n\n\n\n\n\n\n\nMultivalent next generation influenza virus vaccines protect against seasonal and pre-pandemic viruses (Uno and Ross 2024)\n\nFirst/Last Authors: Naoko Uno/Ted M. Ross\nAuthor we know (loc): Ted M. Ross (last)\nAnimal Model: Mouse/Murine\nSummary: “In this study, mice were vaccinated intramuscularly with multiple COBRA HA and NA immunogens in quadrivalent (H1, H3, N1, N2) or heptavalent (H1, H2, H3, H5, H7, N1, N2) regimens formulated with AddaVax™, an oil-in-water emulsion adjuvant. These vaccines elicited protective immune responses against a wide breadth of seasonal IAV strains. Heptavalent formulations elicited protective immune responses against a wide breadth of pre-pandemic strains as well. Multivalent COBRA HA and NA proteins are promising candidates for a universal, broadly-reactive influenza vaccine.”\nNotes:\n\n“Mice were randomly divided into four vaccine groups (n=44) and each vaccine group had four different infection groups (n=11). The vaccine groups were quadrivalent COBRA formulation, consisting of seasonal components H1 HA (Y2), H3 HA (NG2), N1 NA (N1I), and N2 NA (N2A); heptavalent COBRA formulation, consisting of seasonal Y2, NG2, N1I, N2A along with pandemic components H2 HA (Z1), H5 HA (IAN 8), and H7 HA (Q6); adjuvant only; or negative control. The vaccines were formulated with 3 μg of each recombinant protein or phosphatebuffered saline (PBS, Corning, Tewkbury, MA, USA) and adjuvanted with an emulsified squalene-based oil-inwater emulsion adjuvant, AddaVax™ (InvivoGen, San Diego, CA, USA) at 1:1 ratio.”\n“Vaccines were administered intramuscularly (i.m.) into the hind leg of the animals on day 0, 28, and 56 in a homologous prime-boost-boost regimen. Blood was collected from the facial vein 14 days following each vaccination, on day 14, 42, and 70.”\n“Four weeks after final vaccination, mice were challenged intranasally (i.n.) with 50 μL volume of live influenza virus: lethal dose of Bris/18 (3 × 106 PFU), KS/17 (6 × 106 PFU), MA-Switz/13 (1 × 105 PFU), Mal/MN/08 (1 × 104 PFU), lethal dose of H5N6 Sich/14 (106 PFU), or lethal dose of Anhui/13 (102 PFU, under biosafety level 3 (BSL3) conditions). Following infection, the animals’ body weights were recorded daily, and the animals were monitored twice daily for clinical signs (labored breathing, lethargy, hunched back, ruffled fur, failure to respond to stimuli, and severe respiratory distress) for 14 days. Weight loss more than 25% was used as a primary measurement for determination of humane endpoint. On days 2 or 3 and 6 after infection, three animals from each group were sacrificed, and lungs were collected to assess viral load. Lungs were frozen on dry ice and stored at − 80 °C. Remaining mice (n = 5) were euthanized 14 days after challenge.”\n\n\n\n\nMatrix Protein 2 Extracellular Domain-Specific Monoclonal Antibodies Are an Effective and Potentially Universal Treatment for Influenza A (Bimler et al. 2021)\n\nFirst/Last Authors: Lynn Bimler/Silke Paust\nAuthor we know (loc): Mark Tompkins (second to last)\nAnimal Model: Mouse/Murine\nSummary: “We generated seven murine M2e-MAbs and utilized in vitro and in vivo assays to validate the specificity of our novel M2eMAbs and to explore the universality of their protective potential. Our data show our M2e-MAbs bind to the M2e peptide, HEK cells expressing the M2 channel, as well as influenza virions, and MDCK-ATL cells infected with influenza viruses of multiple serotypes. Our antibodies significantly protect BALB/c mice that are highly susceptible to influenza A virus from lethal challenge with H1N1 A/PR/8/34, pH1N1 A/CA/07/2009, H5N1 A/Vietnam/1203/2004, and H7N9 A/Anhui/1/2013 by improving survival rates and weight loss. Based on these results, at least four of our seven M2e-MAbs show strong potential as universal influenza A treatments.”\nNotes:\n\nConducted at Baylor College of Medicine and UGA\n“We vaccinated 3 times 21 days apart prior to boosting, as this protocol has been demonstrated to produce consistently high antibody titers in all IgG subclasses (significantly higher than 2 vaccinations) and to produce memory B cells that can be activated to produce an increased antibody titer even to geriatric age in mice, 16 months postvaccination.”\n“Mice were given an intraperitoneal (i.p.) injection of the specified MAb at a specified dose 24 hours before virus challenge with 10x the 50% lethal dose (LD50) of the specified virus. H1N1 challenge virus was administered in 20ml of PBS intranasally to mice anesthetized with isoflurane. The pH1N1 and H5N1 challenge viruses were administered in 30ml of PBS intranasally to mice anesthetized with ketamine/xylazine. The H7N9 virus was administered intranasally to mice anesthetized with 2,2,2-tribromoethanol in tert-amyl alcohol (avertin; Aldrich Chemical Co.). The viral inoculum titer of each challenge with pH1N1, H7N9, and H5N1 was determined on MDCK-ATL cells to confirm dose. If specified, a subset of mice were humanely euthanized, and tissues collected to determine virus titer 3 days postinfection (dpi). All animals were monitored for body weight and humane endpoints for euthanization. Survival and weight loss were monitored for up to 21 dpi or until all animals recovered to at least 90% starting body weight.”\n\n\n\n\nVaccination with Recombinant Parainfluenza Virus 5 Expressing Neuraminidase Protects against Homologous and Heterologous Influenza Virus Challenge (Mooney et al. 2017)\n\nFirst/Last Authors: Alaina J. Mooney/S. Mark Tompkins\nAuthor we know (loc): Mark Tompkins (last)\nAnimal Model: Mouse/Murine\nSummary: “Here we show that vaccination with parainfluenza virus 5 (PIV5), a promising live viral vector expressing NA from avian (H5N1) or pandemic (H1N1) influenza virus, elicited NA-specific antibody and T cell responses, which conferred protection against homologous and heterologous influenza virus challenges. Vaccination with PIV5-N1 NA provided cross-protection against challenge with a heterosubtypic (H3N2) virus. Experiments using antibody transfer indicate that antibodies to NA have an important role in protection. These findings indicate that PIV5 expressing NA may be effective as a broadly protective vaccine against seasonal influenza and emerging pandemic threats.”\nNotes:\n\nTl;dr - basic data structure that we want, but only IgG and NA/NAI assays - if we also want to look at IgG/NAI as CoP, these data seem like they would work\n“To determine if vaccination with rPIV5-N1 induces an NA-specific antibody response, BALB/c mice were vaccinated and boosted by i.n. inoculation with PIV5, rPIV5-N1(VN), or rPIV5-N1(CA). Positive-control mice were i.m. immunized with the rgA/VN-PR8 or A/CA/04/09 influenza virus. Mice were bled on day 21 postprime and on day 7 postboost (day 35 postpriming). Pooled serum from each vaccination group was assessed for levels of A/VN/1203/04- and A/CA/04/09specific IgG by an enzyme-linked immunosorbent assay (ELISA).”\n“To determine whether the NA-specific antibodies could block specific neuraminidase activity, serum was analyzed in a 20-(4-methylumbelliferyl)-\u0002-D-Nacetylneuraminic acid (MUNANA)-based NA inhibition (NAI) assay.”\n“. . . immunized mice were challenged with HPAI H5N1 (A/Vietnam/1203/04), pandemic H1N1 (A/California/04/09), or heterosubtypic H3N2 (A/Philippines/2/82 X79) virus. BALB/c mice were immunized, challenged at 7 days postboost with 10 50% lethal doses (LD50) of influenza virus, and monitored for morbidity and mortality.”\n“Ferrets were immunized i.n. with 107 PFU of PIV5, rPIV5-N1(CA), or rPIV5-N1(VN) or 105 PFU of A/CA/04/09. Twenty-one days after immunization, ferrets were challenged with \\(10^6\\) PFU of A/CA/04/09 and monitored for clinical signs, and nasal wash samples were collected on days 2, 4, 6, and 8 postchallenge.”\n\n\n\n\nNebulized Live-Attenuated Influenza Vaccine Provides Protection in Ferrets at a Reduced Dose (Smith et al. 2012)\n\nFirst/Last Authors: Jennifer Humberd Smith/Ralph A. Tripp\nAuthor we know (loc): Mark Tompkins (2nd to last)\nAnimal Model: Ferret\nSummary: “We investigated LAIV vaccination in ferrets using a high efficiency nebulizer designed for nasal delivery. LAIV nasal aerosol elicited high levels of serum neutralizing antibodies and protected ferrets from homologous virus challenge at conventional (107 TCID50) and significantly reduced (103 TCID50) doses. Aerosol LAIV also provided a significant level of subtype-specific cross protection. These results demonstrate the dose-sparing potential of nebulizer-based nasal aerosol LAIV delivery.”\nNotes:\n\n“Ferrets were anesthetized . . . and inoculated intranasally with 0.2 ml (0.1 ml/nostril) or by aerosol (0.2 ml estimated dose) using a AeroVax™ nebulizer, with either \\(10^3\\) or \\(10^7\\) TCID50 of SD-LAIV for the homologous virus challenge study and \\(10^5\\) TCID50 of SD-LAIV or CA09 for the heterotypic challenge study.\n“Ferrets were challenged 21 days post vaccination . . . Daily weights and temperatures were recorded for seven days after vaccination and/or challenge.”\n“Sera samples were collected from each ferret prior to inoculation, 14 days post exposure, and 14 or 17 days post challenge. All sera were . . . tested in a hemagglutination inhibition (HAI) assay . . .”\n\n\n\n\nTemplate - Paper title [intextcit]\n\nFirst/Last Authors:\nAuthor we know (loc):\nAnimal Model:\nSummary:\nNotes:"
   },
   {
-    "objectID": "background/flu-ve/index.html#quantifying-homologous-and-heterologous-antibody-titre-rises-after-influenza-virus-infection-freeman16",
-    "href": "background/flu-ve/index.html#quantifying-homologous-and-heterologous-antibody-titre-rises-after-influenza-virus-infection-freeman16",
-    "title": "Flu VE",
-    "section": "“Quantifying Homologous and Heterologous Antibody Titre Rises after Influenza Virus Infection” (Freeman et al. 2016)",
-    "text": "“Quantifying Homologous and Heterologous Antibody Titre Rises after Influenza Virus Infection” (Freeman et al. 2016)"
+    "objectID": "aim1/animal-studies/index.html#sec-confirmed",
+    "href": "aim1/animal-studies/index.html#sec-confirmed",
+    "title": "Potential Animal Study Data Source Summaries",
+    "section": "Confirmed data sources",
+    "text": "Confirmed data sources\n\nAcquired data\n\nAllen and Ross (2024) - Section 2.1.2"
   },
   {
-    "objectID": "background/flu-ve/index.html#preexisting-subtype-immunodominance-shapes-memory-b-cell-recall-response-to-influenza-vaccination-abreu20",
-    "href": "background/flu-ve/index.html#preexisting-subtype-immunodominance-shapes-memory-b-cell-recall-response-to-influenza-vaccination-abreu20",
-    "title": "Flu VE",
-    "section": "“Preexisting subtype immunodominance shapes memory B cell recall response to influenza vaccination” (Abreu et al. 2020)",
-    "text": "“Preexisting subtype immunodominance shapes memory B cell recall response to influenza vaccination” (Abreu et al. 2020)"
-  },
-  {
-    "objectID": "background/flu-ve/index.html#comparative-immunogenicity-of-several-enhanced-influenza-vaccine-options-for-older-adults-a-randomized-controlled-trial-cowling20",
-    "href": "background/flu-ve/index.html#comparative-immunogenicity-of-several-enhanced-influenza-vaccine-options-for-older-adults-a-randomized-controlled-trial-cowling20",
-    "title": "Flu VE",
-    "section": "“Comparative Immunogenicity of Several Enhanced Influenza Vaccine Options for Older Adults: A Randomized, Controlled Trial” (Cowling et al. 2020)",
-    "text": "“Comparative Immunogenicity of Several Enhanced Influenza Vaccine Options for Older Adults: A Randomized, Controlled Trial” (Cowling et al. 2020)"
-  },
-  {
-    "objectID": "background/flu-ve/index.html#cell-mediated-immune-responses-after-influenza-vaccination-of-solid-organ-transplant-recipients-secondary-outcomes-analyses-of-a-randomized-controlled-trial-lhuillier20",
-    "href": "background/flu-ve/index.html#cell-mediated-immune-responses-after-influenza-vaccination-of-solid-organ-transplant-recipients-secondary-outcomes-analyses-of-a-randomized-controlled-trial-lhuillier20",
-    "title": "Flu VE",
-    "section": "“Cell-Mediated Immune Responses After Influenza Vaccination of Solid Organ Transplant Recipients: Secondary Outcomes Analyses of a Randomized Controlled Trial” (L’huillier et al. 2020)",
-    "text": "“Cell-Mediated Immune Responses After Influenza Vaccination of Solid Organ Transplant Recipients: Secondary Outcomes Analyses of a Randomized Controlled Trial” (L’huillier et al. 2020)"
-  },
-  {
-    "objectID": "background/flu-ve/index.html#the-effect-of-influenza-vaccination-history-on-changes-in-hemagglutination-inhibition-titers-after-receipt-of-the-2015-2016-influenza-vaccine-in-older-adults-in-hong-kong-ng20",
-    "href": "background/flu-ve/index.html#the-effect-of-influenza-vaccination-history-on-changes-in-hemagglutination-inhibition-titers-after-receipt-of-the-2015-2016-influenza-vaccine-in-older-adults-in-hong-kong-ng20",
-    "title": "Flu VE",
-    "section": "“The Effect of Influenza Vaccination History on Changes in Hemagglutination Inhibition Titers After Receipt of the 2015-2016 Influenza Vaccine in Older Adults in Hong Kong” (Ng et al. 2020)",
-    "text": "“The Effect of Influenza Vaccination History on Changes in Hemagglutination Inhibition Titers After Receipt of the 2015-2016 Influenza Vaccine in Older Adults in Hong Kong” (Ng et al. 2020)"
-  },
-  {
-    "objectID": "background/flu-ve/index.html#influenza-vaccination-in-immunocompromised-populations-strategies-to-improve-immunogenicity-caldera21",
-    "href": "background/flu-ve/index.html#influenza-vaccination-in-immunocompromised-populations-strategies-to-improve-immunogenicity-caldera21",
-    "title": "Flu VE",
-    "section": "“Influenza vaccination in immunocompromised populations: Strategies to improve immunogenicity” (Caldera et al. 2021)",
-    "text": "“Influenza vaccination in immunocompromised populations: Strategies to improve immunogenicity” (Caldera et al. 2021)"
-  },
-  {
-    "objectID": "background/flu-ve/index.html#longitudinal-assessment-of-immune-responses-to-repeated-annual-influenza-vaccination-in-a-human-cohort-of-adults-and-teenagers-sung21",
-    "href": "background/flu-ve/index.html#longitudinal-assessment-of-immune-responses-to-repeated-annual-influenza-vaccination-in-a-human-cohort-of-adults-and-teenagers-sung21",
-    "title": "Flu VE",
-    "section": "“Longitudinal Assessment of Immune Responses to Repeated Annual Influenza Vaccination in a Human Cohort of Adults and Teenagers” (Sung et al. 2021)",
-    "text": "“Longitudinal Assessment of Immune Responses to Repeated Annual Influenza Vaccination in a Human Cohort of Adults and Teenagers” (Sung et al. 2021)"
-  },
-  {
-    "objectID": "background/flu-ve/index.html#evaluation-of-determinants-of-the-serological-response-to-the-quadrivalent-splitinactivated-influenza-vaccinewu22",
-    "href": "background/flu-ve/index.html#evaluation-of-determinants-of-the-serological-response-to-the-quadrivalent-splitinactivated-influenza-vaccinewu22",
-    "title": "Flu VE",
-    "section": "“Evaluation of determinants of the serological response to the quadrivalent split‐inactivated influenza vaccine(Wu et al. 2022)",
-    "text": "“Evaluation of determinants of the serological response to the quadrivalent split‐inactivated influenza vaccine(Wu et al. 2022)"
-  },
-  {
-    "objectID": "background/flu-ve/index.html#imprinted-anti-hemagglutinin-and-anti-neuraminidase-antibody-responses-after-childhood-infections-of-ah1n1-and-ah1n1pdm09-influenza-viruses-daulagala23",
-    "href": "background/flu-ve/index.html#imprinted-anti-hemagglutinin-and-anti-neuraminidase-antibody-responses-after-childhood-infections-of-ah1n1-and-ah1n1pdm09-influenza-viruses-daulagala23",
-    "title": "Flu VE",
-    "section": "“Imprinted Anti-Hemagglutinin and Anti-Neuraminidase Antibody Responses after Childhood Infections of A(H1N1) and A(H1N1)pdm09 Influenza Viruses” (Daulagala et al. 2023)",
-    "text": "“Imprinted Anti-Hemagglutinin and Anti-Neuraminidase Antibody Responses after Childhood Infections of A(H1N1) and A(H1N1)pdm09 Influenza Viruses” (Daulagala et al. 2023)"
-  },
-  {
-    "objectID": "background/flu-ve/index.html#immunogenicity-of-high-dose-egg-based-recombinant-and-cell-culturebased-influenza-vaccines-compared-with-standard-dose-egg-based-influenza-vaccine-among-health-care-personnel-aged-1865-years-in-20192020-naleway23",
-    "href": "background/flu-ve/index.html#immunogenicity-of-high-dose-egg-based-recombinant-and-cell-culturebased-influenza-vaccines-compared-with-standard-dose-egg-based-influenza-vaccine-among-health-care-personnel-aged-1865-years-in-20192020-naleway23",
-    "title": "Flu VE",
-    "section": "“Immunogenicity of High-Dose Egg-Based, Recombinant, and Cell Culture–Based Influenza Vaccines Compared With Standard-Dose Egg-Based Influenza Vaccine Among Health Care Personnel Aged 18–65 Years in 2019–2020” (Naleway et al. 2023)",
-    "text": "“Immunogenicity of High-Dose Egg-Based, Recombinant, and Cell Culture–Based Influenza Vaccines Compared With Standard-Dose Egg-Based Influenza Vaccine Among Health Care Personnel Aged 18–65 Years in 2019–2020” (Naleway et al. 2023)\n\nComparing three different vaccines against conventional egg-based standard-dose quadrivalent inactivated influenza vaccine (SD-IIV4) - Fluzone Quadrivalent\n\nQuadrivalent cell-culture-based influenza vaccine (ccIIV4) (randomized) - Flucelvax Quadrivalent\nRecombinant influenza vaccine (RIV4) (randomized) - Flublok Quadrivalent\nHigh-dose egg-based trivalent inactivated influenza vaccine (HD-IIV3) (nonrandomized, added in second season) - Fluzone High-Dose\n\nConducted among health care providers (HCP) at two sites (Baylor Scott & White Health (BSWH) and Kaiser Permanente Northwest (KPNW)) in 2018-2019 and 2019-2020 seasons\n\nSeason 1 - HCP participants enrolled in randomized, open-label influenza vaccine trial were re-consented and enrolled in season 2\nSeason 2 - eligible 18-64 (at start of first season) HCP (at both sites) who had received SD-IIV4 in season 1 were offered enrollment in randomized arms to receive SD-IIV4, RIV4, or ccIIV4\n\nAt KPNW, HCP were also recruited to receive open- and off-label HD-IIV3 (not randomized)\nQ: Was this everybody of any age? If so, what was the age breakdown?\n\nA: Yes. Mean age of 46, SD of 10; similar to other groups (Table 1)\n\n\n\nRandomization:\n\nStudy site-specific stratified block randomization with 18-44 and 45-65 age groups\n1:1:1 randomization, receiving ccIIV4, RIV4, or SD-IIV4\n\nSerum collection at d0/enrollment/pre-vax and ~1 month (20-62 days acceptable range) post-vax\nCoprimary outcomes:\n\nSerologic HAI responses at ~1 month post-vax using the following measures:\n\nSeroconversion rate (SCR)\nGeometric mean titers (GMTs)\nMean-fold rise (MFR)\nGMT ratios comparing post-vax HAI titers by study arm vs reference group\n\n\nData analysis:\n\nOnly included those who received SD-IIV4 in season 1\nANOVA to compare GMT ratios, GMTs, and mean fold GMT rise\nLogistic regression to compared rates of SCR and proportions of participatns with postvaccination HAI titers greater than 1:40, 1:80, and 1:160\nModels adjusted for study site, log pre-vax HAI titer\n\nSex, chronic medical conditions, and immunosuppresive conditions also considered but not significant\n\nBonferroni correction led to statistical significance definition at \\(P=0.007\\) and 99.3% CIs\nSensitivity analysis - restricted comparisons to KPNW\n\n390 HCP\n\n103 RIV4\n106 ccIIV4\n109 SD-IIV4\n79 HD-IIV3\n\n“After adjusting for study site and the log of prevaccination HI titers, there were no statistically significant differences in postvaccination SCR, GMT, or MFR against any of the vaccine reference viruses between HD-IIV3 and SD-IIV4 recipients”\n\nInteresting that similar age groups don’t seem to have a larger boost with HD vs SD\n\n“Adjusted postvaccination SCR, GMT, and MFR were significantly higher among ccIIV4 recipients compared with SD-IIV4 recipients against the A/ H1N1pdm09 reference virus only.”\n“CRs, GMTs, and MFRs were significantly higher among RIV4 recipients compared with SD-IIV4 recipients against all vaccine reference viruses.”\n“…higher proportions of RIV4 recipients had titers greater than 1:80 and 1:160 against the A(H1N1) pdm09, B/Yamagata, and B/Victoria reference viruses and &gt;1:160 against A(H3N2) [compared to reference group]”\n“There were no differences in the proportions of ccIIV4 compared with SD-IIV4 recipients with titers greater than 1:40, 1:80, or 1:160 for any vaccine reference virus, with the exception of HI titers &gt;1:80 against A/ (H1N1)pdm09.”\n“There were no differences in the proportions of HD-IIV3 and SD-IIV4 recipients with titers greater than 1:40, 1:80, or 1:160 for any vaccine reference virus.”\nSeems like higher response to RIV4 might be driven by recombinant HA antigen rather than higher antigen dose\n\nHigher egg-based antigen dose alonse is not enough to increase responses in highly vaccinated adults 18-65"
-  },
-  {
-    "objectID": "aim3/analysis-plan/index.html",
-    "href": "aim3/analysis-plan/index.html",
-    "title": "Aim 3 Analysis Plan",
-    "section": "",
-    "text": "We will collect and combine data from previously published articles and reports for this aim.\n\nPreliminary results\nWe have created a simple DAG (Figure 1) describing what we believe are the most important variables on the causal pathway between vaccine/circulating strain antigenic distance (AD) and vaccine effectiveness (VE). In this framework, we believe that the circulating strain (CS) and vaccine strain (VS) will each have direct effects on population VE, as well as leading to the antigenic distance result. We also assume that pre-season immunity (PT), as indicated by HAI titer, will impact VE, although we will not have this information as part of our data set. The vaccine strain in the previous season’s vaccine (PVS) may also impact VE, as described in the antigenic distance hypothesis (Skowronski et al. 2017). Vaccine uptake (VU) may also impact VE through changes in direct and indirect vaccination effects (Eichner et al. 2017). Demographic factors (D) such as age, race, etc. influence VE both directly and indirectly through (VU). We plan to collect data on CS, VS, PVS, and VE in all cases, and will also collect and examine impacts of VU and D as data are available. AD will be calculated using VS and CS.\n\n\n\n\n\n\n\n\nFigure 1: Relevant exposures, outcomes, and covariates on the causal pathway between antigenic distance (AD) and vaccine effectiveness (VE). Exposures (yellow) include AD, circulating influenza strain (CS), vaccine strain (VS), pre-season HAI titers (PT), previous year vaccine strain (PVS), and population vaccine uptake (VU). Demographics (D) is included as a covariate (orange). Our outcome (gray) of interest is VE.\n\n\n\n\n\n\n\nProposed studies\nWe will calculate VE using multiple methods, including p_epitope distance (Gupta, Earl, and Deem 2006; Pan and Deem 2016), Grantham distance,\nWe will use Bayesian mixed-effects meta-regression to examine the effect of our predictors on the VE outcome.\n\\[\n\\begin{aligned}\n\\hat\\theta_k &\\sim \\mathcal{N}(\\theta_k,\\sigma^2_k)\\\\\n\\theta_k &\\sim \\mathcal{N}(\\mu_k, \\tau^2), \\space \\space \\mu_k = \\beta_0 + \\sum_{j=1}^p\\beta_jx_{j,k} + b^{(s)}_{s[k]} + b^{(t)}_{t[k]} + b^{(x_1t)}_{x_1,t}\\\\\nb_s^{(s)} &\\sim \\mathcal{N}(0, \\sigma^2_s)\\\\\nb_t^{(t)} &\\sim \\mathcal{N}(0, \\sigma^2_t)\\\\\nb_t^{(x1t)} &\\sim \\mathcal{N}(0, \\sigma^2_{x_1t})\\\\\n\\end{aligned}\n\\]\n\n\n\nTerm\nInterpretation\n\n\n\n\n\\(\\hat\\theta_k\\)\nObserved estimate from study \\(k\\)\n\n\n\\(\\theta_k\\)\nTrue underlying effect for study \\(k\\)\n\n\n\\(\\sigma^2_k\\)\nKnown sampling variance for \\(\\hat\\theta_k\\)\n\n\n\\(\\beta_0\\)\nFixed intercept\n\n\n\\(\\beta_j\\)\nFixed slopes for predictors \\(x_j, j \\ge2\\)\n\n\n\\(b_s^{(s)}\\)\n\n\n\n\\(b_t^{(t)}\\)\n\n\n\n\\(b_t^{(x_1t)}\\)\n\n\n\n\n\n\n\n\n\n\n\n\nExpected outcomes\n\nEichner, Martin, Markus Schwehm, Linda Eichner, and Laetitia Gerlier. 2017. “Direct and Indirect Effects of Influenza Vaccination.” BMC Infectious Diseases 17 (1): 308. https://doi.org/10.1186/s12879-017-2399-4.\n\n\nGupta, Vishal, David J. Earl, and Michael W. Deem. 2006. “Quantifying Influenza Vaccine Efficacy and Antigenic Distance.” Vaccine, 3rd International Conference on Vaccines for Enteric Diseases, 24 (18): 3881–88. https://doi.org/10.1016/j.vaccine.2006.01.010.\n\n\nPan, Yidan, and Michael W. Deem. 2016. “Prediction of Influenza B Vaccine Effectiveness from Sequence Data.” Vaccine 34 (38): 4610–17. https://doi.org/10.1016/j.vaccine.2016.07.015.\n\n\nSkowronski, Danuta M., Catharine Chambers, Gaston De Serres, Suzana Sabaiduc, Anne-Luise Winter, James A. Dickinson, Jonathan B. Gubbay, et al. 2017. “Serial Vaccination and the Antigenic Distance Hypothesis: Effects on Influenza Vaccine Effectiveness During A(H3N2) Epidemics in Canada, 2010–2011 to 2014–2015.” J Infect Dis 215 (7): 1059–99. https://doi.org/10.1093/infdis/jix074."
-  },
-  {
-    "objectID": "aim3/model-building/index.html",
-    "href": "aim3/model-building/index.html",
-    "title": "VE ~ Antigenic Distance Model Building",
-    "section": "",
-    "text": "Model Setup\nHere is my basic planned setup of the model. I will fit linear mixed effects models predicting VE as a function of some combination of parameters associated with fixed and random effects.\nThe general model is defined as:\n\\[\n\\begin{aligned}\nY_{i,s,t} &= \\beta_0 + \\sum_{j=2}^p\\beta_jx_{j,i} + (\\beta_1 + b_t^{(x_1t)})x_{1,i} + b_s^{(s)} +b_t^{(t)} +  \\epsilon_{i,s,t}\\\\\n\\end{aligned}\n\\]\n\n\n\n\n\n\n\nTerm\nInterpretation\n\n\n\n\n\\(\\beta_0\\)\nFixed intercept\n\n\n\\(\\beta_j\\)\nFixed slopes for predictors \\(x_j, j \\ge2\\)\n\n\n\\(b_s^{(s)} \\sim \\mathcal{N}(0,\\sigma^2_s)\\)\nRandom intercept for influenza season \\(s\\)\n\n\n\\(b_t^{(t)} \\sim \\mathcal{N}(0, \\sigma^2_t)\\)\nRandom intercept for influenza type/subtype/lineage \\(t\\)\n\n\n\\(b_t^{(x_1t)} \\sim \\mathcal{N}(0, \\sigma^2_{x_1t})\\)\nRandom slope for antigenic distance predictor \\(x_1\\), varying by subtype \\(t\\)\n\n\n\\(\\epsilon_{i,s,t} \\sim \\mathcal{N}(0, \\sigma^2_\\epsilon)\\)\nResidual\n\n\n\n\n\nFixed Effects\n\n\n\n\n\n\n\nPredictor\nInterpretation\n\n\n\n\n\\(d\\)\nAntigenic distance between vaccine and circulating strain\n\n\n\\(a\\)\nAge group\n\n\n\\(r\\)\nRegion (should this be a random effect?)\n\n\n\\(p\\)\nProportion of infections caused by subtype/lineage \\(t\\)\n\n\n\\(r\\)\nNumber of consecutive years relevant vaccine strain has been included in vaccine as of season \\(s\\)\n\n\n\\(c\\)\nAntigenic distance between this season’s (\\(s\\)) and last season’s relevant vaccine strain"
-  },
-  {
-    "objectID": "presentations/proposal-idig/index.html#influenza",
-    "href": "presentations/proposal-idig/index.html#influenza",
-    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
-    "section": "Influenza",
-    "text": "Influenza\n\n\n\n\n\n\n\nCDC (2025)"
-  },
-  {
-    "objectID": "presentations/proposal-idig/index.html#influenza-1",
-    "href": "presentations/proposal-idig/index.html#influenza-1",
-    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
-    "section": "Influenza",
-    "text": "Influenza"
-  },
-  {
-    "objectID": "presentations/proposal-idig/index.html#influenza-2",
-    "href": "presentations/proposal-idig/index.html#influenza-2",
-    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
-    "section": "Influenza",
-    "text": "Influenza\n\n\n\n\n\nEnveloped negative-sense single-strand RNA virus\nSegmented genome (8 segmenets)\nHA facilitates viral entry\nNA facilitates viral release\n\n\n\n\nCDC (2024a); Krammer et al. (2018)"
-  },
-  {
-    "objectID": "presentations/proposal-idig/index.html#influenza-classification",
-    "href": "presentations/proposal-idig/index.html#influenza-classification",
-    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
-    "section": "Influenza Classification",
-    "text": "Influenza Classification\n\n\n\nTypes and Subtypes:\n\nA/H1N1\nA/H3N2\nA/H5N1\nB/Victoria\nB/Yamagata\nC\nD\n\n\n\n\nStrains (WHO 2024):\n\nA/Victoria/4897/2022 (H1N1)pdm09-like virus\nA/Thailand/8/2022 (H3N2)-like virus\nB/Austria/1359417/2021 (B/Victoria lineage)-like virus"
-  },
-  {
-    "objectID": "presentations/proposal-idig/index.html#influenza-vaccines",
-    "href": "presentations/proposal-idig/index.html#influenza-vaccines",
-    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
-    "section": "Influenza Vaccines",
-    "text": "Influenza Vaccines\n\nStrains are chosen/recommended each year based on (CDC 2024b):\n\nWhich influenza viruses are making people sick prior to the upcoming flu season,\nThe extent to which those viruses are spreading prior to the upcoming flu season,\nHow well the previous season’s vaccines may protect against those influenza viruses, and\nThe ability of vaccine viruses to provide cross-protection against a range of related influenza viruses of the same type or subtype/lineage."
-  },
-  {
-    "objectID": "presentations/proposal-idig/index.html#influenza-vaccines-1",
-    "href": "presentations/proposal-idig/index.html#influenza-vaccines-1",
-    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
-    "section": "Influenza Vaccines",
-    "text": "Influenza Vaccines\n\n\n\n\n\n\n\nCreated with BioRender.com"
-  },
-  {
-    "objectID": "presentations/proposal-idig/index.html#influenza-vaccines-2",
-    "href": "presentations/proposal-idig/index.html#influenza-vaccines-2",
-    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
-    "section": "Influenza Vaccines",
-    "text": "Influenza Vaccines\n\n\n\n\n\n\n\nCreated with BioRender.com"
-  },
-  {
-    "objectID": "presentations/proposal-idig/index.html#influenza-vaccines-3",
-    "href": "presentations/proposal-idig/index.html#influenza-vaccines-3",
-    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
-    "section": "Influenza Vaccines",
-    "text": "Influenza Vaccines\n\n\n\n\n\n\n\nCreated with BioRender.com"
-  },
-  {
-    "objectID": "presentations/proposal-idig/index.html#influenza-vaccines-4",
-    "href": "presentations/proposal-idig/index.html#influenza-vaccines-4",
-    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
-    "section": "Influenza Vaccines",
-    "text": "Influenza Vaccines\n\n\n\n\n\n\n\nCreated with BioRender.com"
-  },
-  {
-    "objectID": "presentations/proposal-idig/index.html#influenza-vaccines-5",
-    "href": "presentations/proposal-idig/index.html#influenza-vaccines-5",
-    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
-    "section": "Influenza Vaccines",
-    "text": "Influenza Vaccines\n\n\n\n\n\n\n\nCreated with BioRender.com"
-  },
-  {
-    "objectID": "presentations/proposal-idig/index.html#problemsignificance",
-    "href": "presentations/proposal-idig/index.html#problemsignificance",
-    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
-    "section": "Problem/Significance",
-    "text": "Problem/Significance\n\n\n\nVE is variable and often low; CDC (2024c)"
-  },
-  {
-    "objectID": "presentations/proposal-idig/index.html#problemsignificance-1",
-    "href": "presentations/proposal-idig/index.html#problemsignificance-1",
-    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
-    "section": "Problem/Significance",
-    "text": "Problem/Significance\n\n\n\n\nWhy is VE so low? Many different theories (probably a combination):\n\nOriginal antigenic sin/imprinting\nLow immunogenicity\nMatch/Mismatch between vaccine strain and circulating strain\n\n\n\n\n\n\n\n\nCreated with BioRender.com"
-  },
-  {
-    "objectID": "presentations/proposal-idig/index.html#specific-aims",
-    "href": "presentations/proposal-idig/index.html#specific-aims",
-    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
-    "section": "Specific Aims",
-    "text": "Specific Aims\n\nIdentify and model correlates of protection against influenza in animal models.\nEvaluate benefit of high-dose influenza vaccination by estimating and comparing Fluzone vaccine efficacies in age- and dose-based groups.\nQuantify the impact of antigenic distance between vaccine and circulating influenza strains on vaccine effectiveness."
-  },
-  {
-    "objectID": "presentations/proposal-idig/index.html#correlates-of-protection-cops",
-    "href": "presentations/proposal-idig/index.html#correlates-of-protection-cops",
-    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
-    "section": "Correlates of Protection (CoPs)",
-    "text": "Correlates of Protection (CoPs)\n\nBiomarker associated with protection against infection or disease\nRelated terms: surrogate, mechanistic/nonmechanistic correlate, mediator of protection\nNomenclature often depends on the believed causality of the marker\nOften used in vaccine design, development, and licensure\n\n\n\nLim et al. (2020);"
-  },
-  {
-    "objectID": "presentations/proposal-idig/index.html#influenza-cops-in-humans",
-    "href": "presentations/proposal-idig/index.html#influenza-cops-in-humans",
-    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
-    "section": "Influenza CoPs in Humans",
-    "text": "Influenza CoPs in Humans\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHobson 1972(date?) 1:40 50%PT\n\n\n\nFrom top left: Coudeville et al. (2010); Dudášová et al. (2021); Cowling et al. (2019)"
-  },
-  {
-    "objectID": "presentations/proposal-idig/index.html#problemsignificance-2",
-    "href": "presentations/proposal-idig/index.html#problemsignificance-2",
-    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
-    "section": "Problem/Significance",
-    "text": "Problem/Significance\n\nLack of research in correlates of protection in animal models\nVaccine studies in animals base endpoints on human 50%PT\nLack of evidence supporting that those 50%PTs are the same\nIdentifying true 50%PTs/CoP relationships in e.g. mouse, ferret studies can streamline vaccine development"
-  },
-  {
-    "objectID": "presentations/proposal-idig/index.html#planned-data-description",
-    "href": "presentations/proposal-idig/index.html#planned-data-description",
-    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
-    "section": "[Planned] Data Description",
-    "text": "[Planned] Data Description\n\n\n\n\n\n\n\n\nWe are still working on data requests with bench scientists at UGA (and potentially elsewhere) who perform animal studies that follow this basic timeline.\nEssentially, we will request data sets that have mice or ferrets who are pre-immune and/or vaccinated at the beginning of the study, with pre-challenge HAI titers, reasonable inoculations (AKA not 10x the lethal dose), and follow up with infection and disease outcomes.\n\n\n\nCreated with BioRender.com"
-  },
-  {
-    "objectID": "presentations/proposal-idig/index.html#proposed-study",
-    "href": "presentations/proposal-idig/index.html#proposed-study",
-    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
-    "section": "Proposed Study",
-    "text": "Proposed Study\n\n\n\nAnalyze mouse and ferret (two most common influenza animal models) data separately\nBayesian mixed-effects models\n\n\n\n\nOutcomes to assess:\n\nPCR confirmed infection\nWeight loss/anorexia\nTime to illness\nViral load\n\nAccount for:\n\nImmunity source\nInoculum dose\nStudy site\n\n\n\n\n\nCreated with BioRender.com"
-  },
-  {
-    "objectID": "presentations/proposal-idig/index.html#proposed-study-1",
-    "href": "presentations/proposal-idig/index.html#proposed-study-1",
-    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
-    "section": "Proposed Study",
-    "text": "Proposed Study\n\n\n\nAnalyze mouse and ferret (two most common influenza animal models) data separately\nBayesian mixed-effects models\n\n\n\n\nOutcomes to assess:\n\nPCR confirmed infection\nWeight loss/anorexia\nTime to illness\nViral load\n\nAccount for:\n\nImmunity source\nInoculum dose\nStudy site\n\n\n\n\n\nCreated with BioRender.com"
-  },
-  {
-    "objectID": "presentations/proposal-idig/index.html#immunogenicity-studies",
-    "href": "presentations/proposal-idig/index.html#immunogenicity-studies",
-    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
-    "section": "Immunogenicity Studies",
-    "text": "Immunogenicity Studies\n\n\n\n\n\nEfficacy studies time and resource intensive\nImmunogenicity studies typically more sustainable and done more regularly/for longer periods\nStill useful to bring results back to actual protection\n\n\n\n\n\n\n\n\n\nCreated with BioRender.com"
-  },
-  {
-    "objectID": "presentations/proposal-idig/index.html#problemsignificance-3",
-    "href": "presentations/proposal-idig/index.html#problemsignificance-3",
-    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
-    "section": "Problem/Significance",
-    "text": "Problem/Significance\n\nHigh-dose (HD) vaccines have evidence of reducing influenza morbidity and mortality in older adults\nBecause efficacy studies are so resource intensive, there has not been an extended view of how much the HD vaccine helps older adults in terms of actual protection\nWe can use immunogenicity studies to estimate vaccine efficacy and compare protection in different groups"
-  },
-  {
-    "objectID": "presentations/proposal-idig/index.html#data-description",
-    "href": "presentations/proposal-idig/index.html#data-description",
-    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
-    "section": "Data Description",
-    "text": "Data Description\n\nUGAFluVac\nWe’ve talked about this several times in this group, so let’s move on"
-  },
-  {
-    "objectID": "presentations/proposal-idig/index.html#study-methods",
-    "href": "presentations/proposal-idig/index.html#study-methods",
-    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
-    "section": "Study Methods",
-    "text": "Study Methods\n\n\n\nCoudeville et al. (2010)"
-  },
-  {
-    "objectID": "presentations/proposal-idig/index.html#study",
-    "href": "presentations/proposal-idig/index.html#study",
-    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
-    "section": "Study",
-    "text": "Study\n\n\n\nHammerton et al. (2024)"
-  },
-  {
-    "objectID": "presentations/proposal-idig/index.html#study-1",
-    "href": "presentations/proposal-idig/index.html#study-1",
-    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
-    "section": "Study",
-    "text": "Study\n\n\n\n\n\n\n\nHammerton et al. (2024)"
-  },
-  {
-    "objectID": "presentations/proposal-idig/index.html#study-2",
-    "href": "presentations/proposal-idig/index.html#study-2",
-    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
-    "section": "Study",
-    "text": "Study\n\n\n\n\n\n\n\nHammerton et al. (2024)"
-  },
-  {
-    "objectID": "presentations/proposal-idig/index.html#study-3",
-    "href": "presentations/proposal-idig/index.html#study-3",
-    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
-    "section": "Study",
-    "text": "Study\n\n\n\n\n\n\n\nHammerton et al. (2024)"
-  },
-  {
-    "objectID": "presentations/proposal-idig/index.html#antigenic-match-and-mismatch",
-    "href": "presentations/proposal-idig/index.html#antigenic-match-and-mismatch",
-    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
-    "section": "Antigenic Match and Mismatch",
-    "text": "Antigenic Match and Mismatch\n\n\n\nIs the chosen vaccine strain “the same” as the strain(s) infecting people?\nHow much does this matter?\n\n\n\n\n\n\n\n\n\n\nCreated with BioRender.com"
-  },
-  {
-    "objectID": "presentations/proposal-idig/index.html#previous-literature",
-    "href": "presentations/proposal-idig/index.html#previous-literature",
-    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
-    "section": "Previous Literature",
-    "text": "Previous Literature\n\n\n\n\n\n\n\n\n\nTricco match/mismatch:\nInfluenza A strains from infected trial participants were matched with the strain in the vaccine if they belonged to the same A subtype (that is, H1N1 or H3N2) and were antigenically similar in the HI assay (that is, if they showed sufficient crossreaction in a HI chessboard table using ferret antisera; for example, with a HI typing quotient &lt;fourfold titer). Influenza A viral strains were considered mismatched by antigenic drift if they were antigenically distinct from influenza A strains contained in the vaccine as per HI typing (for example, HI titer quotient ≥fourfold) or the characterization did not belong to a similar influenza A subtype contained in the vaccine (for example, H1N1 strains circulating but only H3N2 strains contained in the vaccine for bivalent vaccines with one H subtype).\nTenforde paper:\nAmong B/Victoria viruses, 926 (98%) of 945 sequenced viruses belonged to clade V1A.3, which contains a 3-amino acid deletion (162–164) in the HA protein and differs antigenically from the vaccine component (V1A.1), which has a 2-amino acid deletion (162–163) in the HA protein.\nSkowronski paper:\nTo understand low VE despite reports of vaccine match, we conducted further epidemiologic and laboratory investigations in end-of-season analyses. With additional participants and contributing viruses, we estimated VE against circulating strains belonging to both influenza A subtypes and B lineages accompanied by their in-depth genotypic and phenotypic characterization in relation to vaccine components. Specifically, vaccine-virus relatedness was assessed genotypically by determining the amino acid (AA) sequence of established haemagglutinin (HA) antigenic sites and phenotypically through the haemagglutination inhibition (HI) assay. For H3N2, virus characterization was in relation to the A/Victoria/361/2011 prototype strain recommended by the WHO [10], as well as the egg-adapted high growth reassortant strain as per that actually used by manufacturers in vaccine production (hereafter ‘‘IVR-165’’) [11]. We show that suboptimal VE for the H3N2 component during the 2012–13 season was related to mutations in the egg-adapted IVR-165 vaccine strain, rather than antigenic drift in circulating viruses.\nBelongia paper:\nA virus was considered antigenically different from the corresponding vaccine vaccine strain if there was a &gt;= 4 fold difference between the homologous HAI titer of the vaccine strain."
-  },
-  {
-    "objectID": "presentations/proposal-idig/index.html#previous-literature-1",
-    "href": "presentations/proposal-idig/index.html#previous-literature-1",
-    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
-    "section": "Previous Literature",
-    "text": "Previous Literature\n\n\n\nPan and Deem (2016)"
-  },
-  {
-    "objectID": "presentations/proposal-idig/index.html#problemsignificance-4",
-    "href": "presentations/proposal-idig/index.html#problemsignificance-4",
-    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
-    "section": "Problem/Significance",
-    "text": "Problem/Significance\n\nMatch/mismatch has been dichotomous and arbitrarily defined in many papers\nSome studies have used antigenic distance over one or two seasons, or one specific flu type/subtype\nUnderstanding of the impact of antigenic distance on vaccine effectiveness is still weak"
-  },
-  {
-    "objectID": "presentations/proposal-idig/index.html#planned-data-description-1",
-    "href": "presentations/proposal-idig/index.html#planned-data-description-1",
-    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
-    "section": "[Planned] Data Description",
-    "text": "[Planned] Data Description\n\n\nSeasonLocationPopulationSubTypeProportionaVaxStrainRepeatbCircStrainAgDist1cAgDist2cAgDist3cNdVEexxxxxxxxxxxxxxxxxxxxxxxxxxaProportion of infections caused by the listed circulating strain.bNumber of uninterrupted years this strain has been used in the vaccine, including the referenced season.cAntigenic distance methods will be specified in these column names when final methods are decided.dStudy sample size.eVE with std. error and uncertainty intervals, as available.\n\n\n\nGather vaccine strain history from CDC and WHO recommendations\nFind circulating strains from MMWRs, papers, reports, etc. for specific times and areas\nCalculate antigenic distance multiple ways, including p-epitope, temporal, and Grantham"
-  },
-  {
-    "objectID": "presentations/proposal-idig/index.html#analysis-plan",
-    "href": "presentations/proposal-idig/index.html#analysis-plan",
-    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
-    "section": "Analysis Plan",
-    "text": "Analysis Plan\n\nMeta-analysis of papers/reports on vaccine effectiveness (VE) over the past 2+ decades\nBayesian mixed-effects modeling predicting VE based on anitgenic distance\nAccount for age group, region, “repeat vaccination effect”"
-  },
-  {
-    "objectID": "presentations/proposal-idig/index.html#analysis-plan-1",
-    "href": "presentations/proposal-idig/index.html#analysis-plan-1",
-    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
-    "section": "Analysis Plan",
-    "text": "Analysis Plan\n\n\n\nPrimary modeling result: what is the association between VE and antigenic distance?\n\n\n\n\n\n\nCreated with BioRender.com"
-  },
-  {
-    "objectID": "presentations/proposal-idig/index.html#timeline-goes-here",
-    "href": "presentations/proposal-idig/index.html#timeline-goes-here",
-    "title": "From Immune Response to Public Health: Estimating Influenza Vaccine Protection Across Scales",
-    "section": "Timeline goes here :)",
-    "text": "Timeline goes here :)"
+    "objectID": "aim1/animal-studies/index.html#sec-rejected",
+    "href": "aim1/animal-studies/index.html#sec-rejected",
+    "title": "Potential Animal Study Data Source Summaries",
+    "section": "Denied/Rejected data sources",
+    "text": "Denied/Rejected data sources\n\nAbstract rejection\n\nChopra et al. (2024)\n\nNo actual animal models - just receptor specificity\n\n\n\nCurran et al. (2024)\n\nNo pre-infection immunization\n\n\n\nLieber et al. (2023)\n\nNo pre-infection immunization\n\n\n\nLuczo et al. (2023)\n\nNo pre-infection immunization\n\n\n\nPliasas et al. (2023)\n\nGeneral methods match, but this is all swine, and I’m not sure we plan to look at swine (but if we do, this could move to potential)\n\n\n\nNachbagauer et al. (2018)\n\nNo pre-infection immunization, other than monoclonal antibodies 24h prior to challenge\n\n\n\nDriskell et al. (2010)\n\nNo pre-infection immunization"
   },
   {
     "objectID": "presentations.html",

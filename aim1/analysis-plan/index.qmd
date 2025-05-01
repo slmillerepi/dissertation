@@ -1,0 +1,26 @@
+---
+title: "Aim 1 Analysis Plan"
+author: "Savannah L. Miller"
+date-modified: last-modified
+bibliography: ../../assets/references/proposal.bib
+---
+
+# Preliminary Results 
+
+Studies from which we have received data include [@allen24; @zhang2025].
+
+```{r}
+#| echo: false 
+#| message: false
+#| label: fig-timeline
+#| fig-cap: "General timeline for all animal model challenge study data. Animals were made optionally made pre-immune through some vaccination or challenge, were vaccinated, and challenged. Pre-challenge titers must have been quantified. After challenge, animals were monitored for clinical outcomes such as viral lung titers, weights, severe illness, etc. Created with BioRender.com."
+knitr::include_graphics(here::here("aim1/analysis-plan/thumbnail.png"))
+```
+
+# Proposed Study 
+
+# Expected Outcomes 
+
+
+
+# References 

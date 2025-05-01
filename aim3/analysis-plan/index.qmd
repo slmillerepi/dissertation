@@ -66,33 +66,55 @@ ggdag::ggdag(tidy_dag) +
 
 # Proposed studies
 
-We will calculate VE using multiple methods, including _p_epitope_ distance [@gupta2006; @pan16], Grantham distance, 
-
-
-We will use Bayesian mixed-effects meta-regression to examine the effect of our predictors on the VE outcome. 
+We will calculate VE using multiple methods, including _p_epitope_ distance [@gupta2006; @pan16; ADD MORE], Grantham distance [@grantham1974; ADD MORE], and temporal distance [@auladell2022; @boyoglu-barnum2021; @hinojosa2020; @li2021; @yang2020; @carlock2023]. We will then use Bayesian mixed-effects meta-regression (@eq-regression and @tbl-term) to examine the effect of our predictors (@tbl-predictor) on the VE outcome. 
 
 $$
 \begin{aligned}
 \hat\theta_k &\sim \mathcal{N}(\theta_k,\sigma^2_k)\\
-\theta_k &\sim \mathcal{N}(\mu_k, \tau^2), \space \space \mu_k = \beta_0 + \sum_{j=1}^p\beta_jx_{j,k} + b^{(s)}_{s[k]} + b^{(t)}_{t[k]} + b^{(x_1t)}_{x_1,t}\\
-b_s^{(s)} &\sim \mathcal{N}(0, \sigma^2_s)\\
-b_t^{(t)} &\sim \mathcal{N}(0, \sigma^2_t)\\
-b_t^{(x1t)} &\sim \mathcal{N}(0, \sigma^2_{x_1t})\\
+\theta_k &\sim \mathcal{N}(\mu_k, \tau^2), \quad \mu_k = \beta_0 + \sum_{j=1}^p\beta_jx_{j,k} + b^{(s)}_{s[k]} + b^{(t)}_{t[k]} + b^{(x_1t)}_{t[k]} \cdot x_{1,k} \\
+b^{(s)}_s &\sim \mathcal{N}(0, \sigma^2_s) \\
+b^{(t)}_t &\sim \mathcal{N}(0, \sigma^2_t) \\
+b^{(x_1t)}_t &\sim \mathcal{N}(0, \sigma^2_{x_1t}) \\
+\beta_j &\sim \mathcal{N}(0, \sigma^2_j)
 \end{aligned}
-$$
+$$ {#eq-regression}
 
-Term | Interpretation
+Term | Interpretation 
+-----|----------------
+$\hat\theta_k$ | Observed estimate from study $k$
+$\theta_k$ | True underlying effect for study $k$
+$\sigma^2_k$ | Known sampling variance for $\hat\theta_k$
+$\beta_0$ | Fixed intercept
+$\beta_j$ | Fixed slopes for predictors $x_j, j \ge 1$ as described in @tbl-predictor
+$b^{(s)}_{s[k]}$ | Random intercept/effect for influenza season $s$ for study $k$
+$b^{(t)}_{t[k]}$ | Random intercept/effect for influenza subtype/lineage $t$ for study $k$
+$b^{(x_1t)}_{t[k]} \cdot x_{1,k}$ | Random slope for antigenic distance $x_1$, varying by subtype $t$
+
+
+: Descriptions of terms used in @eq-regression {#tbl-term}
+
+Predictor | Interpretation 
 -|---
-$\hat\theta_k$|Observed estimate from study $k$
-$\theta_k$|True underlying effect for study $k$
-$\sigma^2_k$| Known sampling variance for $\hat\theta_k$
-$\beta_0$|Fixed intercept
-$\beta_j$|Fixed slopes for predictors $x_j, j \ge2$
-$b_s^{(s)}$|
-$b_t^{(t)}$|
-$b_t^{(x_1t)}$|
+$d$|Antigenic distance between vaccine and circulating strain
+$a$|Age group
+$p_t$|Proportion of infections caused by subtype/lineage $t$ 
+$r$|Number of consecutive years relevant vaccine strain has been included in vaccine as of season $s$ 
+$c$|Antigenic distance between this season's and last season's relevant vaccine strain
+
+: Descriptions of fixed effects $\beta_j$ {#tbl-predictor}
 
 
 # Expected outcomes
+
+```{r}
+#| echo: false 
+#| message: false
+#| label: fig-potentials
+#| fig-cap: "Theorized potential relationships between antigenic distance and VE. Created with BioRender.com."
+knitr::include_graphics(here::here("aim3/analysis-plan/thumbnail.png"))
+```
+
+
+# References 
 
 

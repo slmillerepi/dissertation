@@ -209,6 +209,7 @@ window.Quarto = {
   <li><a href="#preliminary-results" id="toc-preliminary-results" class="nav-link active" data-scroll-target="#preliminary-results">Preliminary results</a></li>
   <li><a href="#proposed-studies" id="toc-proposed-studies" class="nav-link" data-scroll-target="#proposed-studies">Proposed studies</a></li>
   <li><a href="#expected-outcomes" id="toc-expected-outcomes" class="nav-link" data-scroll-target="#expected-outcomes">Expected outcomes</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
 </nav>
     </div>
@@ -240,18 +241,28 @@ Figure&nbsp;1: Relevant exposures, outcomes, and covariates on the causal pathwa
 </section>
 <section id="proposed-studies" class="level1">
 <h1>Proposed studies</h1>
-<p>We will calculate VE using multiple methods, including <em>p_epitope</em> distance <span class="citation" data-cites="gupta2006 pan16">(<a href="#ref-gupta2006" role="doc-biblioref">Gupta, Earl, and Deem 2006</a>; <a href="#ref-pan16" role="doc-biblioref">Pan and Deem 2016</a>)</span>, Grantham distance,</p>
-<p>We will use Bayesian mixed-effects meta-regression to examine the effect of our predictors on the VE outcome.</p>
-<p><span class="math display">\[
+<p>We will calculate VE using multiple methods, including <em>p_epitope</em> distance [<span class="citation" data-cites="gupta2006">Gupta, Earl, and Deem (<a href="#ref-gupta2006" role="doc-biblioref">2006</a>)</span>; <span class="citation" data-cites="pan16">Pan and Deem (<a href="#ref-pan16" role="doc-biblioref">2016</a>)</span>; ADD MORE], Grantham distance [<span class="citation" data-cites="grantham1974">Grantham (<a href="#ref-grantham1974" role="doc-biblioref">1974</a>)</span>; ADD MORE], and temporal distance <span class="citation" data-cites="auladell2022 boyoglu-barnum2021 hinojosa2020 li2021 yang2020 carlock2023">(<a href="#ref-auladell2022" role="doc-biblioref">Auladell et al. 2022</a>; <a href="#ref-boyoglu-barnum2021" role="doc-biblioref">Boyoglu-Barnum et al. 2021-03-24, 2021-03</a>; <a href="#ref-hinojosa2020" role="doc-biblioref">Hinojosa et al. 2020-10-22, 2020-10</a>; <a href="#ref-li2021" role="doc-biblioref">Li et al. 2021-02-23, 2021-02</a>; <a href="#ref-yang2020" role="doc-biblioref">Yang et al. 2020</a>; <a href="#ref-carlock2023" role="doc-biblioref">Carlock and Ross 2023</a>)</span>. We will then use Bayesian mixed-effects meta-regression (<a href="#eq-regression" class="quarto-xref">Equation&nbsp;1</a> and <a href="#tbl-term" class="quarto-xref">Table&nbsp;1</a>) to examine the effect of our predictors (<a href="#tbl-predictor" class="quarto-xref">Table&nbsp;2</a>) on the VE outcome.</p>
+<p><span id="eq-regression"><span class="math display">\[
 \begin{aligned}
 \hat\theta_k &amp;\sim \mathcal{N}(\theta_k,\sigma^2_k)\\
-\theta_k &amp;\sim \mathcal{N}(\mu_k, \tau^2), \space \space \mu_k = \beta_0 + \sum_{j=1}^p\beta_jx_{j,k} + b^{(s)}_{s[k]} + b^{(t)}_{t[k]} + b^{(x_1t)}_{x_1,t}\\
-b_s^{(s)} &amp;\sim \mathcal{N}(0, \sigma^2_s)\\
-b_t^{(t)} &amp;\sim \mathcal{N}(0, \sigma^2_t)\\
-b_t^{(x1t)} &amp;\sim \mathcal{N}(0, \sigma^2_{x_1t})\\
+\theta_k &amp;\sim \mathcal{N}(\mu_k, \tau^2), \quad \mu_k = \beta_0 + \sum_{j=1}^p\beta_jx_{j,k} + b^{(s)}_{s[k]} + b^{(t)}_{t[k]} + b^{(x_1t)}_{t[k]} \cdot x_{1,k} \\
+b^{(s)}_s &amp;\sim \mathcal{N}(0, \sigma^2_s) \\
+b^{(t)}_t &amp;\sim \mathcal{N}(0, \sigma^2_t) \\
+b^{(x_1t)}_t &amp;\sim \mathcal{N}(0, \sigma^2_{x_1t}) \\
+\beta_j &amp;\sim \mathcal{N}(0, \sigma^2_j)
 \end{aligned}
-\]</span></p>
+\tag{1}\]</span></span></p>
+<div id="tbl-term" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-term-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: Descriptions of terms used in <a href="#eq-regression" class="quarto-xref">Equation&nbsp;1</a>
+</figcaption>
+<div aria-describedby="tbl-term-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="caption-top table">
+<colgroup>
+<col style="width: 23%">
+<col style="width: 76%">
+</colgroup>
 <thead>
 <tr class="header">
 <th>Term</th>
@@ -277,42 +288,126 @@ b_t^{(x1t)} &amp;\sim \mathcal{N}(0, \sigma^2_{x_1t})\\
 </tr>
 <tr class="odd">
 <td><span class="math inline">\(\beta_j\)</span></td>
-<td>Fixed slopes for predictors <span class="math inline">\(x_j, j \ge2\)</span></td>
+<td>Fixed slopes for predictors <span class="math inline">\(x_j, j \ge 1\)</span> as described in <a href="#tbl-predictor" class="quarto-xref">Table&nbsp;2</a></td>
 </tr>
 <tr class="even">
-<td><span class="math inline">\(b_s^{(s)}\)</span></td>
-<td></td>
+<td><span class="math inline">\(b^{(s)}_{s[k]}\)</span></td>
+<td>Random intercept/effect for influenza season <span class="math inline">\(s\)</span> for study <span class="math inline">\(k\)</span></td>
 </tr>
 <tr class="odd">
-<td><span class="math inline">\(b_t^{(t)}\)</span></td>
-<td></td>
+<td><span class="math inline">\(b^{(t)}_{t[k]}\)</span></td>
+<td>Random intercept/effect for influenza subtype/lineage <span class="math inline">\(t\)</span> for study <span class="math inline">\(k\)</span></td>
 </tr>
 <tr class="even">
-<td><span class="math inline">\(b_t^{(x_1t)}\)</span></td>
-<td></td>
+<td><span class="math inline">\(b^{(x_1t)}_{t[k]} \cdot x_{1,k}\)</span></td>
+<td>Random slope for antigenic distance <span class="math inline">\(x_1\)</span>, varying by subtype <span class="math inline">\(t\)</span></td>
 </tr>
 </tbody>
 </table>
+</div>
+</figure>
+</div>
+<div id="tbl-predictor" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-predictor-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;2: Descriptions of fixed effects <span class="math inline">\(\beta_j\)</span>
+</figcaption>
+<div aria-describedby="tbl-predictor-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 75%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Predictor</th>
+<th>Interpretation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(d\)</span></td>
+<td>Antigenic distance between vaccine and circulating strain</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(a\)</span></td>
+<td>Age group</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(p_t\)</span></td>
+<td>Proportion of infections caused by subtype/lineage <span class="math inline">\(t\)</span></td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(r\)</span></td>
+<td>Number of consecutive years relevant vaccine strain has been included in vaccine as of season <span class="math inline">\(s\)</span></td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(c\)</span></td>
+<td>Antigenic distance between this season’s and last season’s relevant vaccine strain</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
 </section>
 <section id="expected-outcomes" class="level1">
+<h1>Expected outcomes</h1>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-potentials" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-potentials-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="thumbnail.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-potentials-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Theorized potential relationships between antigenic distance and VE. Created with BioRender.com.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="references" class="level1">
 
 
 
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Expected outcomes</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-auladell2022" class="csl-entry" role="listitem">
+Auladell, Maria, Hoang Vu Mai Phuong, Le Thi Quynh Mai, Yeu-Yang Tseng, Louise Carolan, Sam Wilks, Pham Quang Thai, et al. 2022. <span>“Influenza Virus Infection History Shapes Antibody Responses to Influenza Vaccination.”</span> <em>Nat Med</em> 28 (2): 363–72. <a href="https://doi.org/10.1038/s41591-022-01690-w">https://doi.org/10.1038/s41591-022-01690-w</a>.
+</div>
+<div id="ref-boyoglu-barnum2021" class="csl-entry" role="listitem">
+Boyoglu-Barnum, Seyhan, Daniel Ellis, Rebecca A. Gillespie, Geoffrey B. Hutchinson, Young-Jun Park, Syed M. Moin, Oliver J. Acton, et al. 2021-03-24, 2021-03. <span>“Quadrivalent Influenza Nanoparticle Vaccines Induce Broad Protection.”</span> <em>Nature</em> 592 (7855): 623–28. <a href="https://doi.org/10.1038/s41586-021-03365-x">https://doi.org/10.1038/s41586-021-03365-x</a>.
+</div>
+<div id="ref-carlock2023" class="csl-entry" role="listitem">
+Carlock, Michael A., and Ted M. Ross. 2023. <span>“A Computationally Optimized Broadly Reactive Hemagglutinin Vaccine Elicits Neutralizing Antibodies Against Influenza <span>B</span> Viruses from Both Lineages.”</span> <em>Sci Rep</em> 13 (September): 15911. <a href="https://doi.org/10.1038/s41598-023-43003-2">https://doi.org/10.1038/s41598-023-43003-2</a>.
+</div>
 <div id="ref-eichner2017" class="csl-entry" role="listitem">
 Eichner, Martin, Markus Schwehm, Linda Eichner, and Laetitia Gerlier. 2017. <span>“Direct and Indirect Effects of Influenza Vaccination.”</span> <em>BMC Infectious Diseases</em> 17 (1): 308. <a href="https://doi.org/10.1186/s12879-017-2399-4">https://doi.org/10.1186/s12879-017-2399-4</a>.
 </div>
+<div id="ref-grantham1974" class="csl-entry" role="listitem">
+Grantham, R. 1974. <span>“Amino <span>Acid Difference Formula</span> to <span>Help Explain Protein Evolution</span>.”</span> <em>Science</em> 185 (4154): 862–64. <a href="https://doi.org/10.1126/science.185.4154.862">https://doi.org/10.1126/science.185.4154.862</a>.
+</div>
 <div id="ref-gupta2006" class="csl-entry" role="listitem">
 Gupta, Vishal, David J. Earl, and Michael W. Deem. 2006. <span>“Quantifying Influenza Vaccine Efficacy and Antigenic Distance.”</span> <em>Vaccine</em>, 3rd <span>International Conference</span> on <span>Vaccines</span> for <span>Enteric Diseases</span>, 24 (18): 3881–88. <a href="https://doi.org/10.1016/j.vaccine.2006.01.010">https://doi.org/10.1016/j.vaccine.2006.01.010</a>.
+</div>
+<div id="ref-hinojosa2020" class="csl-entry" role="listitem">
+Hinojosa, Michael, Samuel S Shepard, Jessie R Chung, Jennifer P King, Huong Q McLean, Brendan Flannery, Edward A Belongia, and Min Z Levine. 2020-10-22, 2020-10. <span>“Impact of Immune Priming, Vaccination, and Infection on Influenza <span>A</span>(<span>H3N2</span>) Antibody Landscapes in Children.”</span> <em>The Journal of Infectious Diseases</em>, 2020-10-22, 2020-10. <a href="https://doi.org/10.1093/infdis/jiaa665">https://doi.org/10.1093/infdis/jiaa665</a>.
+</div>
+<div id="ref-li2021" class="csl-entry" role="listitem">
+Li, Zhu-Nan, Feng Liu, F. Liaini Gross, Lindsay Kim, Jill Ferdinands, Paul Carney, Jessie Chang, James Stevens, Terrence Tumpey, and Min Z. Levine. 2021-02-23, 2021-02. <span>“Antibody Landscape Analysis Following Influenza Vaccination and Natural Infection in Humans with a High-Throughput Multiplex Influenza Antibody Detection Assay.”</span> Edited by Kanta Subbarao. <em>mBio</em> 12 (1). <a href="https://doi.org/10.1128/mbio.02808-20">https://doi.org/10.1128/mbio.02808-20</a>.
 </div>
 <div id="ref-pan16" class="csl-entry" role="listitem">
 Pan, Yidan, and Michael W. Deem. 2016. <span>“Prediction of Influenza <span>B</span> Vaccine Effectiveness from Sequence Data.”</span> <em>Vaccine</em> 34 (38): 4610–17. <a href="https://doi.org/10.1016/j.vaccine.2016.07.015">https://doi.org/10.1016/j.vaccine.2016.07.015</a>.
 </div>
 <div id="ref-skowronski2017" class="csl-entry" role="listitem">
 Skowronski, Danuta M., Catharine Chambers, Gaston De Serres, Suzana Sabaiduc, Anne-Luise Winter, James A. Dickinson, Jonathan B. Gubbay, et al. 2017. <span>“Serial <span>Vaccination</span> and the <span>Antigenic Distance Hypothesis</span>: <span>Effects</span> on <span>Influenza Vaccine Effectiveness During A</span>(<span>H3N2</span>) <span>Epidemics</span> in <span>Canada</span>, 2010–2011 to 2014–2015.”</span> <em>J Infect Dis</em> 215 (7): 1059–99. <a href="https://doi.org/10.1093/infdis/jix074">https://doi.org/10.1093/infdis/jix074</a>.
+</div>
+<div id="ref-yang2020" class="csl-entry" role="listitem">
+Yang, Bingyi, Justin Lessler, Huachen Zhu, Chao Qiang Jiang, Jonathan M. Read, James A. Hay, Kin On Kwok, et al. 2020. <span>“Life Course Exposures Continually Shape Antibody Profiles and Risk of Seroconversion to Influenza.”</span> <em>PLOS Pathogens</em> 16 (7): e1008635. <a href="https://doi.org/10.1371/journal.ppat.1008635">https://doi.org/10.1371/journal.ppat.1008635</a>.
 </div>
 </div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
