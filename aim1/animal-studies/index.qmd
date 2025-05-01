@@ -48,6 +48,7 @@ This page is generally organized by interest/availability of data. It has a sect
 
 -   @sec-uno24 - @uno24; P
 -   @sec-uno24a - @uno24a; P
+-   @sec-allen24 - @allen24; C
 :::
 ::::
 
@@ -77,6 +78,23 @@ knitr::include_graphics(here::here("aim1/animal-studies/thumbnail.png"))
     - "To assess differences in duration of cross-protection following initial FLUBV infection, the ferrets were **rested for either 2 or 6 months prior to being challenged with the opposing influenza B lineage virus**"
     - "**Mice** were intranasally infected with a sublethal dose of 103 PFU of either a contemporary or noncontemporary Victoria or Yamagata virus...Thirty-five days postinfection, after clearance of the acute infection and the establishment of immune memory, the animals were **reinfected with a contemporary or noncontemporary cross-lineage challenge virus**, and lungs were collected to assess viral replication."
     - "Mice were passively transferred serum conferred from either a contemporary Victoria or Yamagata infection and subsequently challenged intranasally with 103 PFU of a cross-lineage contemporary virus"
+
+### mRNA vaccines encoding computationally optimized hemagglutinin elicit protective antibodies against future antigenically drifted H1N1 and H3N2 influenza viruses isolated between 2018-2020 [@allen24] {#sec-allen24}
+
+-   **First/Last Authors:** James D. Allen/Ted M. Ross
+-   **Author we know (loc):** Ted M. Ross 
+-   **Animal Model:** Mouse/Murine
+-   **Summary:**  "Overall, this was the first time that mRNA encoding COBRA HA antigens were synthesized and used to vaccinate immunologically naïve mice to determine their effectiveness at eliciting broadly protective antibody responses against diverse panels of H1N1 and H3N2 vaccine strains from the last decade. These responses were superior to those elicited by wild-type mRNA expressing HA antigens at inhibiting viral binding to host cell surface receptors and preventing viral infection. Thus, demonstrating the potential benefits of using in-silico designed influenza mRNA vaccine antigens to elicit more broadly protective immune responses over traditional wild-type vaccine antigens."
+
+-   **Notes:** 
+
+    - "At the beginning of the study the mice were randomly divided into 10 groups (n=11 mice/group), and vaccinated intramuscularly with 50mL of a solution containing 1mg of mRNA vaccines encoding the HA proteins of either the H1 COBRA Y2, H1 A/California/07/2009, H3 COBRA NG2 or H3 A/Kansas/14/2017 in phosphate buffered saline (PBS), or 50mL of PBS alone as a placebo control vaccine (24, 30, 50). The **vaccines were administered as either a monovalent (1mg) or bivalent (H1 + H3) (1mg each) formulation intramuscularly** into the hamstring of the hind leg of the mice on the first day of the study and again on day 28. **Blood samples were obtained from the facial vein of the animals on day 14 and day 42 post initial vaccination**."
+    -"On **day 56 post initial vaccination, 55 of the mice (n= [11] mice/group) were infected with 50 mL of a human A/California/07/2009 H1N1 influenza isolate** that has been passaged in eggs (EP4) at a dose of 5x104 PFU/50mL. Also on day 56 post initial vaccination, another set of 55 mice (n=11 mice/group) were challenged with 50mL of a human A/Kansas/14/2017 H3N2 influenza isolate that has been passaged in eggs (EP1) at a dose of 1.55x107 PFU/50mL. **Mice were observed for 14 consecutive days after infection for weight loss and clinical signs of infection**. A humane 25% weight loss cut off was observed for all mice, post infection, as previously established by the IACUC committee. On the third day of the viral challenge, 3 mice from each group were humanely euthanized, and their lungs were removed, snap frozen, and stored at -80°C. Following day 14 of the influenza virus challenge, all mice were humanely euthanized using IACUC approved methods."
+    -We already have this data from Yao
+    
+```{r}
+knitr::include_graphics(here::here("aim1/animal-studies/allen24-schematic.png"))
+```
 
 ### A recombinant N2 neuraminidase-based CpG 1018® adjuvanted vaccine provides protection against challenge with heterologous influenza viruses in mice and hamsters [@hoxie2024] {#sec-hoxie2024}
 
@@ -188,35 +206,37 @@ knitr::include_graphics(here::here("aim1/animal-studies/uno24-schematic.png"))
 
 ### Acquired data 
 
+#### @allen24 - @sec-allen24
+
 ## Denied/Rejected data sources {#sec-rejected}
 
 #### Abstract rejection 
 
-##### @chopra2024 {#sec-chopra2024}
+##### @chopra2024 
 
 - No actual animal models - just receptor specificity 
 
-##### @curran2024 {#sec-curran2024}
+##### @curran2024 
 
 - No pre-infection immunization
 
-##### @lieber23 {#sec-lieber23}
+##### @lieber23 
 
 - No pre-infection immunization 
     
-##### @luczo2023 {#sec-luczo2023}
+##### @luczo2023 
 
 - No pre-infection immunization
     
-##### @pliasas23 {#sec-pliasas23}
+##### @pliasas23 
 
 - General methods match, but this is all swine, and I'm not sure we plan to look at swine (but if we do, this could move to potential)
     
-##### @nachbagauer2018 {#sec-nachbagauer2018}
+##### @nachbagauer2018 
 
 - No pre-infection immunization, other than monoclonal antibodies 24h prior to challenge 
 
-##### @driskell2010 {#sec-driskell2010}
+##### @driskell2010 
 
 - No pre-infection immunization
     

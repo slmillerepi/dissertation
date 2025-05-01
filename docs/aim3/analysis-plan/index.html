@@ -68,6 +68,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -142,7 +171,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Modified</div>
       <div class="quarto-title-meta-contents">
-        <p class="date-modified">April 30, 2025</p>
+        <p class="date-modified">May 1, 2025</p>
       </div>
     </div>
       
@@ -170,17 +199,35 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<p>We will collect and combine data from previously published articles and reports for this aim.</p>
 <section id="preliminary-results" class="level1">
 <h1>Preliminary results</h1>
+<p>We have created a simple DAG (<a href="#fig-dag" class="quarto-xref">Figure&nbsp;1</a>) describing what we believe are the most important variables on the causal pathway between vaccine/circulating strain antigenic distance (AD) and vaccine effectiveness (VE). In this framework, we believe that the circulating strain (CS) and vaccine strain (VS) will each have direct effects on population VE, as well as leading to the antigenic distance result. We also assume that pre-season immunity (PT), as indicated by HAI titer, will impact VE, although we will not have this information as part of our data set. The vaccine strain in the previous season’s vaccine (PVS) may also impact VE, as described in the <em>antigenic distance hypothesis</em> <span class="citation" data-cites="skowronski17">[@skowronski17]</span>. Vaccine uptake (VU) may also impact VE through changes in direct and indirect vaccination effects <span class="citation" data-cites="eichner2017">[@eichner2017]</span>. Demographic factors (D) such as age, race, etc. influence VE both directly and indirectly through (VU). We plan to collect data on CS, VS, PVS, and VE in all cases, and will also collect and examine impacts of VU and D as data are available. AD will be calculated using VS and CS.</p>
 <div class="cell">
 <div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="index_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></p>
+<div id="fig-dag" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-dag-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="index_files/figure-html/fig-dag-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-dag-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Relevant exposures, outcomes, and covariates on the causal pathway between antigenic distance (AD) and vaccine effectiveness (VE). Exposures (yellow) include AD, circulating influenza strain (CS), vaccine strain (VS), pre-season HAI titers (PT), previous year vaccine strain (PVS), and population vaccine uptake (VU). Demographics (D) is included as a covariate (orange). Our outcome (gray) of interest is VE.
+</figcaption>
 </figure>
 </div>
 </div>
 </div>
+</section>
+<section id="proposed-studies" class="level1">
+<h1>Proposed studies</h1>
+<p>We will calculate VE using multiple methods, including <em>p_epitope</em> <span class="citation" data-cites="gupta2006 pan16">[@gupta2006; @pan16]</span>,</p>
+<p>We will use Bayesian mixed-effects meta-regression to examine the effect of our predictors on the VE outcome.</p>
+<p><span class="math display">\[
+\begin{aligned}
+\hat\theta_k &amp;\sim \mathcal{N}(\theta_k,\sigma^2_k)\\
+\theta_k &amp;\sim \mathcal{N}(\mu, \tau^2) \\
+\end{aligned}
+\]</span></p>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -190,38 +237,27 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td>AD</td>
-<td>Antigenic distance between CS and VS</td>
+<td><span class="math inline">\(\hat\theta_k\)</span></td>
+<td>Observed estimate from study <span class="math inline">\(k\)</span></td>
 </tr>
 <tr class="even">
-<td>CS</td>
-<td>Prevalent circulating strain</td>
+<td><span class="math inline">\(\theta_k\)</span></td>
+<td>True underlying effect for study <span class="math inline">\(k\)</span></td>
 </tr>
 <tr class="odd">
-<td>D</td>
-<td>Demographic factors</td>
+<td><span class="math inline">\(\sigma^2_k\)</span></td>
+<td>Known sampling variance for <span class="math inline">\(\hat\theta_k\)</span></td>
 </tr>
 <tr class="even">
-<td>PT</td>
-<td>Pre-season HAI titers</td>
+<td><span class="math inline">\(\beta_0\)</span></td>
+<td>Fixed intercept</td>
 </tr>
 <tr class="odd">
-<td>PVS</td>
-<td>Previous vaccine strain</td>
-</tr>
-<tr class="even">
-<td>VE</td>
-<td>Vaccine efficacy</td>
-</tr>
-<tr class="odd">
-<td>VS</td>
-<td>Vaccine strain</td>
+<td><span class="math inline">\(\beta_j\)</span></td>
+<td>Fixed slopes for predictors <span class="math inline">\(x_j, j \ge2\)</span></td>
 </tr>
 </tbody>
 </table>
-</section>
-<section id="proposed-studies" class="level1">
-<h1>Proposed studies</h1>
 </section>
 <section id="expected-outcomes" class="level1">
 <h1>Expected outcomes</h1>
