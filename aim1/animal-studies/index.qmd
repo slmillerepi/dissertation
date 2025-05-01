@@ -30,12 +30,12 @@ This page is generally organized by interest/availability of data. It has a sect
 -   @sec-bimler2021 - @bimler2021; P
 -   @sec-mooney17 - @mooney17; P
 -   @sec-smith2012 - @smith2012; P
--   @sec-curran2024 - @curran2024; R
--   @sec-chopra2024 - @chopra2024; R
--   @sec-lieber23 - @lieber23; R
--   @sec-luczo2023 - @luczo2023; R
--   @sec-pliasas23 - @pliasas23; R
--   @sec-driskell2010 - @driskell2010; R
+-   @curran2024; R
+-   @chopra2024; R
+-   @lieber23; R
+-   @luczo2023; R
+-   @pliasas23; R
+-   @driskell2010; R
 
 
 

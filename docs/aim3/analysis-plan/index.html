@@ -21,7 +21,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -202,7 +222,7 @@ window.Quarto = {
 <p>We will collect and combine data from previously published articles and reports for this aim.</p>
 <section id="preliminary-results" class="level1">
 <h1>Preliminary results</h1>
-<p>We have created a simple DAG (<a href="#fig-dag" class="quarto-xref">Figure&nbsp;1</a>) describing what we believe are the most important variables on the causal pathway between vaccine/circulating strain antigenic distance (AD) and vaccine effectiveness (VE). In this framework, we believe that the circulating strain (CS) and vaccine strain (VS) will each have direct effects on population VE, as well as leading to the antigenic distance result. We also assume that pre-season immunity (PT), as indicated by HAI titer, will impact VE, although we will not have this information as part of our data set. The vaccine strain in the previous season’s vaccine (PVS) may also impact VE, as described in the <em>antigenic distance hypothesis</em> <span class="citation" data-cites="skowronski17">[@skowronski17]</span>. Vaccine uptake (VU) may also impact VE through changes in direct and indirect vaccination effects <span class="citation" data-cites="eichner2017">[@eichner2017]</span>. Demographic factors (D) such as age, race, etc. influence VE both directly and indirectly through (VU). We plan to collect data on CS, VS, PVS, and VE in all cases, and will also collect and examine impacts of VU and D as data are available. AD will be calculated using VS and CS.</p>
+<p>We have created a simple DAG (<a href="#fig-dag" class="quarto-xref">Figure&nbsp;1</a>) describing what we believe are the most important variables on the causal pathway between vaccine/circulating strain antigenic distance (AD) and vaccine effectiveness (VE). In this framework, we believe that the circulating strain (CS) and vaccine strain (VS) will each have direct effects on population VE, as well as leading to the antigenic distance result. We also assume that pre-season immunity (PT), as indicated by HAI titer, will impact VE, although we will not have this information as part of our data set. The vaccine strain in the previous season’s vaccine (PVS) may also impact VE, as described in the <em>antigenic distance hypothesis</em> <span class="citation" data-cites="skowronski2017">(<a href="#ref-skowronski2017" role="doc-biblioref">Skowronski et al. 2017</a>)</span>. Vaccine uptake (VU) may also impact VE through changes in direct and indirect vaccination effects <span class="citation" data-cites="eichner2017">(<a href="#ref-eichner2017" role="doc-biblioref">Eichner et al. 2017</a>)</span>. Demographic factors (D) such as age, race, etc. influence VE both directly and indirectly through (VU). We plan to collect data on CS, VS, PVS, and VE in all cases, and will also collect and examine impacts of VU and D as data are available. AD will be calculated using VS and CS.</p>
 <div class="cell">
 <div class="cell-output-display">
 <div id="fig-dag" class="quarto-float quarto-figure quarto-figure-center anchored">
@@ -220,12 +240,15 @@ Figure&nbsp;1: Relevant exposures, outcomes, and covariates on the causal pathwa
 </section>
 <section id="proposed-studies" class="level1">
 <h1>Proposed studies</h1>
-<p>We will calculate VE using multiple methods, including <em>p_epitope</em> <span class="citation" data-cites="gupta2006 pan16">[@gupta2006; @pan16]</span>, Grantham,</p>
+<p>We will calculate VE using multiple methods, including <em>p_epitope</em> distance <span class="citation" data-cites="gupta2006 pan16">(<a href="#ref-gupta2006" role="doc-biblioref">Gupta, Earl, and Deem 2006</a>; <a href="#ref-pan16" role="doc-biblioref">Pan and Deem 2016</a>)</span>, Grantham distance,</p>
 <p>We will use Bayesian mixed-effects meta-regression to examine the effect of our predictors on the VE outcome.</p>
 <p><span class="math display">\[
 \begin{aligned}
 \hat\theta_k &amp;\sim \mathcal{N}(\theta_k,\sigma^2_k)\\
-\theta_k &amp;\sim \mathcal{N}(\mu, \tau^2) \\
+\theta_k &amp;\sim \mathcal{N}(\mu_k, \tau^2), \space \space \mu_k = \beta_0 + \sum_{j=1}^p\beta_jx_{j,k} + b^{(s)}_{s[k]} + b^{(t)}_{t[k]} + b^{(x_1t)}_{x_1,t}\\
+b_s^{(s)} &amp;\sim \mathcal{N}(0, \sigma^2_s)\\
+b_t^{(t)} &amp;\sim \mathcal{N}(0, \sigma^2_t)\\
+b_t^{(x1t)} &amp;\sim \mathcal{N}(0, \sigma^2_{x_1t})\\
 \end{aligned}
 \]</span></p>
 <table class="caption-top table">
@@ -256,16 +279,42 @@ Figure&nbsp;1: Relevant exposures, outcomes, and covariates on the causal pathwa
 <td><span class="math inline">\(\beta_j\)</span></td>
 <td>Fixed slopes for predictors <span class="math inline">\(x_j, j \ge2\)</span></td>
 </tr>
+<tr class="even">
+<td><span class="math inline">\(b_s^{(s)}\)</span></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(b_t^{(t)}\)</span></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(b_t^{(x_1t)}\)</span></td>
+<td></td>
+</tr>
 </tbody>
 </table>
 </section>
 <section id="expected-outcomes" class="level1">
-<h1>Expected outcomes</h1>
+
+
 
 
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Expected outcomes</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-eichner2017" class="csl-entry" role="listitem">
+Eichner, Martin, Markus Schwehm, Linda Eichner, and Laetitia Gerlier. 2017. <span>“Direct and Indirect Effects of Influenza Vaccination.”</span> <em>BMC Infectious Diseases</em> 17 (1): 308. <a href="https://doi.org/10.1186/s12879-017-2399-4">https://doi.org/10.1186/s12879-017-2399-4</a>.
+</div>
+<div id="ref-gupta2006" class="csl-entry" role="listitem">
+Gupta, Vishal, David J. Earl, and Michael W. Deem. 2006. <span>“Quantifying Influenza Vaccine Efficacy and Antigenic Distance.”</span> <em>Vaccine</em>, 3rd <span>International Conference</span> on <span>Vaccines</span> for <span>Enteric Diseases</span>, 24 (18): 3881–88. <a href="https://doi.org/10.1016/j.vaccine.2006.01.010">https://doi.org/10.1016/j.vaccine.2006.01.010</a>.
+</div>
+<div id="ref-pan16" class="csl-entry" role="listitem">
+Pan, Yidan, and Michael W. Deem. 2016. <span>“Prediction of Influenza <span>B</span> Vaccine Effectiveness from Sequence Data.”</span> <em>Vaccine</em> 34 (38): 4610–17. <a href="https://doi.org/10.1016/j.vaccine.2016.07.015">https://doi.org/10.1016/j.vaccine.2016.07.015</a>.
+</div>
+<div id="ref-skowronski2017" class="csl-entry" role="listitem">
+Skowronski, Danuta M., Catharine Chambers, Gaston De Serres, Suzana Sabaiduc, Anne-Luise Winter, James A. Dickinson, Jonathan B. Gubbay, et al. 2017. <span>“Serial <span>Vaccination</span> and the <span>Antigenic Distance Hypothesis</span>: <span>Effects</span> on <span>Influenza Vaccine Effectiveness During A</span>(<span>H3N2</span>) <span>Epidemics</span> in <span>Canada</span>, 2010–2011 to 2014–2015.”</span> <em>J Infect Dis</em> 215 (7): 1059–99. <a href="https://doi.org/10.1093/infdis/jix074">https://doi.org/10.1093/infdis/jix074</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
