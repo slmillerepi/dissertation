@@ -1,5 +1,19 @@
 [
   {
+    "listing": "/presentations.html",
+    "items": [
+      "/presentations/proposal-idig/index.html"
+    ]
+  },
+  {
+    "listing": "/aim3.html",
+    "items": [
+      "/aim3/analysis-plan/index.html",
+      "/aim3/model-building/index.html",
+      "/aim3/master-slides/index.html"
+    ]
+  },
+  {
     "listing": "/aim1.html",
     "items": [
       "/aim1/analysis-plan/index.html",
@@ -13,20 +27,6 @@
       "/background/flu-ve/index.html",
       "/background/misc/index.html",
       "/background/ve-agdist/index.html"
-    ]
-  },
-  {
-    "listing": "/presentations.html",
-    "items": [
-      "/presentations/proposal-idig/index.html"
-    ]
-  },
-  {
-    "listing": "/aim3.html",
-    "items": [
-      "/aim3/analysis-plan/index.html",
-      "/aim3/model-building/index.html",
-      "/aim3/master-slides/index.html"
     ]
   }
 ]

@@ -66,16 +66,22 @@ ggdag::ggdag(tidy_dag) +
 
 # Proposed studies
 
-We will calculate VE using multiple methods, including _p_epitope_ distance [@gupta2006; @pan16; ADD MORE], Grantham distance [@grantham1974; ADD MORE], and temporal distance [@auladell2022; @boyoglu-barnum2021; @hinojosa2020; @li2021; @yang2020; @carlock2023]. We will then use Bayesian mixed-effects meta-regression (@eq-regression and @tbl-term) to examine the effect of our predictors (@tbl-predictor) on the VE outcome. 
+We will calculate VE using multiple methods, including _p_epitope_ distance [@gupta2006; @pan2011; @pan16], Grantham distance [@grantham1974], and temporal distance [@auladell2022; @boyoglu-barnum2021; @hinojosa2020; @li2021; @yang2020; @carlock2023]. We will then use Bayesian mixed-effects meta-regression (@eq-regression and @tbl-term) to examine the effect of our predictors (@tbl-predictor) on the VE outcome. 
 
 $$
 \begin{aligned}
 \hat\theta_k &\sim \mathcal{N}(\theta_k,\sigma^2_k)\\
-\theta_k &\sim \mathcal{N}(\mu_k, \tau^2), \quad \mu_k = \beta_0 + \sum_{j=1}^p\beta_jx_{j,k} + b^{(s)}_{s[k]} + b^{(t)}_{t[k]} + b^{(x_1t)}_{t[k]} \cdot x_{1,k} \\
-b^{(s)}_s &\sim \mathcal{N}(0, \sigma^2_s) \\
-b^{(t)}_t &\sim \mathcal{N}(0, \sigma^2_t) \\
-b^{(x_1t)}_t &\sim \mathcal{N}(0, \sigma^2_{x_1t}) \\
-\beta_j &\sim \mathcal{N}(0, \sigma^2_j)
+\theta_k &\sim \mathcal{N}(\mu_k, \tau^2), \quad \mu_k = \beta_0 + \sum_{j=1}^p\beta_jx_{j,k} + b^{(s)}_{s[k]} + b^{(x_1t)}_{t[k]} \cdot x_{1,k} \\
+\tau^2 &\sim \text{Student's} \space t^+(3,0,1)\\
+\begin{bmatrix}
+b_s^{(s)} \\
+b_s^{(x_1s)}\\
+\end{bmatrix}
+&\sim \text{MVN}(\vec0, \Sigma)\\
+\Sigma_s &= (\text{diag}(\sigma_s)\text{L}_s) \times(\text{diag}(\sigma_s)\text{L}_s)^\text{T}\\
+\beta_j &\sim \mathcal{N}(0, \sigma^2_j)\\
+\sigma^2_{(\cdot)} &\sim \text{Student's} \space t^+(3,0,1)\\
+\text{L}_t &\sim \text{LJT}(2)\\
 \end{aligned}
 $$ {#eq-regression}
 
@@ -86,9 +92,14 @@ $\theta_k$ | True underlying effect for study $k$
 $\sigma^2_k$ | Known sampling variance for $\hat\theta_k$
 $\beta_0$ | Fixed intercept
 $\beta_j$ | Fixed slopes for predictors $x_j, j \ge 1$ as described in @tbl-predictor
-$b^{(s)}_{s[k]}$ | Random intercept/effect for influenza season $s$ for study $k$
-$b^{(t)}_{t[k]}$ | Random intercept/effect for influenza subtype/lineage $t$ for study $k$
-$b^{(x_1t)}_{t[k]} \cdot x_{1,k}$ | Random slope for antigenic distance $x_1$, varying by subtype $t$
+$\sigma^2_j$| Prior variance for fixed effect $\beta_j$
+$\tau^2$ | Between-study variance for true effects $\theta_k$
+$\Sigma$ | Covariance matrix governing the joint variability and correlation of subtype-varying random effects
+$\begin{bmatrix} b_s^{(s)} \newline b_s^{(x_1s)} \end{bmatrix}$ | Jointly modeled random intercept ($b_s^{(s)}$) and random slope for $x_1$ ($b_s^{(x_1s)}$), varying by influenza subtype $s$
+$b^{(s)}_{s[k]}$ | Random intercept/effect for influenza subtype/lineage $s$ for study $k$
+$b^{(x_1s)}_{s[k]} \cdot x_{1,k}$ | Random slope for antigenic distance $x_1$, varying by subtype $s$ for study $k$
+$\sigma^2_{(\cdot)}$| Prior variance terms for hierarchical parameters, all governed by a half-Student’s $t$ distribution
+L$_t$| Cholesky factor of a correlation matrix for time-varying random effects, with a Lewandowski–Kurowicka–Joe (LKJ) prior
 
 
 : Descriptions of terms used in @eq-regression {#tbl-term}
@@ -96,9 +107,10 @@ $b^{(x_1t)}_{t[k]} \cdot x_{1,k}$ | Random slope for antigenic distance $x_1$, v
 Predictor | Interpretation 
 -|---
 $d$|Antigenic distance between vaccine and circulating strain
+$t$|Season
 $a$|Age group
-$p_t$|Proportion of infections caused by subtype/lineage $t$ 
-$r$|Number of consecutive years relevant vaccine strain has been included in vaccine as of season $s$ 
+$p_s$|Proportion of infections caused by subtype/lineage $s$ 
+$r$|Number of consecutive years relevant vaccine strain has been included in vaccine as of season $t$ 
 $c$|Antigenic distance between this season's and last season's relevant vaccine strain
 
 : Descriptions of fixed effects $\beta_j$ {#tbl-predictor}

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.56">
+<meta name="generator" content="quarto-1.6.39">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -56,10 +56,10 @@ div.csl-indent {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-d166b450ba5a8e9f7a0ab969bf6592c1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-facd30bd6cd4d5c9567c8a5b7d77199b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -191,7 +191,7 @@ window.Quarto = {
       <div>
       <div class="quarto-title-meta-heading">Modified</div>
       <div class="quarto-title-meta-contents">
-        <p class="date-modified">May 1, 2025</p>
+        <p class="date-modified">May 2, 2025</p>
       </div>
     </div>
       
@@ -241,15 +241,21 @@ Figure&nbsp;1: Relevant exposures, outcomes, and covariates on the causal pathwa
 </section>
 <section id="proposed-studies" class="level1">
 <h1>Proposed studies</h1>
-<p>We will calculate VE using multiple methods, including <em>p_epitope</em> distance [<span class="citation" data-cites="gupta2006">Gupta, Earl, and Deem (<a href="#ref-gupta2006" role="doc-biblioref">2006</a>)</span>; <span class="citation" data-cites="pan16">Pan and Deem (<a href="#ref-pan16" role="doc-biblioref">2016</a>)</span>; ADD MORE], Grantham distance [<span class="citation" data-cites="grantham1974">Grantham (<a href="#ref-grantham1974" role="doc-biblioref">1974</a>)</span>; ADD MORE], and temporal distance <span class="citation" data-cites="auladell2022 boyoglu-barnum2021 hinojosa2020 li2021 yang2020 carlock2023">(<a href="#ref-auladell2022" role="doc-biblioref">Auladell et al. 2022</a>; <a href="#ref-boyoglu-barnum2021" role="doc-biblioref">Boyoglu-Barnum et al. 2021-03-24, 2021-03</a>; <a href="#ref-hinojosa2020" role="doc-biblioref">Hinojosa et al. 2020-10-22, 2020-10</a>; <a href="#ref-li2021" role="doc-biblioref">Li et al. 2021-02-23, 2021-02</a>; <a href="#ref-yang2020" role="doc-biblioref">Yang et al. 2020</a>; <a href="#ref-carlock2023" role="doc-biblioref">Carlock and Ross 2023</a>)</span>. We will then use Bayesian mixed-effects meta-regression (<a href="#eq-regression" class="quarto-xref">Equation&nbsp;1</a> and <a href="#tbl-term" class="quarto-xref">Table&nbsp;1</a>) to examine the effect of our predictors (<a href="#tbl-predictor" class="quarto-xref">Table&nbsp;2</a>) on the VE outcome.</p>
+<p>We will calculate VE using multiple methods, including <em>p_epitope</em> distance <span class="citation" data-cites="gupta2006 pan2011 pan16">(<a href="#ref-gupta2006" role="doc-biblioref">Gupta, Earl, and Deem 2006</a>; <a href="#ref-pan2011" role="doc-biblioref"><strong>pan2011?</strong></a>; <a href="#ref-pan16" role="doc-biblioref">Pan and Deem 2016</a>)</span>, Grantham distance <span class="citation" data-cites="grantham1974">(<a href="#ref-grantham1974" role="doc-biblioref">Grantham 1974</a>)</span>, and temporal distance <span class="citation" data-cites="auladell2022 boyoglu-barnum2021 hinojosa2020 li2021 yang2020 carlock2023">(<a href="#ref-auladell2022" role="doc-biblioref">Auladell et al. 2022</a>; <a href="#ref-boyoglu-barnum2021" role="doc-biblioref">Boyoglu-Barnum et al. 2021-03-24, 2021-03</a>; <a href="#ref-hinojosa2020" role="doc-biblioref">Hinojosa et al. 2020-10-22, 2020-10</a>; <a href="#ref-li2021" role="doc-biblioref">Li et al. 2021-02-23, 2021-02</a>; <a href="#ref-yang2020" role="doc-biblioref">Yang et al. 2020</a>; <a href="#ref-carlock2023" role="doc-biblioref">Carlock and Ross 2023</a>)</span>. We will then use Bayesian mixed-effects meta-regression (<a href="#eq-regression" class="quarto-xref">Equation&nbsp;1</a> and <a href="#tbl-term" class="quarto-xref">Table&nbsp;1</a>) to examine the effect of our predictors (<a href="#tbl-predictor" class="quarto-xref">Table&nbsp;2</a>) on the VE outcome.</p>
 <p><span id="eq-regression"><span class="math display">\[
 \begin{aligned}
 \hat\theta_k &amp;\sim \mathcal{N}(\theta_k,\sigma^2_k)\\
-\theta_k &amp;\sim \mathcal{N}(\mu_k, \tau^2), \quad \mu_k = \beta_0 + \sum_{j=1}^p\beta_jx_{j,k} + b^{(s)}_{s[k]} + b^{(t)}_{t[k]} + b^{(x_1t)}_{t[k]} \cdot x_{1,k} \\
-b^{(s)}_s &amp;\sim \mathcal{N}(0, \sigma^2_s) \\
-b^{(t)}_t &amp;\sim \mathcal{N}(0, \sigma^2_t) \\
-b^{(x_1t)}_t &amp;\sim \mathcal{N}(0, \sigma^2_{x_1t}) \\
-\beta_j &amp;\sim \mathcal{N}(0, \sigma^2_j)
+\theta_k &amp;\sim \mathcal{N}(\mu_k, \tau^2), \quad \mu_k = \beta_0 + \sum_{j=1}^p\beta_jx_{j,k} + b^{(s)}_{s[k]} + b^{(x_1t)}_{t[k]} \cdot x_{1,k} \\
+\tau^2 &amp;\sim \text{Student's} \space t^+(3,0,1)\\
+\begin{bmatrix}
+b_s^{(s)} \\
+b_s^{(x_1s)}\\
+\end{bmatrix}
+&amp;\sim \text{MVN}(\vec0, \Sigma)\\
+\Sigma_s &amp;= (\text{diag}(\sigma_s)\text{L}_s) \times(\text{diag}(\sigma_s)\text{L}_s)^\text{T}\\
+\beta_j &amp;\sim \mathcal{N}(0, \sigma^2_j)\\
+\sigma^2_{(\cdot)} &amp;\sim \text{Student's} \space t^+(3,0,1)\\
+\text{L}_t &amp;\sim \text{LJT}(2)\\
 \end{aligned}
 \tag{1}\]</span></span></p>
 <div id="tbl-term" class="quarto-float quarto-figure quarto-figure-center anchored">
@@ -291,16 +297,36 @@ Table&nbsp;1: Descriptions of terms used in <a href="#eq-regression" class="quar
 <td>Fixed slopes for predictors <span class="math inline">\(x_j, j \ge 1\)</span> as described in <a href="#tbl-predictor" class="quarto-xref">Table&nbsp;2</a></td>
 </tr>
 <tr class="even">
-<td><span class="math inline">\(b^{(s)}_{s[k]}\)</span></td>
-<td>Random intercept/effect for influenza season <span class="math inline">\(s\)</span> for study <span class="math inline">\(k\)</span></td>
+<td><span class="math inline">\(\sigma^2_j\)</span></td>
+<td>Prior variance for fixed effect <span class="math inline">\(\beta_j\)</span></td>
 </tr>
 <tr class="odd">
-<td><span class="math inline">\(b^{(t)}_{t[k]}\)</span></td>
-<td>Random intercept/effect for influenza subtype/lineage <span class="math inline">\(t\)</span> for study <span class="math inline">\(k\)</span></td>
+<td><span class="math inline">\(\tau^2\)</span></td>
+<td>Between-study variance for true effects <span class="math inline">\(\theta_k\)</span></td>
 </tr>
 <tr class="even">
-<td><span class="math inline">\(b^{(x_1t)}_{t[k]} \cdot x_{1,k}\)</span></td>
-<td>Random slope for antigenic distance <span class="math inline">\(x_1\)</span>, varying by subtype <span class="math inline">\(t\)</span></td>
+<td><span class="math inline">\(\Sigma\)</span></td>
+<td>Covariance matrix governing the joint variability and correlation of subtype-varying random effects</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(\begin{bmatrix} b_s^{(s)} \newline b_s^{(x_1s)} \end{bmatrix}\)</span></td>
+<td>Jointly modeled random intercept (<span class="math inline">\(b_s^{(s)}\)</span>) and random slope for <span class="math inline">\(x_1\)</span> (<span class="math inline">\(b_s^{(x_1s)}\)</span>), varying by influenza subtype <span class="math inline">\(s\)</span></td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(b^{(s)}_{s[k]}\)</span></td>
+<td>Random intercept/effect for influenza subtype/lineage <span class="math inline">\(s\)</span> for study <span class="math inline">\(k\)</span></td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(b^{(x_1s)}_{s[k]} \cdot x_{1,k}\)</span></td>
+<td>Random slope for antigenic distance <span class="math inline">\(x_1\)</span>, varying by subtype <span class="math inline">\(s\)</span> for study <span class="math inline">\(k\)</span></td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(\sigma^2_{(\cdot)}\)</span></td>
+<td>Prior variance terms for hierarchical parameters, all governed by a half-Student’s <span class="math inline">\(t\)</span> distribution</td>
+</tr>
+<tr class="odd">
+<td>L<span class="math inline">\(_t\)</span></td>
+<td>Cholesky factor of a correlation matrix for time-varying random effects, with a Lewandowski–Kurowicka–Joe (LKJ) prior</td>
 </tr>
 </tbody>
 </table>
@@ -330,18 +356,22 @@ Table&nbsp;2: Descriptions of fixed effects <span class="math inline">\(\beta_j\
 <td>Antigenic distance between vaccine and circulating strain</td>
 </tr>
 <tr class="even">
+<td><span class="math inline">\(t\)</span></td>
+<td>Season</td>
+</tr>
+<tr class="odd">
 <td><span class="math inline">\(a\)</span></td>
 <td>Age group</td>
 </tr>
+<tr class="even">
+<td><span class="math inline">\(p_s\)</span></td>
+<td>Proportion of infections caused by subtype/lineage <span class="math inline">\(s\)</span></td>
+</tr>
 <tr class="odd">
-<td><span class="math inline">\(p_t\)</span></td>
-<td>Proportion of infections caused by subtype/lineage <span class="math inline">\(t\)</span></td>
+<td><span class="math inline">\(r\)</span></td>
+<td>Number of consecutive years relevant vaccine strain has been included in vaccine as of season <span class="math inline">\(t\)</span></td>
 </tr>
 <tr class="even">
-<td><span class="math inline">\(r\)</span></td>
-<td>Number of consecutive years relevant vaccine strain has been included in vaccine as of season <span class="math inline">\(s\)</span></td>
-</tr>
-<tr class="odd">
 <td><span class="math inline">\(c\)</span></td>
 <td>Antigenic distance between this season’s and last season’s relevant vaccine strain</td>
 </tr>
@@ -492,8 +522,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -604,7 +632,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
