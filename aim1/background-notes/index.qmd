@@ -1,0 +1,93 @@
+---
+title: "Aim 1 Background Notes"
+author: "Savannah L. Miller"
+date-modified: last-modified
+bibliography: ../../assets/references/proposal.bib
+---
+
+# Methodology 
+
+## A model for immunological correlates of protection - @dunning06
+
+-   Tl;dr: Dunning develops his "scaled logit model" - a standard logistic regression is scaled by $\lambda$, which represents the risk of developing disease in those with, essentially, a titer of 0
+-   Introduces "Dunning model" for correlates of protection
+-   Assuming data are from efficacy studies - VE is _efficacy_ not _effectiveness_
+-   Interprets VE as "the magnitude of the reduction in disease as a result of vaccination"
+
+$$ 
+\text{VE} = 1 - \frac{r_V}{r_P}
+$$ {#eq-dunningve}
+
+-   Correlate of protection is defined as **an assay that measures an aspect of the immune system that correlates with protection from disease**; motivation is that we could use a CoP as an alternative to an efficacy trial of a new formulation 
+-   Traditional approach for modeling CoP is finding a threshold value above which subjects do not develop disease
+-   Cites limitation in existing modeling methods in that they only really capture protection from disease for higher assay values, but that there is more uncertainty in protection at lower titer levels - likelihood of protection may be more strongly associated with the chance of exposure and disease prevalence rates 
+-   Dunning's **"scaled logit model"** model separates effect of assay values from other independent factors 
+
+-   Terms and equations: 
+
+-|---
+Term|Interpretation
+VE|Vaccine Efficacy
+$r_V$|Rate of disease among vaccinated individuals
+$r_P$|Rate of disease among unvaccinated individuals
+$t$| Subject's assay value 
+$y=1$|The event that a subject develops disease 
+$y=0$|The event that a subject does not develop disease 
+$\pi(t)$|The probability that an individual with titer $t$ is protected 
+$1-\pi(t)$| The probability that an individual with titer $t$ is susceptible
+$\lambda$|The probability that a susceptible individual develops disease 
+$\{y_i, t_i\}$| Data will consist of $n$ pairs of outcome and titer values
+
+
+$$\pi(t) \space  \text{is modeled as a strictly increase smooth function of} \space t \space \text{mapping into} \space (0,1)$$
+
+$$\lambda \space \text{will depend on factors specific to the trial - chance of exposure, prevalence of disease, and other independent factors} $$
+
+The probability that a subject develops disease is the probability that the subject is susceptible multiplied by the probability that susceptible individuals develop disease:
+
+$$
+P(Y_i=1) = \lambda(1-\pi(t_i))
+$$ {#eq-dunningy1}
+
+Two-parameter inverse logit function (others may be used) to model $\pi(t_i)$:
+
+$$
+\pi(t_i) = \frac{\exp(\alpha+\beta t_i)}{1+\exp(\alpha + \beta t_i)}
+$$ {#eq-dunningpi}
+
+Combining @eq-dunningy1 and @eq-dunningpi gives the probability that a subject develops disease: 
+
+$$
+P(Y_i=1) = \frac{\lambda}{1+\exp(\alpha+\beta t_i)}
+$$ {#eq-dunningy}
+
+with likelihood: 
+
+$$
+\text{L}(\lambda, \alpha, \beta; \{y_i, t_i\}) = \underset{i} \Pi  (\frac{\lambda}{1+\exp(\alpha+\beta t_i)})^{y_i}(1-\frac{\lambda}{1+\exp(\alpha+\beta t_i)})^{1-y_i}
+$$
+
+where $\lambda, \alpha,$ and $\beta$ may be estimated with standard maximum likelihood methods.
+
+The probability that an individual with titer $t$ is protected from disease:
+
+$$
+\hat \pi(t) = \frac{\exp(\hat \alpha+\hat\beta t)}{(1+\exp(\hat \alpha+\hat 
+\beta t))}
+$$
+
+The variance of $(\hat \alpha+\hat\beta t)$ can be calcuated as a function of $t$:
+
+$$
+\text{Var}{(\hat \alpha+\hat\beta t)} = \text{Var}(\hat\alpha)+t^2 \text{Var}(\hat\beta) +2t\text{Cov}(\hat\alpha, \hat\beta)
+$$
+
+This can be used to construct a confidence interval for $(\hat \alpha+\hat\beta t)$. The inverse logits of the limits of the confidence interval for $(\hat \alpha+\hat\beta t)$ can be used to construct a confidence interval for the probability of an individual being protected. 
+
+-   $\lambda$ is defined in the discussion as "representing the probability of developing disease amongst individuals without protection _arising from the aspect of the immune system measured by the assay_, that is, as representing effects that are independent of assay value, while $\pi(t)$ represents effects that area function of assay value"
+
+    - I _think_ this means it would push a protection curve _up_ and a disease curve _down_ - adjusting the risk in individuals whose titer values are 0
+
+
+
+

@@ -9,6 +9,7 @@
     "listing": "/aim3.html",
     "items": [
       "/aim3/analysis-plan/index.html",
+      "/aim3/background-notes/index.html",
       "/aim3/model-building/index.html",
       "/aim3/master-slides/index.html"
     ]
@@ -17,6 +18,7 @@
     "listing": "/aim1.html",
     "items": [
       "/aim1/analysis-plan/index.html",
+      "/aim1/background-notes/index.html",
       "/aim1/animal-studies/index.html"
     ]
   },

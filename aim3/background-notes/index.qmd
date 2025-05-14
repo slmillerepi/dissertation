@@ -1,0 +1,28 @@
+---
+title: "Aim 3 Background Notes"
+author: "Savannah L. Miller"
+date-modified: last-modified
+bibliography: ../../assets/references/proposal.bib
+---
+
+# Methodology 
+
+## Variable efficacy of repeated annual influenza vaccination - @smith1999 
+
+-   Introduces the **antigenic distance hypothesis** - "The hypothesis ... that variation in repeat vaccine efficacy is due to differences in antigenic distance among vaccine strains and between the vaccine strains and the epidemic strain in each outbreak." 
+-   Both the distance between vaccine and circulating strain AND between current and previous vaccine strain play a role in VE among repeat vaccinees
+-   Analyses based on simulations 
+-   Used **hamming antigenic distance** - the number of point mutations in the string describing one antigen required to make it identical to those of the second antigen
+-   Studies two seasons and four groups of individuals - 
+
+    -   Those never vaccinated
+    -   Those vaccinated in season 1 but not season 2
+    -   Those vaccinated in season 2 but not season 1
+    -   Those vaccinated in both seasons 
+    
+-   Found that repeat vaccination was beneficial when given to previous vaccinees 
+-   **Negative interference** - "Because of the first vaccination, v2 is partially eliminated by preexisting cross-reactive antibody produced in response to v1 and by v2 stimulating v1 memory clones ... [leading] to reduced effectiveness of v2." This interference is greater when the distance between v1 and v2 is small. 
+-   **Positive interference** - "... preexisting cross-reactive antibody produced in response to v1, and boosted by the response to v2, helps to clear the epidemic virus." This interference is greater when the distance between v1 and the infecting strain is small. 
+-   Found that the distance between v1 and v2, and between v1 and the infecting strain, had a significant impact on VE in repeat vaccinees. 
+-   Found that their model predicted observed VE in repeat vaccinees relative to efficacy in first-time vaccinees with correlation coefficient of 0.87. 
+-   Table 3 contains vaccine and infecting strains and VE from Hoskins [@hoskins1979] and Keitel [@keitel1997] studies (used these for project motivation and testing on real data)

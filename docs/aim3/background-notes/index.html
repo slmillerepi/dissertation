@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Savannah L. Miller">
 
-<title>aim3 – Dissertation Notes and Writing</title>
+<title>Aim 3 Background Notes – Dissertation Notes and Writing</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,27 +21,45 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,77 +87,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Dissertation Notes and Writing</span>
     </a>
   </div>
@@ -149,27 +110,27 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./background.html"> 
+    <a class="nav-link" href="../../background.html"> 
 <span class="menu-text">Background</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./aim1.html"> 
+    <a class="nav-link" href="../../aim1.html"> 
 <span class="menu-text">Aim 1</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./aim2.html"> 
+    <a class="nav-link" href="../../aim2.html"> 
 <span class="menu-text">Aim 2</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./aim3.html" aria-current="page"> 
+    <a class="nav-link" href="../../aim3.html"> 
 <span class="menu-text">Aim 3</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./presentations.html"> 
+    <a class="nav-link" href="../../presentations.html"> 
 <span class="menu-text">Presentations</span></a>
   </li>  
 </ul>
@@ -180,129 +141,97 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Aim 3 Background Notes</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Savannah L. Miller </p>
+            </div>
+    </div>
+      
+    
+      <div>
+      <div class="quarto-title-meta-heading">Modified</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date-modified">May 12, 2025</p>
+      </div>
+    </div>
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#methodology" id="toc-methodology" class="nav-link active" data-scroll-target="#methodology">Methodology</a>
+  <ul class="collapse">
+  <li><a href="#variable-efficacy-of-repeated-annual-influenza-vaccination-smith1999" id="toc-variable-efficacy-of-repeated-annual-influenza-vaccination-smith1999" class="nav-link" data-scroll-target="#variable-efficacy-of-repeated-annual-influenza-vaccination-smith1999">Variable efficacy of repeated annual influenza vaccination <span class="citation" data-cites="smith1999">Smith et al. (1999)</span></a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
+<section id="methodology" class="level1">
+<h1>Methodology</h1>
+<section id="variable-efficacy-of-repeated-annual-influenza-vaccination-smith1999" class="level2">
+<h2 class="anchored" data-anchor-id="variable-efficacy-of-repeated-annual-influenza-vaccination-smith1999">Variable efficacy of repeated annual influenza vaccination <span class="citation" data-cites="smith1999">Smith et al. (<a href="#ref-smith1999" role="doc-biblioref">1999</a>)</span></h2>
+<ul>
+<li><p>Introduces the <strong>antigenic distance hypothesis</strong> - “The hypothesis … that variation in repeat vaccine efficacy is due to differences in antigenic distance among vaccine strains and between the vaccine strains and the epidemic strain in each outbreak.”</p></li>
+<li><p>Both the distance between vaccine and circulating strain AND between current and previous vaccine strain play a role in VE among repeat vaccinees</p></li>
+<li><p>Analyses based on simulations</p></li>
+<li><p>Used <strong>hamming antigenic distance</strong> - the number of point mutations in the string describing one antigen required to make it identical to those of the second antigen</p></li>
+<li><p>Studies two seasons and four groups of individuals -</p>
+<ul>
+<li>Those never vaccinated</li>
+<li>Those vaccinated in season 1 but not season 2</li>
+<li>Those vaccinated in season 2 but not season 1</li>
+<li>Those vaccinated in both seasons</li>
+</ul></li>
+<li><p>Found that repeat vaccination was beneficial when given to previous vaccinees</p></li>
+<li><p><strong>Negative interference</strong> - “Because of the first vaccination, v2 is partially eliminated by preexisting cross-reactive antibody produced in response to v1 and by v2 stimulating v1 memory clones … [leading] to reduced effectiveness of v2.” This interference is greater when the distance between v1 and v2 is small.</p></li>
+<li><p><strong>Positive interference</strong> - “… preexisting cross-reactive antibody produced in response to v1, and boosted by the response to v2, helps to clear the epidemic virus.” This interference is greater when the distance between v1 and the infecting strain is small.</p></li>
+<li><p>Found that the distance between v1 and v2, and between v1 and the infecting strain, had a significant impact on VE in repeat vaccinees.</p></li>
+<li><p>Found that their model predicted observed VE in repeat vaccinees relative to efficacy in firt-time vaccinees with correlation coefficient of 0.87.</p></li>
+<li><p>Can use table for data, just confirm it with the original papers first.</p></li>
+<li><p>Table 3 contains vaccine and infecting strains and VE from Hoskins <span class="citation" data-cites="hoskins1979">(<a href="#ref-hoskins1979" role="doc-biblioref">Hoskins et al. 1979</a>)</span> and Keitel <span class="citation" data-cites="keitel1997">(<a href="#ref-keitel1997" role="doc-biblioref">Keitel et al. 1997</a>)</span> studies (used these for project motivation and testing on real data)</p></li>
+</ul>
 
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1746289487545" data-listing-reading-time-sort="4" data-listing-word-count-sort="652">
-<div class="thumbnail">
-<p><a href="./aim3/analysis-plan/index.html" class="no-external"></a></p><a href="./aim3/analysis-plan/index.html" class="no-external">
-<p class="card-img-top"><img src="aim3/analysis-plan/thumbnail.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./aim3/analysis-plan/index.html" class="no-external"></a></p>
+</section>
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-hoskins1979" class="csl-entry" role="listitem">
+Hoskins, T. W., J. R. Davies, A. J. Smith, C. L. Miller, and A. Allchin. 1979. <span>“Assessment of Inactivated Influenza-<span>A</span> Vaccine After Three Outbreaks of Influenza <span>A</span> at <span>Christ</span>’s <span>Hospital</span>.”</span> <em>Lancet</em> 1 (8106): 33–35. <a href="https://doi.org/10.1016/s0140-6736(79)90468-9">https://doi.org/10.1016/s0140-6736(79)90468-9</a>.
 </div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./aim3/analysis-plan/index.html" class="no-external">Aim 3 Analysis Plan</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./aim3/analysis-plan/index.html" class="no-external"></a>
+<div id="ref-keitel1997" class="csl-entry" role="listitem">
+Keitel, Wendy A., Thomas R. Cate, Robert B. Couch, Linda L. Huggins, and Kenneth R. Hess. 1997. <span>“Efficacy of Repeated Annual Immunization with Inactivated Influenza Virus Vaccines over a Five Year Period.”</span> <em>Vaccine</em> 15 (10): 1114–22. <a href="https://doi.org/10.1016/S0264-410X(97)00003-0">https://doi.org/10.1016/S0264-410X(97)00003-0</a>.
 </div>
-<div class="listing-description">
-<a href="./aim3/analysis-plan/index.html" class="no-external">We will collect and combine data from previously published articles and reports for this aim.</a>
+<div id="ref-smith1999" class="csl-entry" role="listitem">
+Smith, Derek J., Stephanie Forrest, David H. Ackley, and AlanS. Perelson. 1999. <span>“Variable Efficacy of Repeated Annual Influenza Vaccination.”</span> <em>Proc Natl Acad Sci U S A</em> 96 (24): 14001–6. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC24180/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC24180/</a>.
 </div>
-</div>
-<div class="metadata">
-<p><a href="./aim3/analysis-plan/index.html" class="no-external"></a></p><a href="./aim3/analysis-plan/index.html" class="no-external">
-<div class="listing-author">
-Savannah L. Miller
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-listing-file-modified-sort="1747082998101" data-listing-reading-time-sort="2" data-listing-word-count-sort="366">
-<div class="thumbnail">
-<p><a href="./aim3/background-notes/index.html" class="no-external"></a></p><a href="./aim3/background-notes/index.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./aim3/background-notes/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./aim3/background-notes/index.html" class="no-external">Aim 3 Background Notes</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./aim3/background-notes/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./aim3/background-notes/index.html" class="no-external">Introduces the <strong>antigenic distance hypothesis</strong> - “The hypothesis … that variation in repeat vaccine efficacy is due to differences in antigenic distance among vaccine strains…</a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="./aim3/background-notes/index.html" class="no-external"></a></p><a href="./aim3/background-notes/index.html" class="no-external">
-<div class="listing-author">
-Savannah L. Miller
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-listing-file-modified-sort="1746042333733" data-listing-reading-time-sort="1" data-listing-word-count-sort="145">
-<div class="thumbnail">
-<p><a href="./aim3/model-building/index.html" class="no-external"></a></p><a href="./aim3/model-building/index.html" class="no-external">
-<p><img loading="lazy" src="./aim3/model-building/thumbnail.png" class="thumbnail-image"></p>
-</a><p><a href="./aim3/model-building/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./aim3/model-building/index.html" class="no-external">VE ~ Antigenic Distance Model Building</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./aim3/model-building/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./aim3/model-building/index.html" class="no-external">Here is my basic planned setup of the model. I will fit linear mixed effects models predicting VE as a function of some combination of parameters associated with fixed and…</a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="./aim3/model-building/index.html" class="no-external"></a></p><a href="./aim3/model-building/index.html" class="no-external">
-<div class="listing-author">
-Savannah L. Miller
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-listing-file-modified-sort="1744134652602" data-listing-reading-time-sort="6" data-listing-word-count-sort="1024">
-<div class="thumbnail">
-<p><a href="./aim3/master-slides/index.html" class="no-external"></a></p><a href="./aim3/master-slides/index.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./aim3/master-slides/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./aim3/master-slides/index.html" class="no-external">VE~AgDist Background and Proposal</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./aim3/master-slides/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./aim3/master-slides/index.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="./aim3/master-slides/index.html" class="no-external"></a></p><a href="./aim3/master-slides/index.html" class="no-external">
-<div class="listing-author">
-Savannah L. Miller
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
